@@ -1,0 +1,52 @@
+version: 2
+
+sources:
+  - name: superset
+    description: Superset metadata
+    database: "{{ var('superset_database', target.database) }}"
+    schema: "{{ var('superset_schema', 'superset') }}"
+    tables:
+      - name: ab_user
+        description: User information table
+        columns:
+          - name: id
+          - name: first_name
+          - name: last_name
+          - name: username
+          - name: password
+          - name: active
+          - name: email
+          - name: last_login
+          - name: login_count
+          - name: fail_login_count
+          - name: created_on
+          - name: changed_on
+          - name: created_by_fk
+          - name: changed_by_fk
+      - name: dashboards
+        columns:
+          - name: id
+          - name: created_on
+          - name: changed_on
+          - name: dashboard_titlevarchar
+          - name: position_json
+          - name: created_by_fk
+          - name: changed_by_fk
+          - name: css
+          - name: description
+          - name: slug
+          - name: json_metadata
+          - name: published
+          - name: uuid
+      - name: logs
+        columns:
+          - name: id
+          - name: action
+          - name: user_id
+          - name: json
+          - name: dttm
+          - name: dashboard_id
+          - name: slice_id
+          - name: duration_ms
+          - name: referrer
+      - name: tables
