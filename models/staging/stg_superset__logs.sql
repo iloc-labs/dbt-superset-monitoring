@@ -4,7 +4,8 @@ select
     json,
     dashboard_id,
     slice_id,
-    duration_ms as duration,
+    duration_ms,
+    duration_ms/1000 as duration_sc,
     referrer,
     case 
         when lower(action) = 'queries' then 'sqllab query'
@@ -13,7 +14,8 @@ select
         when lower(action) like 'annotation%' then 'annotations'
         when lower(action) like 'css%' then 'css'
         else lower(action)
-    end as action,
+    end as action_type,
+    action,
     {{ dbt_date.convert_timezone(
         column='cast(dttm as ' ~ dbt.type_timestamp() ~ ')',
         target_tz=var('superset_target_tz', "UTC"),

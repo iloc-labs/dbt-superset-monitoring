@@ -2,7 +2,7 @@ select
     id as dashboard_id,
     created_on,
     changed_on,
-    dashboard_titlevarchar,
+    dashboard_title,
     position_json,
     created_by_fk,
     changed_by_fk,
