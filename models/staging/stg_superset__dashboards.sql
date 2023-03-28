@@ -1,4 +1,4 @@
 select
     *,
-    if (published, 'published', 'draft') as dashboard_status
+    case when published then 'published' else 'draft' end as dashboard_status
 from {{ source('superset', 'dashboards') }}

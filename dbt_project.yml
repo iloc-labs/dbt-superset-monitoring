@@ -22,7 +22,6 @@ models:
       +materialized: view
 
 vars:
-  superset_database: "dbt-iloc"
   superset_schema: "superset"
   superset_target_tz: "UTC"
   superset_source_tz: "UTC"
