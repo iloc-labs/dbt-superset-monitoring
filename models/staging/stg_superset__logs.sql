@@ -18,5 +18,5 @@ select
         column='cast(dttm as ' ~ dbt.type_timestamp() ~ ')',
         target_tz=var('superset_target_tz', "UTC"),
         source_tz=var('superset_source_tz', "UTC"))
-    }} as log_timestamp,
+    }} as log_timestamp
 from {{ source('superset', 'logs') }}

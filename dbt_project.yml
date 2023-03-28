@@ -1,9 +1,9 @@
 
-name: 'iloc_superset'
+name: 'dbt_superset'
 version: '0.1.0'
 require-dbt-version: ['>=1.3.0']
 config-version: 2
-profile: 'iloc_superset'
+profile: 'dbt_superset'
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
@@ -17,12 +17,12 @@ clean-targets:
   - "dbt_packages"
 
 models:
-  iloc_superset:
+  dbt_superset:
     example:
       +materialized: view
 
 vars:
-  superset_schema: "superset"
+  superset_source_schema: "superset_raw"
   superset_target_tz: "UTC"
   superset_source_tz: "UTC"
 

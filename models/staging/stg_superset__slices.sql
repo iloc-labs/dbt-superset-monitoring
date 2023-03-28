@@ -1,3 +1,25 @@
 select
-    *
+    created_on,
+    changed_on,
+    id as slice_id,
+    slice_name,
+    datasource_type,
+    datasource_name,
+    datasource_id,
+    viz_type,
+    params,
+    created_by_fk,
+    changed_by_fk,
+    description,
+    cache_timeout,
+    perm,
+    schema_perm,
+    uuid,
+    query_context,
+    last_saved_at,
+    last_saved_by_fk,
+    certified_by,
+    certification_details,
+    is_managed_externally,
+    external_url
 from {{ source('superset', 'slices') }}

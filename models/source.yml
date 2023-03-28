@@ -4,7 +4,7 @@ sources:
   - name: superset
     description: Superset metadata
     database: "{{ var('superset_database', target.database) }}"
-    schema: "{{ var('superset_schema', 'superset') }}"
+    schema: "{{ var('superset_source_schema', 'superset') }}"
     tables:
       - name: ab_user
         description: User information table
