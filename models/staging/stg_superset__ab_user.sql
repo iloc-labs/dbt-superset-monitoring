@@ -14,7 +14,7 @@ select
         column='cast(created_on as ' ~ dbt.type_timestamp() ~ ')',
         target_tz=var('superset_target_tz', "UTC"),
         source_tz=var('superset_source_tz', "UTC"))
-    }} as user_registration_date,
+    }} as created_on,
     {{ dbt_date.convert_timezone(
         column='cast(changed_on as ' ~ dbt.type_timestamp() ~ ')',
         target_tz=var('superset_target_tz', "UTC"),
