@@ -44,7 +44,8 @@ with objects as (
         user_ch.user_name as changed_by,
         objects.status,
         objects.created_on,
-        objects.changed_on
+        objects.changed_on,
+        objects.name like '%untitled%' as to_rename
     from objects
     left join {{ ref('stg_superset__ab_user') }} user_cr
         on objects.created_by_fk = user_cr.user_id

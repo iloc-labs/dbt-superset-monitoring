@@ -17,7 +17,7 @@ There are two source of action logs:
 | profile | User profile page |
 | sqllab | SQL Editor open |
 | sqllab_history | Query history open |
-| dashboard | Server side rendering for a dashboard (Creates a new Dashboard)|
+| dashboard | Server side rendering for a dashboard |
 | ... | |
 
 ### Superset api
