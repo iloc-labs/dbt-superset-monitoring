@@ -10,7 +10,8 @@ env:
   # Set profiles.yml directory
   DBT_PROFILES_DIR: /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/integration_tests
   # BigQuery Connection
-  BIGQUERY_TEST_DATABASE: ${{ secrets.BIGQUERY_TEST_DATABASE }}
+  BIGQUERY_PROJECT: ${{ secrets.BIGQUERY_PROJECT }}
+  BIGQUERY_DATASET: ${{ secrets.BIGQUERY_DATASET }}
   BIGQUERY_LOCATION: ${{ secrets.BIGQUERY_LOCATION }}
   BIGQUERY_SERVICE_TYPE: ${{ secrets.BIGQUERY_SERVICE_TYPE }}
   BIGQUERY_SERVICE_PROJECT_ID: ${{ secrets.BIGQUERY_SERVICE_PROJECT_ID }}
