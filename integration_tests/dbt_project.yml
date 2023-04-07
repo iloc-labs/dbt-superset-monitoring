@@ -1,0 +1,32 @@
+name: 'dbt_superset_monitoring_tests'
+version: '1.0.0'
+config-version: 2
+
+profile: dbt_superset_monitoring
+
+models:
+  dbt_snowflake_monitoring:
+    enabled: true
+
+dispatch:
+  - macro_namespace: dbt
+    search_order:
+      - dbt_superset_monitoring_tests
+      - dbt_superset_monitoring
+      - dbt
+
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+seed-paths: ["data"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - target
+  - dbt_packages
+
+vars:
+  superset_source_schema: "superset_raw"
+  superset_target_tz: "UTC"
+  superset_source_tz: "UTC"
