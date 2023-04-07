@@ -8,7 +8,8 @@ dbt_superset_monitoring:
     bigquery:
       type: bigquery
       method: service-account-json
-      project: "{{ env_var('BIGQUERY_TEST_DATABASE') }}"
+      project: "{{ env_var('BIGQUERY_PROJECT') }}"
+      dataset: "{{ env_var('BIGQUERY_DATASET') }}"
       location: "{{ env_var('BIGQUERY_LOCATION') }}"
       threads: 2
       keyfile_json:
