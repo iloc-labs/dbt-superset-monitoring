@@ -5,7 +5,7 @@ config-version: 2
 profile: dbt_superset_monitoring
 
 models:
-  dbt_snowflake_monitoring:
+  dbt_superset_monitoring:
     enabled: true
 
 dispatch:
