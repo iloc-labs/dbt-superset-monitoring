@@ -8,7 +8,7 @@ on:
 
 env:
   # Set profiles.yml directory
-  DBT_PROFILES_DIR: ./
+  DBT_PROFILES_DIR: /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/integration_tests
   # BigQuery Connection
   BIGQUERY_PROJECT: ${{ secrets.BIGQUERY_PROJECT }}
   BIGQUERY_DATASET: ${{ secrets.BIGQUERY_DATASET }}
