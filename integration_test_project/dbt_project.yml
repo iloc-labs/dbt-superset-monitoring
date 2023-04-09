@@ -2,7 +2,7 @@ name: 'dbt_superset_monitoring_tests'
 version: '1.0.0'
 config-version: 2
 
-profile: dbt_superset_monitoring
+profile: integration_tests
 
 models:
   dbt_superset_monitoring:

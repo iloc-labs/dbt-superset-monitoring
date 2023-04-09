@@ -2,7 +2,7 @@ config:
     send_anonymous_usage_stats: False
     use_colors: True
 
-dbt_superset_monitoring:
+integration_tests:
   target: bigquery
   outputs:
     bigquery:
