@@ -24,6 +24,6 @@ select
         column='cast(last_login as ' ~ dbt.type_timestamp() ~ ')',
         target_tz=var('superset_target_tz', "UTC"),
         source_tz=var('superset_source_tz', "UTC"))
-    }} as user_last_login,
+    }} as last_login,
     {{ dbt.concat(["first_name", "' '", "last_name"]) }} as full_name
 from {{ source('superset', 'ab_user') }}

@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_superset__dashboard_user
+    description: Link table
+      columns:
+        - name: dashboard_user_id
+        - name: user_id
+        - name: dashboard_id

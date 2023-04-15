@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: superset__dashboard_views
+    description:
+      columns:
+        - name: dashboard_id
+          description: Dashboard ID
+        - name: dashboard_title
+          description: Dashboard name
+        - name: viewer_id
+          description: Viewer ID
+        - name: viewer_name
+          description: Viewer name
+        - name: view_timestamp
+          description: View datetime
+        - name: dashboard_status
+          description: "Dashboard status: published, draft"
+        - name: created_by
+          description: Creator name

@@ -26,7 +26,6 @@ select
     slices.viz_type,
     slices.description,
     slices.last_saved_at,
-    slices.last_saved_by_fk,
     user_cr.user_name as created_by,
     user_ch.user_name as changed_by,
     user_sv.user_name as last_saved_by,

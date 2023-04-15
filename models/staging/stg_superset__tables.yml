@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_superset__tables
+    description: Tables
+      columns:
+        - name: created_on
+        - name: changed_on
+        - name: table_id
+        - name: table_name
+        - name: main_dttm_col
+        - name: default_endpoint
+        - name: database_id
+        - name: created_by_fk
+        - name: changed_by_fk
+        - name: offset
+        - name: description
+        - name: is_featured
+        - name: cache_timeout
+        - name: schema
+        - name: sql
+        - name: params
+        - name: perm
+        - name: filter_select_enabled
+        - name: fetch_values_predicate
+        - name: is_sqllab_view
+        - name: template_params
+        - name: schema_perm
+        - name: extra
+        - name: uuid
+        - name: is_managed_externally
+        - name: external_url

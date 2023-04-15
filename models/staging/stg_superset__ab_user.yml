@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_superset__ab_user
+    description: User table
+      columns:
+        - name: user_id
+        - name: first_name
+        - name: last_name
+        - name: user_name
+        - name: password
+        - name: active
+        - name: email
+        - name: login_count
+        - name: fail_login_count
+        - name: created_by_fk
+        - name: changed_by_fk
+        - name: created_on
+        - name: changed_on
+        - name: user_last_login
+        - name: full_name
