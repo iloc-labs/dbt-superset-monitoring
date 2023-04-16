@@ -2,25 +2,25 @@ version: 2
 
 models:
   - name: superset__dashboards
-    description:
-      columns:
-        - name: dashboard_id
-          description: Dashboard ID
-        - name: created_on
-          description: Created datetime
-        - name: changed_on
-          description: Changed datetime
-        - name: dashboard_title
-          description: Dashboard name
-        - name: description
-          description: Dashboard description
-        - name: published
-          description: Boolean value, depends on dashboard status
-        - name: dashboard_status
-          description: "Dashboard status: published, draft"
-        - name: created_by
-          description: Creator name
-        - name: changed_by
-          description: Last editor name
-        - name: charts_count
-          description: Charts count on the dashboard
+    description: Dashboards
+    columns:
+      - name: dashboard_id
+        description: Dashboard ID
+      - name: created_on
+        description: Created datetime
+      - name: changed_on
+        description: Changed datetime
+      - name: dashboard_title
+        description: Dashboard name
+      - name: description
+        description: Dashboard description
+      - name: published
+        description: Boolean value, depends on dashboard status
+      - name: dashboard_status
+        description: "Dashboard status: published, draft"
+      - name: created_by
+        description: Creator name
+      - name: changed_by
+        description: Last editor name
+      - name: charts_count
+        description: Dashboard's chart count

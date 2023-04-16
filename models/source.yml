@@ -7,7 +7,6 @@ sources:
     schema: "{{ var('superset_source_schema', 'superset') }}"
     tables:
       - name: ab_user
-        description: User table
       - name: dashboards
       - name: logs
       - name: slices

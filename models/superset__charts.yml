@@ -2,33 +2,33 @@ version: 2
 
 models:
   - name: superset__charts
-    description: Dashboards
-      columns:
-        - name: slice_id
-          description: Chart ID
-        - name: slice_name
-          description: Chart name
-        - name: created_on
-          description: Created datetime
-        - name: changed_on
-          description: Changed datetime
-        - name: datasource_type
-          description: "Datasource type: table ..."
-        - name: datasource_name
-          description: Datasource name
-        - name: datasource_id
-          description: Datasource ID
-        - name: viz_type
-          description: "Visualization type: heatmap, bar, pivot_table, pie ..."
-        - name: description
-          description: Chart description
-        - name: last_saved_at
-          description: Last saved datetime
-        - name: created_by
-          description: Creator name
-        - name: changed_by
-          description: Last editor name
-        - name: last_saved_by
-          description: Last saved user name
-        - name: dashboards_count
-          description: The number of dashboards where chart used
+    description: Charts
+    columns:
+      - name: slice_id
+        description: Chart ID
+      - name: slice_name
+        description: Chart name
+      - name: created_on
+        description: Created datetime
+      - name: changed_on
+        description: Changed datetime
+      - name: datasource_type
+        description: "Datasource type: table ..."
+      - name: datasource_name
+        description: Datasource name
+      - name: datasource_id
+        description: Datasource ID
+      - name: viz_type
+        description: "Visualization type: heatmap, bar, pivot_table, pie ..."
+      - name: description
+        description: Chart description
+      - name: last_saved_at
+        description: Last saved datetime
+      - name: created_by
+        description: Creator name
+      - name: changed_by
+        description: Last editor name
+      - name: last_saved_by
+        description: Last saved user name
+      - name: dashboards_count
+        description: Number of dashboards where the chart used

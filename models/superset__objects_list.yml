@@ -3,21 +3,21 @@ version: 2
 models:
   - name: superset__objects_list
     description: List of dashboards, charts and datasets
-      columns:
-        - name: Object name
-          description: 
-        - name: source
-          description: "Object source: dashboard, chart, dataset"
-        - name: created_by
-          description: Creator name
-        - name: changed_by
-          description: Last editor name
-        - name: status
-          description: "Object status: published, draft"
-        - name: created_on
-          description: Created datetime
-        - name: changed_on
-          description: Changed datetime
-        - name: to_rename
-          description: Object name is common. 
+    columns:
+      - name: name
+        description: Object name
+      - name: source
+        description: "Object source: dashboard, chart, dataset"
+      - name: created_by
+        description: Creator name
+      - name: changed_by
+        description: Last editor name
+      - name: status
+        description: "Object status: published, draft"
+      - name: created_on
+        description: Created datetime
+      - name: changed_on
+        description: Changed datetime
+      - name: to_rename
+        description: Object name is common. 
 

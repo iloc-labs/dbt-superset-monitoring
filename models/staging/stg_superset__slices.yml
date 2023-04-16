@@ -2,28 +2,28 @@ version: 2
 
 models:
   - name: stg_superset__slices
-    description: Superset logs
-      columns:
-          - name: created_on
-          - name: changed_on
-          - name: slice_id
-          - name: slice_name
-          - name: datasource_type
-          - name: datasource_name
-          - name: datasource_id
-          - name: viz_type
-          - name: params
-          - name: created_by_fk
-          - name: changed_by_fk
-          - name: description
-          - name: cache_timeout
-          - name: perm
-          - name: schema_perm
-          - name: uuid
-          - name: query_context
-          - name: last_saved_at
-          - name: last_saved_by_fk
-          - name: certified_by
-          - name: certification_details
-          - name: is_managed_externally
-          - name: external_url
+    description: Charts
+    columns:
+      - name: created_on
+      - name: changed_on
+      - name: slice_id
+      - name: slice_name
+      - name: datasource_type
+      - name: datasource_name
+      - name: datasource_id
+      - name: viz_type
+      - name: params
+      - name: created_by_fk
+      - name: changed_by_fk
+      - name: description
+      - name: cache_timeout
+      - name: perm
+      - name: schema_perm
+      - name: uuid
+      - name: query_context
+      - name: last_saved_at
+      - name: last_saved_by_fk
+      - name: certified_by
+      - name: certification_details
+      - name: is_managed_externally
+      - name: external_url
