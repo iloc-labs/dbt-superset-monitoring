@@ -34,7 +34,7 @@ vars:
 seeds:
   dbt_superset_monitoring_tests:
     +quote_columns: "{{ true if target.type == 'postgres' else false }}"
-    +schema: test_raw
+    schema: test_raw
     source:
       ab_user:
         +column_types:
