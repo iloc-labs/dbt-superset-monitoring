@@ -1,0 +1,562 @@
+id,css,slug,uuid,published,changed_on,created_on,description,certified_by,external_url,changed_by_fk,created_by_fk,json_metadata,position_json,dashboard_title,certification_details,is_managed_externally
+4,,deck,68b1cc88-10b1-4caf-a492-ca9df33fcfa7,true,2023-03-28T12:07:52.694508,2023-02-27T08:17:53.932202,,,,,,,"{
+    ""CHART-3afd9d70"": {
+        ""meta"": {
+            ""chartId"": 267,
+            ""sliceName"": ""Deck.gl Scatterplot"",
+            ""width"": 6,
+            ""height"": 50,
+            ""uuid"": ""d4fb51ca-63cb-4d72-b6fc-ded9e1663089""
+        },
+        ""type"": ""CHART"",
+        ""id"": ""CHART-3afd9d70"",
+        ""children"": []
+    },
+    ""CHART-2ee7fa5e"": {
+        ""meta"": {
+            ""chartId"": 268,
+            ""sliceName"": ""Deck.gl Screen grid"",
+            ""width"": 6,
+            ""height"": 50,
+            ""uuid"": ""4fc77112-affc-4dc6-a8cd-a9d1abc2b616""
+        },
+        ""type"": ""CHART"",
+        ""id"": ""CHART-2ee7fa5e"",
+        ""children"": []
+    },
+    ""CHART-201f7715"": {
+        ""meta"": {
+            ""chartId"": 269,
+            ""sliceName"": ""Deck.gl Hexagons"",
+            ""width"": 6,
+            ""height"": 50,
+            ""uuid"": ""a42069e6-24cf-4f43-af52-79a2e3d772eb""
+        },
+        ""type"": ""CHART"",
+        ""id"": ""CHART-201f7715"",
+        ""children"": []
+    },
+    ""CHART-d02f6c40"": {
+        ""meta"": {
+            ""chartId"": 270,
+            ""sliceName"": ""Deck.gl Grid"",
+            ""width"": 6,
+            ""height"": 50,
+            ""uuid"": ""0b12228b-66b9-4996-8b34-02182f99265c""
+        },
+        ""type"": ""CHART"",
+        ""id"": ""CHART-d02f6c40"",
+        ""children"": []
+    },
+    ""CHART-2673431d"": {
+        ""meta"": {
+            ""chartId"": 271,
+            ""sliceName"": ""Deck.gl Polygons"",
+            ""width"": 6,
+            ""height"": 50,
+            ""uuid"": ""ef9586dd-7ad3-4ab4-ae06-ed97d91067fc""
+        },
+        ""type"": ""CHART"",
+        ""id"": ""CHART-2673431d"",
+        ""children"": []
+    },
+    ""CHART-85265a60"": {
+        ""meta"": {
+            ""chartId"": 272,
+            ""sliceName"": ""Deck.gl Arcs"",
+            ""width"": 6,
+            ""height"": 50,
+            ""uuid"": ""7f7374ea-895a-48f9-bb5e-1872519cbb49""
+        },
+        ""type"": ""CHART"",
+        ""id"": ""CHART-85265a60"",
+        ""children"": []
+    },
+    ""CHART-2b87513c"": {
+        ""meta"": {
+            ""chartId"": 273,
+            ""sliceName"": ""Deck.gl Path"",
+            ""width"": 6,
+            ""height"": 50,
+            ""uuid"": ""0bd3e99f-11fc-4977-9e52-80f99ef918a6""
+        },
+        ""type"": ""CHART"",
+        ""id"": ""CHART-2b87513c"",
+        ""children"": []
+    },
+    ""GRID_ID"": {
+        ""type"": ""GRID"",
+        ""id"": ""GRID_ID"",
+        ""children"": [
+            ""ROW-a7b16cb5"",
+            ""ROW-72c218a5"",
+            ""ROW-957ba55b"",
+            ""ROW-af041bdd""
+        ]
+    },
+    ""HEADER_ID"": {
+        ""meta"": {
+            ""text"": ""deck.gl Demo""
+        },
+        ""type"": ""HEADER"",
+        ""id"": ""HEADER_ID""
+    },
+    ""ROOT_ID"": {
+        ""type"": ""ROOT"",
+        ""id"": ""ROOT_ID"",
+        ""children"": [
+            ""GRID_ID""
+        ]
+    },
+    ""ROW-72c218a5"": {
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW"",
+        ""id"": ""ROW-72c218a5"",
+        ""children"": [
+            ""CHART-d02f6c40"",
+            ""CHART-201f7715""
+        ]
+    },
+    ""ROW-957ba55b"": {
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW"",
+        ""id"": ""ROW-957ba55b"",
+        ""children"": [
+            ""CHART-2673431d"",
+            ""CHART-85265a60""
+        ]
+    },
+    ""ROW-a7b16cb5"": {
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW"",
+        ""id"": ""ROW-a7b16cb5"",
+        ""children"": [
+            ""CHART-3afd9d70"",
+            ""CHART-2ee7fa5e""
+        ]
+    },
+    ""ROW-af041bdd"": {
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW"",
+        ""id"": ""ROW-af041bdd"",
+        ""children"": [
+            ""CHART-2b87513c""
+        ]
+    },
+    ""DASHBOARD_VERSION_KEY"": ""v2""
+}",deck.gl Demo,,false
+3,,misc_charts,096ca7eb-1163-47db-864a-04c2469265fb,false,2023-03-28T12:07:52.208682,2023-02-27T08:17:53.657009,,,,,,,"{
+    ""CHART-BkeVbh8ANQ"": {
+        ""children"": [],
+        ""id"": ""CHART-BkeVbh8ANQ"",
+        ""meta"": {
+            ""chartId"": 266,
+            ""height"": 34,
+            ""sliceName"": ""Multi Line"",
+            ""width"": 8,
+            ""uuid"": ""c600f125-6057-440a-bfe1-df4db110b794""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-H1HYNzEANX"": {
+        ""children"": [],
+        ""id"": ""CHART-H1HYNzEANX"",
+        ""meta"": {
+            ""chartId"": 3940,
+            ""height"": 50,
+            ""sliceName"": ""Energy Sankey"",
+            ""width"": 6
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-HJOYVMV0E7"": {
+        ""children"": [],
+        ""id"": ""CHART-HJOYVMV0E7"",
+        ""meta"": {
+            ""chartId"": 234,
+            ""height"": 63,
+            ""sliceName"": ""Mapbox Long/Lat"",
+            ""width"": 6,
+            ""uuid"": ""b24a6974-ba06-45df-9cb5-c1205c2acddf""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-S1WYNz4AVX"": {
+        ""children"": [],
+        ""id"": ""CHART-S1WYNz4AVX"",
+        ""meta"": {
+            ""chartId"": 246,
+            ""height"": 25,
+            ""sliceName"": ""Parallel Coordinates"",
+            ""width"": 4,
+            ""uuid"": ""de705755-f944-459b-9417-1969336686a0""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-r19KVMNCE7"": {
+        ""children"": [],
+        ""id"": ""CHART-r19KVMNCE7"",
+        ""meta"": {
+            ""chartId"": 3971,
+            ""height"": 34,
+            ""sliceName"": ""Calendar Heatmap multiformat 0"",
+            ""width"": 4
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-rJ4K4GV04Q"": {
+        ""children"": [],
+        ""id"": ""CHART-rJ4K4GV04Q"",
+        ""meta"": {
+            ""chartId"": 3941,
+            ""height"": 63,
+            ""sliceName"": ""Energy Force Layout"",
+            ""width"": 6
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-rkgF4G4A4X"": {
+        ""children"": [],
+        ""id"": ""CHART-rkgF4G4A4X"",
+        ""meta"": {
+            ""chartId"": 235,
+            ""height"": 25,
+            ""sliceName"": ""Birth in France by department in 2016"",
+            ""width"": 8,
+            ""uuid"": ""a719930f-21e7-4a1e-80f6-31671d287669""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-rywK4GVR4X"": {
+        ""children"": [],
+        ""id"": ""CHART-rywK4GVR4X"",
+        ""meta"": {
+            ""chartId"": 3942,
+            ""height"": 50,
+            ""sliceName"": ""Heatmap"",
+            ""width"": 6
+        },
+        ""type"": ""CHART""
+    },
+    ""COLUMN-ByUFVf40EQ"": {
+        ""children"": [
+            ""CHART-rywK4GVR4X"",
+            ""CHART-HJOYVMV0E7""
+        ],
+        ""id"": ""COLUMN-ByUFVf40EQ"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT"",
+            ""width"": 6
+        },
+        ""type"": ""COLUMN""
+    },
+    ""COLUMN-rkmYVGN04Q"": {
+        ""children"": [
+            ""CHART-rJ4K4GV04Q"",
+            ""CHART-H1HYNzEANX""
+        ],
+        ""id"": ""COLUMN-rkmYVGN04Q"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT"",
+            ""width"": 6
+        },
+        ""type"": ""COLUMN""
+    },
+    ""GRID_ID"": {
+        ""children"": [
+            ""ROW-SytNzNA4X"",
+            ""ROW-S1MK4M4A4X"",
+            ""ROW-HkFFEzVRVm""
+        ],
+        ""id"": ""GRID_ID"",
+        ""type"": ""GRID""
+    },
+    ""HEADER_ID"": {
+        ""id"": ""HEADER_ID"",
+        ""meta"": {
+            ""text"": ""Misc Charts""
+        },
+        ""type"": ""HEADER""
+    },
+    ""ROOT_ID"": {
+        ""children"": [
+            ""GRID_ID""
+        ],
+        ""id"": ""ROOT_ID"",
+        ""type"": ""ROOT""
+    },
+    ""ROW-HkFFEzVRVm"": {
+        ""children"": [
+            ""CHART-r19KVMNCE7"",
+            ""CHART-BkeVbh8ANQ""
+        ],
+        ""id"": ""ROW-HkFFEzVRVm"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW""
+    },
+    ""ROW-S1MK4M4A4X"": {
+        ""children"": [
+            ""COLUMN-rkmYVGN04Q"",
+            ""COLUMN-ByUFVf40EQ""
+        ],
+        ""id"": ""ROW-S1MK4M4A4X"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW""
+    },
+    ""ROW-SytNzNA4X"": {
+        ""children"": [
+            ""CHART-rkgF4G4A4X"",
+            ""CHART-S1WYNz4AVX""
+        ],
+        ""id"": ""ROW-SytNzNA4X"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW""
+    },
+    ""DASHBOARD_VERSION_KEY"": ""v2""
+}",Misc Charts,,false
+1,,world_health,6928ac72-6c9e-4946-8a34-e3c103df2178,true,2023-03-28T12:07:50.337755,2023-02-27T08:14:02.219272,,,,,,,"{
+    ""CHART-36bfc934"": {
+        ""children"": [],
+        ""id"": ""CHART-36bfc934"",
+        ""meta"": {
+            ""chartId"": 236,
+            ""height"": 25,
+            ""sliceName"": ""Region Filter"",
+            ""width"": 2,
+            ""uuid"": ""45f20591-17ff-4916-af16-4c4d79c78208""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-37982887"": {
+        ""children"": [],
+        ""id"": ""CHART-37982887"",
+        ""meta"": {
+            ""chartId"": 237,
+            ""height"": 25,
+            ""sliceName"": ""World's Population"",
+            ""width"": 2,
+            ""uuid"": ""f53218f8-361f-4657-8f6f-6c00f7ca2e39""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-17e0f8d8"": {
+        ""children"": [],
+        ""id"": ""CHART-17e0f8d8"",
+        ""meta"": {
+            ""chartId"": 238,
+            ""height"": 92,
+            ""sliceName"": ""Most Populated Countries"",
+            ""width"": 3,
+            ""uuid"": ""03845389-f209-4b39-938e-ffffe24cc9bb""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-2ee52f30"": {
+        ""children"": [],
+        ""id"": ""CHART-2ee52f30"",
+        ""meta"": {
+            ""chartId"": 239,
+            ""height"": 38,
+            ""sliceName"": ""Growth Rate"",
+            ""width"": 6,
+            ""uuid"": ""c785aec6-fed6-4ef4-82df-2973a758bf2d""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-2d5b6871"": {
+        ""children"": [],
+        ""id"": ""CHART-2d5b6871"",
+        ""meta"": {
+            ""chartId"": 240,
+            ""height"": 52,
+            ""sliceName"": ""% Rural"",
+            ""width"": 7,
+            ""uuid"": ""3cab91d9-8bde-4afc-bd23-ce585ce13fe3""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-0fd0d252"": {
+        ""children"": [],
+        ""id"": ""CHART-0fd0d252"",
+        ""meta"": {
+            ""chartId"": 241,
+            ""height"": 50,
+            ""sliceName"": ""Life Expectancy VS Rural %"",
+            ""width"": 8,
+            ""uuid"": ""209fe694-428f-4625-be0b-45e562ca5ab8""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-97f4cb48"": {
+        ""children"": [],
+        ""id"": ""CHART-97f4cb48"",
+        ""meta"": {
+            ""chartId"": 242,
+            ""height"": 38,
+            ""sliceName"": ""Rural Breakdown"",
+            ""width"": 3,
+            ""uuid"": ""96acc18c-e0c1-4081-86bc-bace51fd5814""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-b5e05d6f"": {
+        ""children"": [],
+        ""id"": ""CHART-b5e05d6f"",
+        ""meta"": {
+            ""chartId"": 243,
+            ""height"": 50,
+            ""sliceName"": ""World's Pop Growth"",
+            ""width"": 4,
+            ""uuid"": ""d4539e15-4c28-417f-a201-f6b4dcb691e0""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-e76e9f5f"": {
+        ""children"": [],
+        ""id"": ""CHART-e76e9f5f"",
+        ""meta"": {
+            ""chartId"": 244,
+            ""height"": 50,
+            ""sliceName"": ""Box plot"",
+            ""width"": 4,
+            ""uuid"": ""f18d4263-5da0-43be-9d07-1b6f2c9c6035""
+        },
+        ""type"": ""CHART""
+    },
+    ""CHART-a4808bba"": {
+        ""children"": [],
+        ""id"": ""CHART-a4808bba"",
+        ""meta"": {
+            ""chartId"": 245,
+            ""height"": 50,
+            ""sliceName"": ""Treemap"",
+            ""width"": 8,
+            ""uuid"": ""3e9f04ba-052d-419b-967a-6ff2abdc7f9f""
+        },
+        ""type"": ""CHART""
+    },
+    ""COLUMN-071bbbad"": {
+        ""children"": [
+            ""ROW-1e064e3c"",
+            ""ROW-afdefba9""
+        ],
+        ""id"": ""COLUMN-071bbbad"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT"",
+            ""width"": 9
+        },
+        ""type"": ""COLUMN""
+    },
+    ""COLUMN-fe3914b8"": {
+        ""children"": [
+            ""CHART-36bfc934"",
+            ""CHART-37982887""
+        ],
+        ""id"": ""COLUMN-fe3914b8"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT"",
+            ""width"": 2
+        },
+        ""type"": ""COLUMN""
+    },
+    ""GRID_ID"": {
+        ""children"": [
+            ""ROW-46632bc2"",
+            ""ROW-3fa26c5d"",
+            ""ROW-812b3f13""
+        ],
+        ""id"": ""GRID_ID"",
+        ""type"": ""GRID""
+    },
+    ""HEADER_ID"": {
+        ""id"": ""HEADER_ID"",
+        ""meta"": {
+            ""text"": ""World's Bank Data""
+        },
+        ""type"": ""HEADER""
+    },
+    ""ROOT_ID"": {
+        ""children"": [
+            ""GRID_ID""
+        ],
+        ""id"": ""ROOT_ID"",
+        ""type"": ""ROOT""
+    },
+    ""ROW-1e064e3c"": {
+        ""children"": [
+            ""COLUMN-fe3914b8"",
+            ""CHART-2d5b6871""
+        ],
+        ""id"": ""ROW-1e064e3c"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW""
+    },
+    ""ROW-3fa26c5d"": {
+        ""children"": [
+            ""CHART-b5e05d6f"",
+            ""CHART-0fd0d252""
+        ],
+        ""id"": ""ROW-3fa26c5d"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW""
+    },
+    ""ROW-46632bc2"": {
+        ""children"": [
+            ""COLUMN-071bbbad"",
+            ""CHART-17e0f8d8""
+        ],
+        ""id"": ""ROW-46632bc2"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW""
+    },
+    ""ROW-812b3f13"": {
+        ""children"": [
+            ""CHART-a4808bba"",
+            ""CHART-e76e9f5f""
+        ],
+        ""id"": ""ROW-812b3f13"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW""
+    },
+    ""ROW-afdefba9"": {
+        ""children"": [
+            ""CHART-2ee52f30"",
+            ""CHART-97f4cb48""
+        ],
+        ""id"": ""ROW-afdefba9"",
+        ""meta"": {
+            ""background"": ""BACKGROUND_TRANSPARENT""
+        },
+        ""type"": ""ROW""
+    },
+    ""DASHBOARD_VERSION_KEY"": ""v2""
+}",World Bank's Data,,false
+8,,,5b12b583-8204-08e9-392c-422209c29787,true,2023-03-28T12:08:17.516425,2023-02-27T08:27:08.341535,,,,,,"{""timed_refresh_immune_slices"": [], ""expanded_slices"": {}, ""refresh_frequency"": 0, ""default_filters"": ""{}"", ""color_scheme"": ""supersetColors"", ""filter_scopes"": {""124"": {""Ethnic Minority"": {""scope"": [""TAB-AsMaxdYL_t""], ""immune"": []}, ""gender"": {""scope"": [""ROOT_ID""], ""immune"": []}, ""Developer Type"": {""scope"": [""ROOT_ID""], ""immune"": []}, ""lang_at_home"": {""scope"": [""ROOT_ID""], ""immune"": []}, ""country_live"": {""scope"": [""ROOT_ID""], ""immune"": []}}}, ""label_colors"": {""0"": ""#FCC700"", ""1"": ""#A868B7"", ""15"": ""#3CCCCB"", ""30"": ""#A38F79"", ""45"": ""#8FD3E4"", ""age"": ""#1FA8C9"", ""Yes,"": ""#1FA8C9"", ""Female"": ""#454E7C"", ""Prefer"": ""#5AC189"", ""No,"": ""#FF7F44"", ""Male"": ""#666666"", ""Prefer not to say"": ""#E04355"", ""Ph.D."": ""#FCC700"", ""associate's degree"": ""#A868B7"", ""bachelor's degree"": ""#3CCCCB"", ""high school diploma or equivalent (GED)"": ""#A38F79"", ""master's degree (non-professional)"": ""#8FD3E4"", ""no high school (secondary school)"": ""#A1A6BD"", ""professional degree (MBA, MD, JD, etc.)"": ""#ACE1C4"", ""some college credit, no degree"": ""#FEC0A1"", ""some high school"": ""#B2B2B2"", ""trade, technical, or vocational training"": ""#EFA1AA"", ""No, not an ethnic minority"": ""#1FA8C9"", ""Yes, an ethnic minority"": ""#454E7C"", ""<NULL>"": ""#5AC189"", ""Yes"": ""#FF7F44"", ""No"": ""#666666"", ""last_yr_income"": ""#E04355"", ""More"": ""#A1A6BD"", ""Less"": ""#ACE1C4"", ""I"": ""#FEC0A1"", ""expected_earn"": ""#B2B2B2"", ""Yes: Willing To"": ""#EFA1AA"", ""No: Not Willing to"": ""#FDE380"", ""No Answer"": ""#D3B3DA"", ""In an Office (with Other Developers)"": ""#9EE5E5"", ""No Preference"": ""#D1C6BC"", ""From Home"": ""#1FA8C9""}}","{""CHART--0GPGmD-pO"": {""children"": [], ""id"": ""CHART--0GPGmD-pO"", ""meta"": {""chartId"": 97, ""height"": 48, ""sliceName"": ""Current Developers: Is this your first development job?"", ""sliceNameOverride"": ""Is this your first development job?"", ""uuid"": ""bfe5a8e6-146f-ef59-5e6c-13d519b236a8"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ"", ""ROW-b7USYEngT""], ""type"": ""CHART""}, ""CHART--w_Br1tPP3"": {""children"": [], ""id"": ""CHART--w_Br1tPP3"", ""meta"": {""chartId"": 114, ""height"": 51, ""sliceName"": ""\u2708\ufe0f Relocation ability"", ""uuid"": ""a6dd2d5a-2cdc-c8ec-f30c-85920f4f8a65"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-"", ""ROW-DR80aHJA2c""], ""type"": ""CHART""}, ""CHART-0-zzTwBINh"": {""children"": [], ""id"": ""CHART-0-zzTwBINh"", ""meta"": {""chartId"": 113, ""height"": 49, ""sliceName"": ""Last Year Income Distribution"", ""uuid"": ""a2ec5256-94b4-43c4-b8c7-b83f70c5d4df"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ"", ""ROW-b7USYEngT""], ""type"": ""CHART""}, ""CHART-37fu7fO6Z0"": {""children"": [], ""id"": ""CHART-37fu7fO6Z0"", ""meta"": {""chartId"": 109, ""height"": 69, ""sliceName"": ""Degrees vs Income"", ""uuid"": ""02f546ae-1bf4-bd26-8bc2-14b9279c8a62"", ""width"": 7}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ"", ""ROW-kNjtGVFpp""], ""type"": ""CHART""}, ""CHART-5QwNlSbXYU"": {""children"": [], ""id"": ""CHART-5QwNlSbXYU"", ""meta"": {""chartId"": 103, ""height"": 69, ""sliceName"": ""Commute Time"", ""uuid"": ""097c05c9-2dd2-481d-813d-d6c0c12b4a3d"", ""width"": 5}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ"", ""ROW-kNjtGVFpp""], ""type"": ""CHART""}, ""CHART-FKuVqq4kaA"": {""children"": [], ""id"": ""CHART-FKuVqq4kaA"", ""meta"": {""chartId"": 112, ""height"": 50, ""sliceName"": ""Work Location Preference"", ""sliceNameOverride"": ""Work Location Preference"", ""uuid"": ""e6b09c28-98cf-785f-4caf-320fd4fca802"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-"", ""ROW-DR80aHJA2c""], ""type"": ""CHART""}, ""CHART-JnpdZOhVer"": {""children"": [], ""id"": ""CHART-JnpdZOhVer"", ""meta"": {""chartId"": 82, ""height"": 50, ""sliceName"": ""\ud83c\udf93 Highest degree held"", ""uuid"": ""9f7d2b9c-6b3a-69f9-f03e-d3a141514639"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-"", ""ROW--BIzjz9F0"", ""COLUMN-IEKAo_QJlz""], ""type"": ""CHART""}, ""CHART-LjfhrUkEef"": {""children"": [], ""id"": ""CHART-LjfhrUkEef"", ""meta"": {""chartId"": 116, ""height"": 68, ""sliceName"": ""First Time Developer & Commute Time"", ""uuid"": ""067c4a1e-ae03-4c0c-8e2a-d2c0f4bf43c3"", ""width"": 5}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ"", ""ROW-s3l4os7YY""], ""type"": ""CHART""}, ""CHART-Q3pbwsH3id"": {""children"": [], ""id"": ""CHART-Q3pbwsH3id"", ""meta"": {""chartId"": 131, ""height"": 50, ""sliceName"": ""Are you an ethnic minority in your city?"", ""sliceNameOverride"": ""Minority Status (in their city)"", ""uuid"": ""def07750-b5c0-0b69-6228-cb2330916166"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-mOvr_xWm1""], ""type"": ""CHART""}, ""CHART-QVql08s5Bv"": {""children"": [], ""id"": ""CHART-QVql08s5Bv"", ""meta"": {""chartId"": 73, ""height"": 50, ""sliceName"": ""First Time Developer?"", ""uuid"": ""edc75073-8f33-4123-a28d-cd6dfb33cade"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ"", ""ROW-b7USYEngT""], ""type"": ""CHART""}, ""CHART-UtSaz4pfV6"": {""children"": [], ""id"": ""CHART-UtSaz4pfV6"", ""meta"": {""chartId"": 105, ""height"": 50, ""sliceName"": ""Age distribution of respondents"", ""uuid"": ""5f1ea868-604e-f69d-a241-5daa83ff33be"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-UsW-_RPAb"", ""COLUMN-OJ5spdMmNh""], ""type"": ""CHART""}, ""CHART-VvFbGxi3X_"": {""children"": [], ""id"": ""CHART-VvFbGxi3X_"", ""meta"": {""chartId"": 72, ""height"": 62, ""sliceName"": ""Top 15 Languages Spoken at Home"", ""uuid"": ""03a74c97-52fc-cf87-233c-d4275f8c550c"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-UsW-_RPAb"", ""COLUMN-OJ5spdMmNh""], ""type"": ""CHART""}, ""CHART-XHncHuS5pZ"": {""children"": [], ""id"": ""CHART-XHncHuS5pZ"", ""meta"": {""chartId"": 96, ""height"": 41, ""sliceName"": ""Number of Aspiring Developers"", ""sliceNameOverride"": ""What type of work would you prefer?"", ""uuid"": ""a0e5329f-224e-6fc8-efd2-d37d0f546ee8"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-"", ""ROW-DR80aHJA2c""], ""type"": ""CHART""}, ""CHART-YSzS5GOOLf"": {""children"": [], ""id"": ""CHART-YSzS5GOOLf"", ""meta"": {""chartId"": 122, ""height"": 54, ""sliceName"": ""Ethnic Minority & Gender"", ""uuid"": ""4880e4f4-b701-4be0-86f3-e7e89432e83b"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-mOvr_xWm1""], ""type"": ""CHART""}, ""CHART-ZECnzPz8Bi"": {""children"": [], ""id"": ""CHART-ZECnzPz8Bi"", ""meta"": {""chartId"": 117, ""height"": 74, ""sliceName"": ""Location of Current Developers"", ""uuid"": ""5596e0f6-78a9-465d-8325-7139c794a06a"", ""width"": 7}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ"", ""ROW-s3l4os7YY""], ""type"": ""CHART""}, ""CHART-aytwlT4GAq"": {""children"": [], ""id"": ""CHART-aytwlT4GAq"", ""meta"": {""chartId"": 90, ""height"": 50, ""sliceName"": ""Breakdown of Developer Type"", ""uuid"": ""b8386be8-f44e-6535-378c-2aa2ba461286"", ""width"": 4}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-y-GwJPgxLr""], ""type"": ""CHART""}, ""CHART-d6vjW6rC6V"": {""children"": [], ""id"": ""CHART-d6vjW6rC6V"", ""meta"": {""chartId"": 124, ""height"": 54, ""sliceName"": ""Filter Segments"", ""sliceNameOverride"": ""Filter By"", ""uuid"": ""6420629a-ce74-2c6b-ef7d-b2e78baa3cfe"", ""width"": 5}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-y-GwJPgxLr""], ""type"": ""CHART""}, ""CHART-fLpTSAHpAO"": {""children"": [], ""id"": ""CHART-fLpTSAHpAO"", ""meta"": {""chartId"": 107, ""height"": 118, ""sliceName"": ""Country of Citizenship"", ""uuid"": ""2ba66056-a756-d6a3-aaec-0c243fb7062e"", ""width"": 9}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-UsW-_RPAb""], ""type"": ""CHART""}, ""CHART-lQVSAw0Or3"": {""children"": [], ""id"": ""CHART-lQVSAw0Or3"", ""meta"": {""chartId"": 121, ""height"": 100, ""sliceName"": ""How do you prefer to work?"", ""sliceNameOverride"": ""Preferred Employment Style vs Degree"", ""uuid"": ""cb8998ab-9f93-4f0f-4e4b-3bfe4b0dea9d"", ""width"": 4}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-"", ""ROW--BIzjz9F0""], ""type"": ""CHART""}, ""CHART-o-JPAWMZK-"": {""children"": [], ""id"": ""CHART-o-JPAWMZK-"", ""meta"": {""chartId"": 75, ""height"": 50, ""sliceName"": ""Gender"", ""uuid"": ""0f6b447c-828c-e71c-87ac-211bc412b214"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-mOvr_xWm1""], ""type"": ""CHART""}, ""CHART-v22McUFMtx"": {""children"": [], ""id"": ""CHART-v22McUFMtx"", ""meta"": {""chartId"": 108, ""height"": 52, ""sliceName"": ""How much do you expect to earn? ($0 - 100k)"", ""sliceNameOverride"": ""\ud83d\udcb2Expected Income (excluding outliers)"", ""uuid"": ""6d0ceb30-2008-d19c-d285-cf77dc764433"", ""width"": 4}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-"", ""ROW--BIzjz9F0"", ""COLUMN-IEKAo_QJlz""], ""type"": ""CHART""}, ""CHART-wxWVtlajRF"": {""children"": [], ""id"": ""CHART-wxWVtlajRF"", ""meta"": {""chartId"": 130, ""height"": 104, ""sliceName"": ""Preferred Employment Style"", ""uuid"": ""bff88053-ccc4-92f2-d6f5-de83e950e8cd"", ""width"": 4}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-"", ""ROW--BIzjz9F0""], ""type"": ""CHART""}, ""COLUMN-IEKAo_QJlz"": {""children"": [""CHART-JnpdZOhVer"", ""CHART-v22McUFMtx""], ""id"": ""COLUMN-IEKAo_QJlz"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT"", ""width"": 4}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-"", ""ROW--BIzjz9F0""], ""type"": ""COLUMN""}, ""COLUMN-OJ5spdMmNh"": {""children"": [""CHART-VvFbGxi3X_"", ""CHART-UtSaz4pfV6""], ""id"": ""COLUMN-OJ5spdMmNh"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-UsW-_RPAb""], ""type"": ""COLUMN""}, ""DASHBOARD_VERSION_KEY"": ""v2"", ""GRID_ID"": {""children"": [""TABS-L-d9eyOE-b""], ""id"": ""GRID_ID"", ""parents"": [""ROOT_ID""], ""type"": ""GRID""}, ""HEADER_ID"": {""id"": ""HEADER_ID"", ""meta"": {""text"": ""FCC New Coder Survey 2018""}, ""type"": ""HEADER""}, ""MARKDOWN-BUmyHM2s0x"": {""children"": [], ""id"": ""MARKDOWN-BUmyHM2s0x"", ""meta"": {""code"": ""# Aspiring Developers\n\nThe mission of FreeCodeCamp is to \""help people learn to code for free\"". With this in mind, it's no surprise that ~83% of this survey's respondents fall into the **Aspiring Developer** category.\n\nIn this tab, we use visualization to explore:\n\n- Interest in relocating for work\n- Preferences around work location & style\n- Distribution of expected income\n- Distribution of highest degree held\n- Heatmap of highest degree held vs employment style preference"", ""height"": 50, ""width"": 4}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-"", ""ROW-DR80aHJA2c""], ""type"": ""MARKDOWN""}, ""MARKDOWN-NQmSPDOtpl"": {""children"": [], ""id"": ""MARKDOWN-NQmSPDOtpl"", ""meta"": {""code"": ""# Current Developers\n\nWhile majority of the students on FCC are Aspiring developers, there's a nontrivial minority that's there to continue leveling up their skills (17% of the survey respondents).\n\nBased on how respondents self-identified in the start of the survey, they were asked different questions. In this tab, we use visualizations to explore:\n\n- The buckets of commute team these developers encounter\n- The proportion of developers whose current job is their first developer job\n- Distribution of last year's income\n- The geographic distribution of these developers\n- The overlap between commute time and if their current job is their first developer job\n- Potential link between highest degree earned and last year's income"", ""height"": 50, ""width"": 4}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ"", ""ROW-b7USYEngT""], ""type"": ""MARKDOWN""}, ""MARKDOWN-__u6CsUyfh"": {""children"": [], ""id"": ""MARKDOWN-__u6CsUyfh"", ""meta"": {""code"": ""## FreeCodeCamp New Coder Survey 2018\n\nEvery year, FCC surveys its user base (mostly budding software developers) to learn more about their interests, backgrounds, goals, job status, and socioeconomic features. This dashboard visualizes survey data from the 2018 survey.\n\n- [Survey link](https://freecodecamp.typeform.com/to/S3UeD9)\n- [Dataset](https://github.com/freeCodeCamp/2018-new-coder-survey)\n- [FCC Blog Post](https://www.freecodecamp.org/news/we-asked-20-000-people-who-they-are-and-how-theyre-learning-to-code-fff5d668969/)"", ""height"": 45, ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-y-GwJPgxLr""], ""type"": ""MARKDOWN""}, ""MARKDOWN-zc2mWxZeox"": {""children"": [], ""id"": ""MARKDOWN-zc2mWxZeox"", ""meta"": {""code"": ""# Demographics\n\nFreeCodeCamp is a completely-online community of people learning to code and consists of aspiring & current developers from all over the world. That doesn't necessarily mean that access to these types of opportunities are evenly distributed. \n\nThe following charts can begin to help us understand:\n\n- the original citizenship of the survey respondents\n- minority representation among both aspiring and current developers\n- their age distribution\n- household languages"", ""height"": 52, ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t"", ""ROW-mOvr_xWm1""], ""type"": ""MARKDOWN""}, ""ROOT_ID"": {""children"": [""GRID_ID""], ""id"": ""ROOT_ID"", ""type"": ""ROOT""}, ""ROW--BIzjz9F0"": {""children"": [""COLUMN-IEKAo_QJlz"", ""CHART-lQVSAw0Or3"", ""CHART-wxWVtlajRF""], ""id"": ""ROW--BIzjz9F0"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-""], ""type"": ""ROW""}, ""ROW-DR80aHJA2c"": {""children"": [""MARKDOWN-BUmyHM2s0x"", ""CHART-XHncHuS5pZ"", ""CHART--w_Br1tPP3"", ""CHART-FKuVqq4kaA""], ""id"": ""ROW-DR80aHJA2c"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-YT6eNksV-""], ""type"": ""ROW""}, ""ROW-UsW-_RPAb"": {""children"": [""COLUMN-OJ5spdMmNh"", ""CHART-fLpTSAHpAO""], ""id"": ""ROW-UsW-_RPAb"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t""], ""type"": ""ROW""}, ""ROW-b7USYEngT"": {""children"": [""MARKDOWN-NQmSPDOtpl"", ""CHART--0GPGmD-pO"", ""CHART-QVql08s5Bv"", ""CHART-0-zzTwBINh""], ""id"": ""ROW-b7USYEngT"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ""], ""type"": ""ROW""}, ""ROW-kNjtGVFpp"": {""children"": [""CHART-5QwNlSbXYU"", ""CHART-37fu7fO6Z0""], ""id"": ""ROW-kNjtGVFpp"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ""], ""type"": ""ROW""}, ""ROW-mOvr_xWm1"": {""children"": [""MARKDOWN-zc2mWxZeox"", ""CHART-Q3pbwsH3id"", ""CHART-o-JPAWMZK-"", ""CHART-YSzS5GOOLf""], ""id"": ""ROW-mOvr_xWm1"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t""], ""type"": ""ROW""}, ""ROW-s3l4os7YY"": {""children"": [""CHART-LjfhrUkEef"", ""CHART-ZECnzPz8Bi""], ""id"": ""ROW-s3l4os7YY"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-l_9I0aNYZ""], ""type"": ""ROW""}, ""ROW-y-GwJPgxLr"": {""children"": [""MARKDOWN-__u6CsUyfh"", ""CHART-aytwlT4GAq"", ""CHART-d6vjW6rC6V""], ""id"": ""ROW-y-GwJPgxLr"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b"", ""TAB-AsMaxdYL_t""], ""type"": ""ROW""}, ""TAB-AsMaxdYL_t"": {""children"": [""ROW-y-GwJPgxLr"", ""ROW-mOvr_xWm1"", ""ROW-UsW-_RPAb""], ""id"": ""TAB-AsMaxdYL_t"", ""meta"": {""text"": ""Overview""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b""], ""type"": ""TAB""}, ""TAB-YT6eNksV-"": {""children"": [""ROW-DR80aHJA2c"", ""ROW--BIzjz9F0""], ""id"": ""TAB-YT6eNksV-"", ""meta"": {""text"": ""\ud83d\ude80 Aspiring Developers""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b""], ""type"": ""TAB""}, ""TAB-l_9I0aNYZ"": {""children"": [""ROW-b7USYEngT"", ""ROW-kNjtGVFpp"", ""ROW-s3l4os7YY""], ""id"": ""TAB-l_9I0aNYZ"", ""meta"": {""text"": ""\ud83d\udcbb Current Developers""}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""TABS-L-d9eyOE-b""], ""type"": ""TAB""}, ""TABS-L-d9eyOE-b"": {""children"": [""TAB-AsMaxdYL_t"", ""TAB-YT6eNksV-"", ""TAB-l_9I0aNYZ""], ""id"": ""TABS-L-d9eyOE-b"", ""meta"": {}, ""parents"": [""ROOT_ID"", ""GRID_ID""], ""type"": ""TABS""}}",FCC New Coder Survey 2018,,false
+5,,,04f79081-fb49-7bac-7f14-cc76cd2ad93b,true,2023-03-28T14:12:21.206030,2023-02-27T08:27:08.280416,,,,1,,"{""timed_refresh_immune_slices"": [], ""expanded_slices"": {}, ""refresh_frequency"": 0, ""default_filters"": ""{\""80\"": {\""__time_range\"": \""No filter\""}}"", ""color_scheme"": ""supersetColors"", ""label_colors"": {""Medium"": ""#1FA8C9"", ""Small"": ""#454E7C"", ""Large"": ""#5AC189"", ""SUM(SALES)"": ""#1FA8C9"", ""Classic Cars"": ""#454E7C"", ""Vintage Cars"": ""#5AC189"", ""Motorcycles"": ""#FF7F44"", ""Trucks and Buses"": ""#666666"", ""Planes"": ""#E04355"", ""Ships"": ""#FCC700"", ""Trains"": ""#A868B7""}, ""show_native_filters"": true, ""color_scheme_domain"": [""#1FA8C9"", ""#454E7C"", ""#5AC189"", ""#FF7F44"", ""#666666"", ""#E04355"", ""#FCC700"", ""#A868B7"", ""#3CCCCB"", ""#A38F79"", ""#8FD3E4"", ""#A1A6BD"", ""#ACE1C4"", ""#FEC0A1"", ""#B2B2B2"", ""#EFA1AA"", ""#FDE380"", ""#D3B3DA"", ""#9EE5E5"", ""#D1C6BC""], ""shared_label_colors"": {}, ""cross_filters_enabled"": true}","{""CHART-1NOOLm5YPs"": {""children"": [], ""id"": ""CHART-1NOOLm5YPs"", ""meta"": {""chartId"": 99, ""height"": 25, ""sliceName"": ""Total Items Sold"", ""sliceNameOverride"": ""Total Products Sold"", ""uuid"": ""c3d643cd-fd6f-4659-a5b7-59402487a8d0"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH"", ""ROW-Tyv02UA_6W"", ""COLUMN-8Rp54B6ikC""], ""type"": ""CHART""}, ""CHART-AYpv8gFi_q"": {""children"": [], ""id"": ""CHART-AYpv8gFi_q"", ""meta"": {""chartId"": 77, ""height"": 91, ""sliceName"": ""Number of Deals (for each Combination)"", ""uuid"": ""bd20fc69-dd51-46c1-99b5-09e37a434bf1"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-4fthLQmdX"", ""ROW-0l1WcDzW3""], ""type"": ""CHART""}, ""CHART-KKT9BsnUst"": {""children"": [], ""id"": ""CHART-KKT9BsnUst"", ""meta"": {""chartId"": 74, ""height"": 59, ""sliceName"": ""Quarterly Sales (By Product Line)"", ""sliceNameOverride"": ""Quarterly Revenue (By Product Line)"", ""uuid"": ""db9609e4-9b78-4a32-87a7-4d9e19d51cd8"", ""width"": 7}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH"", ""ROW-oAtmu5grZ""], ""type"": ""CHART""}, ""CHART-OJ9aWDmn1q"": {""children"": [], ""id"": ""CHART-OJ9aWDmn1q"", ""meta"": {""chartId"": 86, ""height"": 91, ""sliceName"": ""Proportion of Revenue by Product Line"", ""sliceNameOverride"": ""Proportion of Monthly Revenue by Product Line"", ""uuid"": ""08aff161-f60c-4cb3-a225-dc9b1140d2e3"", ""width"": 6}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-4fthLQmdX"", ""ROW-0l1WcDzW3""], ""type"": ""CHART""}, ""CHART-YFg-9wHE7s"": {""children"": [], ""id"": ""CHART-YFg-9wHE7s"", ""meta"": {""chartId"": 129, ""height"": 63, ""sliceName"": ""Seasonality of Revenue (per Product Line)"", ""uuid"": ""cf0da099-b3ab-4d94-ab62-cf353ac3c611"", ""width"": 6}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-4fthLQmdX"", ""ROW-E7MDSGfnm""], ""type"": ""CHART""}, ""CHART-_LMKI0D3tj"": {""children"": [], ""id"": ""CHART-_LMKI0D3tj"", ""meta"": {""chartId"": 120, ""height"": 62, ""sliceName"": ""Revenue by Deal SIze"", ""sliceNameOverride"": ""Monthly Revenue by Deal SIze"", ""uuid"": ""f065a533-2e13-42b9-bd19-801a21700dff"", ""width"": 6}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-4fthLQmdX"", ""ROW-E7MDSGfnm""], ""type"": ""CHART""}, ""CHART-id4RGv80N-"": {""children"": [], ""id"": ""CHART-id4RGv80N-"", ""meta"": {""chartId"": 93, ""height"": 40, ""sliceName"": ""Total Items Sold (By Product Line)"", ""sliceNameOverride"": ""Total Products Sold (By Product Line)"", ""uuid"": ""b8b7ca30-6291-44b0-bc64-ba42e2892b86"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH"", ""ROW-oAtmu5grZ"", ""COLUMN-G6_2DvG8aK""], ""type"": ""CHART""}, ""CHART-iyvXMcqHt9"": {""children"": [], ""id"": ""CHART-iyvXMcqHt9"", ""meta"": {""chartId"": 80, ""height"": 39, ""sliceName"": ""Filter"", ""uuid"": ""a5689df7-98fc-7c51-602c-ebd92dc3ec70"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-4fthLQmdX"", ""ROW-0l1WcDzW3"", ""COLUMN-jlNWyWCfTC""], ""type"": ""CHART""}, ""CHART-j24u8ve41b"": {""children"": [], ""id"": ""CHART-j24u8ve41b"", ""meta"": {""chartId"": 126, ""height"": 59, ""sliceName"": ""Overall Sales (By Product Line)"", ""sliceNameOverride"": ""Total Revenue (By Product Line)"", ""uuid"": ""09c497e0-f442-1121-c9e7-671e37750424"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH"", ""ROW-oAtmu5grZ""], ""type"": ""CHART""}, ""CHART-lFanAaYKBK"": {""children"": [], ""id"": ""CHART-lFanAaYKBK"", ""meta"": {""chartId"": 78, ""height"": 26, ""sliceName"": ""Total Revenue"", ""uuid"": ""7b12a243-88e0-4dc5-ac33-9a840bb0ac5a"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH"", ""ROW-Tyv02UA_6W"", ""COLUMN-8Rp54B6ikC""], ""type"": ""CHART""}, ""CHART-vomBOiI7U9"": {""children"": [], ""id"": ""CHART-vomBOiI7U9"", ""meta"": {""chartId"": 88, ""height"": 53, ""sliceName"": ""Quarterly Sales"", ""sliceNameOverride"": ""Quarterly Revenue"", ""uuid"": ""692aca26-a526-85db-c94c-411c91cc1077"", ""width"": 7}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH"", ""ROW-Tyv02UA_6W""], ""type"": ""CHART""}, ""COLUMN-8Rp54B6ikC"": {""children"": [""CHART-lFanAaYKBK"", ""CHART-1NOOLm5YPs""], ""id"": ""COLUMN-8Rp54B6ikC"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH"", ""ROW-Tyv02UA_6W""], ""type"": ""COLUMN""}, ""COLUMN-G6_2DvG8aK"": {""children"": [""CHART-id4RGv80N-""], ""id"": ""COLUMN-G6_2DvG8aK"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH"", ""ROW-oAtmu5grZ""], ""type"": ""COLUMN""}, ""COLUMN-jlNWyWCfTC"": {""children"": [""MARKDOWN-HrzsMmvGQo"", ""CHART-iyvXMcqHt9""], ""id"": ""COLUMN-jlNWyWCfTC"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-4fthLQmdX"", ""ROW-0l1WcDzW3""], ""type"": ""COLUMN""}, ""DASHBOARD_VERSION_KEY"": ""v2"", ""GRID_ID"": {""children"": [], ""id"": ""GRID_ID"", ""parents"": [""ROOT_ID""], ""type"": ""GRID""}, ""HEADER_ID"": {""id"": ""HEADER_ID"", ""meta"": {""text"": ""Sales Dashboard""}, ""type"": ""HEADER""}, ""MARKDOWN--AtDSWnapE"": {""children"": [], ""id"": ""MARKDOWN--AtDSWnapE"", ""meta"": {""code"": ""# \ud83d\ude97 Vehicle Sales Dashboard \ud83c\udfcd\n\nThis example dashboard provides insight into the business operations of vehicle seller. The dataset powering this dashboard can be found [here on Kaggle](https://www.kaggle.com/kyanyoga/sample-sales-data).\n\n### Timeline\n\nThe dataset contains data on all orders from the 2003 and 2004 fiscal years, and some orders from 2005.\n\n### Products Sold\n\nThis shop mainly sells the following products:\n\n- \ud83d\ude97 Classic Cars\n- \ud83c\udfce\ufe0f Vintage Cars\n- \ud83c\udfcd\ufe0f Motorcycles\n- \ud83d\ude9a Trucks & Buses \ud83d\ude8c\n- \ud83d\udee9\ufe0f Planes\n- \ud83d\udea2 Ships\n- \ud83d\ude88 Trains"", ""height"": 53, ""width"": 3}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH"", ""ROW-Tyv02UA_6W""], ""type"": ""MARKDOWN""}, ""MARKDOWN-HrzsMmvGQo"": {""children"": [], ""id"": ""MARKDOWN-HrzsMmvGQo"", ""meta"": {""code"": ""# \ud83d\udd0d Filter Box\n\nDashboard filters are a powerful way to enable teams to dive deeper into their business operations data. This filter box helps focus the charts along the following variables:\n\n- Time Range: Focus in on a specific time period (e.g. a holiday or quarter)\n- Product Line: Choose 1 or more product lines to see relevant sales data\n- Deal Size: Zoom in on small, medium, and / or large sales deals\n\nThe filter box below \ud83d\udc47 is configured to only apply to the charts in this tab (**Exploratory**). You can customize the charts that this filter box applies to by:\n\n- entering Edit mode in this dashboard\n- selecting the `...` in the top right corner\n- selecting the **Set filter mapping** button"", ""height"": 50, ""width"": 3}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-4fthLQmdX"", ""ROW-0l1WcDzW3"", ""COLUMN-jlNWyWCfTC""], ""type"": ""MARKDOWN""}, ""ROOT_ID"": {""children"": [""TABS-e5Ruro0cjP""], ""id"": ""ROOT_ID"", ""type"": ""ROOT""}, ""ROW-0l1WcDzW3"": {""children"": [""COLUMN-jlNWyWCfTC"", ""CHART-OJ9aWDmn1q"", ""CHART-AYpv8gFi_q""], ""id"": ""ROW-0l1WcDzW3"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-4fthLQmdX""], ""type"": ""ROW""}, ""ROW-E7MDSGfnm"": {""children"": [""CHART-YFg-9wHE7s"", ""CHART-_LMKI0D3tj""], ""id"": ""ROW-E7MDSGfnm"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-4fthLQmdX""], ""type"": ""ROW""}, ""ROW-Tyv02UA_6W"": {""children"": [""COLUMN-8Rp54B6ikC"", ""CHART-vomBOiI7U9"", ""MARKDOWN--AtDSWnapE""], ""id"": ""ROW-Tyv02UA_6W"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH""], ""type"": ""ROW""}, ""ROW-oAtmu5grZ"": {""children"": [""COLUMN-G6_2DvG8aK"", ""CHART-KKT9BsnUst"", ""CHART-j24u8ve41b""], ""id"": ""ROW-oAtmu5grZ"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP"", ""TAB-d-E0Zc1cTH""], ""type"": ""ROW""}, ""TAB-4fthLQmdX"": {""children"": [""ROW-0l1WcDzW3"", ""ROW-E7MDSGfnm""], ""id"": ""TAB-4fthLQmdX"", ""meta"": {""text"": ""\ud83e\udded Exploratory""}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP""], ""type"": ""TAB""}, ""TAB-d-E0Zc1cTH"": {""children"": [""ROW-Tyv02UA_6W"", ""ROW-oAtmu5grZ""], ""id"": ""TAB-d-E0Zc1cTH"", ""meta"": {""text"": ""\ud83c\udfaf Sales Overview""}, ""parents"": [""ROOT_ID"", ""TABS-e5Ruro0cjP""], ""type"": ""TAB""}, ""TABS-e5Ruro0cjP"": {""children"": [""TAB-d-E0Zc1cTH"", ""TAB-4fthLQmdX""], ""id"": ""TABS-e5Ruro0cjP"", ""meta"": {}, ""parents"": [""ROOT_ID""], ""type"": ""TABS""}}",Sales Dashboard,,false
+9,,,c7bc10f4-6a2d-7569-caae-bbc91864ee11,true,2023-03-28T14:10:14.528451,2023-02-27T08:27:08.364478,,,,1,,"{""timed_refresh_immune_slices"": [], ""expanded_slices"": {}, ""refresh_frequency"": 0, ""default_filters"": ""{\""91\"": {\""Platform\"": [\""PS\"", \""PS2\"", \""PS3\"", \""XB\"", \""X360\""], \""__time_range\"": \""No filter\""}}"", ""color_scheme"": ""supersetColors"", ""label_colors"": {""0"": ""#1FA8C9"", ""1"": ""#454E7C"", ""2600"": ""#666666"", ""Europe"": ""#5AC189"", ""Japan"": ""#FF7F44"", ""North America"": ""#666666"", ""Other"": ""#E04355"", ""PS2"": ""#FCC700"", ""X360"": ""#A868B7"", ""PS3"": ""#3CCCCB"", ""Wii"": ""#A38F79"", ""DS"": ""#8FD3E4"", ""PS"": ""#A1A6BD"", ""GBA"": ""#ACE1C4"", ""PSP"": ""#FEC0A1"", ""PS4"": ""#B2B2B2"", ""PC"": ""#EFA1AA"", ""GB"": ""#FDE380"", ""XB"": ""#D3B3DA"", ""NES"": ""#9EE5E5"", ""3DS"": ""#D1C6BC"", ""N64"": ""#1FA8C9"", ""SNES"": ""#454E7C"", ""GC"": ""#5AC189"", ""XOne"": ""#FF7F44"", ""WiiU"": ""#E04355"", ""PSV"": ""#FCC700"", ""SAT"": ""#A868B7"", ""GEN"": ""#3CCCCB"", ""DC"": ""#A38F79"", ""SCD"": ""#8FD3E4"", ""NG"": ""#A1A6BD"", ""WS"": ""#ACE1C4"", ""TG16"": ""#FEC0A1"", ""3DO"": ""#B2B2B2"", ""GG"": ""#EFA1AA"", ""PCFX"": ""#FDE380"", ""Nintendo"": ""#D3B3DA"", ""Take-Two Interactive"": ""#9EE5E5"", ""Microsoft Game Studios"": ""#D1C6BC"", ""Action"": ""#1FA8C9"", ""Adventure"": ""#454E7C"", ""Fighting"": ""#5AC189"", ""Misc"": ""#FF7F44"", ""Platform"": ""#666666"", ""Puzzle"": ""#E04355"", ""Racing"": ""#FCC700"", ""Role-Playing"": ""#A868B7"", ""Shooter"": ""#3CCCCB"", ""Simulation"": ""#A38F79"", ""Sports"": ""#8FD3E4"", ""Strategy"": ""#A1A6BD""}, ""show_native_filters"": true, ""color_scheme_domain"": [""#1FA8C9"", ""#454E7C"", ""#5AC189"", ""#FF7F44"", ""#666666"", ""#E04355"", ""#FCC700"", ""#A868B7"", ""#3CCCCB"", ""#A38F79"", ""#8FD3E4"", ""#A1A6BD"", ""#ACE1C4"", ""#FEC0A1"", ""#B2B2B2"", ""#EFA1AA"", ""#FDE380"", ""#D3B3DA"", ""#9EE5E5"", ""#D1C6BC""], ""shared_label_colors"": {}, ""cross_filters_enabled"": true}","{""CHART-1L7NIcXvVN"": {""children"": [], ""id"": ""CHART-1L7NIcXvVN"", ""meta"": {""chartId"": 115, ""height"": 79, ""sliceName"": ""Games per Genre over time"", ""uuid"": ""0f8976aa-7bb4-40c7-860b-64445a51aaaf"", ""width"": 6}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-2_QXp8aNq"", ""ROW-fjg6YQBkH""], ""type"": ""CHART""}, ""CHART-7mKdnU7OUJ"": {""children"": [], ""id"": ""CHART-7mKdnU7OUJ"", ""meta"": {""chartId"": 106, ""height"": 80, ""sliceName"": ""Games per Genre"", ""uuid"": ""0499bdec-0837-44f3-ae8a-8c670de81afd"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-2_QXp8aNq"", ""ROW-yP9SB89PZ""], ""type"": ""CHART""}, ""CHART-8OG3UJX-Tn"": {""children"": [], ""id"": ""CHART-8OG3UJX-Tn"", ""meta"": {""chartId"": 98, ""height"": 54, ""sliceName"": ""# of Games That Hit 100k in Sales By Release Year"", ""sliceNameOverride"": ""Top 10 Consoles, by # of Hit Games"", ""uuid"": ""2b69887b-23e3-b46d-d38c-8ea11856c555"", ""width"": 6}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm"", ""ROW-7kAf1blYU""], ""type"": ""CHART""}, ""CHART-W02beJK7ms"": {""children"": [], ""id"": ""CHART-W02beJK7ms"", ""meta"": {""chartId"": 118, ""height"": 54, ""sliceName"": ""Publishers With Most Titles"", ""sliceNameOverride"": ""Top 10 Games (by Global Sales)"", ""uuid"": ""d20b7324-3b80-24d4-37e2-3bd583b66713"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm"", ""ROW-7kAf1blYU""], ""type"": ""CHART""}, ""CHART-XFag0yZdLk"": {""children"": [], ""id"": ""CHART-XFag0yZdLk"", ""meta"": {""chartId"": 89, ""height"": 54, ""sliceName"": ""Most Dominant Platforms"", ""sliceNameOverride"": ""Publishers of Top 25 Games"", ""uuid"": ""1810975a-f6d4-07c3-495c-c3b535d01f21"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm"", ""ROW-7kAf1blYU""], ""type"": ""CHART""}, ""CHART-XRvRfsMsaQ"": {""children"": [], ""id"": ""CHART-XRvRfsMsaQ"", ""meta"": {""chartId"": 79, ""height"": 62, ""sliceName"": ""Top 10 Games: Proportion of Sales in Markets"", ""uuid"": ""a40879d5-653a-42fe-9314-bbe88ad26e92"", ""width"": 6}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm"", ""ROW-NuR8GFQTO""], ""type"": ""CHART""}, ""CHART-XVIYTeubZh"": {""children"": [], ""id"": ""CHART-XVIYTeubZh"", ""meta"": {""chartId"": 95, ""height"": 80, ""sliceName"": ""Games"", ""uuid"": ""2a5e562b-ab37-1b9b-1de3-1be4335c8e83"", ""width"": 5}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-2_QXp8aNq"", ""ROW-yP9SB89PZ""], ""type"": ""CHART""}, ""CHART-_sx22yawJO"": {""children"": [], ""id"": ""CHART-_sx22yawJO"", ""meta"": {""chartId"": 119, ""height"": 62, ""sliceName"": ""Popular Genres Across Platforms"", ""uuid"": ""326fc7e5-b7f1-448e-8a6f-80d0e7ce0b64"", ""width"": 6}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm"", ""ROW-NuR8GFQTO""], ""type"": ""CHART""}, ""CHART-nYns6xr4Ft"": {""children"": [], ""id"": ""CHART-nYns6xr4Ft"", ""meta"": {""chartId"": 104, ""height"": 79, ""sliceName"": ""Total Sales per Market (Grouped by Genre)"", ""uuid"": ""d8bf948e-46fd-4380-9f9c-a950c34bcc92"", ""width"": 6}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-2_QXp8aNq"", ""ROW-fjg6YQBkH""], ""type"": ""CHART""}, ""CHART-uP9GF0z0rT"": {""children"": [], ""id"": ""CHART-uP9GF0z0rT"", ""meta"": {""chartId"": 91, ""height"": 45, ""sliceName"": ""Filter"", ""uuid"": ""fd9ce7ec-ae08-4f71-93e0-7c26b132b2e6"", ""width"": 4}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-2_QXp8aNq"", ""ROW-yP9SB89PZ"", ""COLUMN-F53B1OSMcz""], ""type"": ""CHART""}, ""CHART-wt6ZO8jRXZ"": {""children"": [], ""id"": ""CHART-wt6ZO8jRXZ"", ""meta"": {""chartId"": 128, ""height"": 72, ""sliceName"": ""Rise & Fall of Video Game Consoles"", ""sliceNameOverride"": ""Global Sales per Console"", ""uuid"": ""83b0e2d0-d38b-d980-ed8e-e1c9846361b6"", ""width"": 12}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm"", ""ROW-XT1DsNA_V""], ""type"": ""CHART""}, ""COLUMN-F53B1OSMcz"": {""children"": [""MARKDOWN-7K5cBNy7qu"", ""CHART-uP9GF0z0rT""], ""id"": ""COLUMN-F53B1OSMcz"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT"", ""width"": 4}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-2_QXp8aNq"", ""ROW-yP9SB89PZ""], ""type"": ""COLUMN""}, ""DASHBOARD_VERSION_KEY"": ""v2"", ""GRID_ID"": {""children"": [], ""id"": ""GRID_ID"", ""parents"": [""ROOT_ID""], ""type"": ""GRID""}, ""HEADER_ID"": {""id"": ""HEADER_ID"", ""meta"": {""text"": ""Video Game Sales""}, ""type"": ""HEADER""}, ""MARKDOWN-7K5cBNy7qu"": {""children"": [], ""id"": ""MARKDOWN-7K5cBNy7qu"", ""meta"": {""code"": ""# \ud83e\udd3f Explore Trends\n\nDive into data on popular video games using the following dimensions:\n\n- Year\n- Platform\n- Publisher\n- Genre\n\nTo use the **Filter Games** box below, select values for each dimension you want to zoom in on and then click **Apply**. \n\nThe filter criteria you set in this Filter-box will apply to *all* charts in this tab."", ""height"": 33, ""width"": 4}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-2_QXp8aNq"", ""ROW-yP9SB89PZ"", ""COLUMN-F53B1OSMcz""], ""type"": ""MARKDOWN""}, ""MARKDOWN-JOZKOjVc3a"": {""children"": [], ""id"": ""MARKDOWN-JOZKOjVc3a"", ""meta"": {""code"": ""## \ud83c\udfaeVideo Game Sales\n\nThis dashboard visualizes sales & platform data on video games that sold more than 100k copies. The data was last updated in early 2017.\n\n[Original dataset](https://www.kaggle.com/gregorut/videogamesales)"", ""height"": 18, ""width"": 12}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm"", ""ROW-0F99WDC-sz""], ""type"": ""MARKDOWN""}, ""ROOT_ID"": {""children"": [""TABS-97PVJa11D_""], ""id"": ""ROOT_ID"", ""type"": ""ROOT""}, ""ROW-0F99WDC-sz"": {""children"": [""MARKDOWN-JOZKOjVc3a""], ""id"": ""ROW-0F99WDC-sz"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm""], ""type"": ""ROW""}, ""ROW-7kAf1blYU"": {""children"": [""CHART-W02beJK7ms"", ""CHART-XFag0yZdLk"", ""CHART-8OG3UJX-Tn""], ""id"": ""ROW-7kAf1blYU"", ""meta"": {""0"": ""ROOT_ID"", ""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm""], ""type"": ""ROW""}, ""ROW-NuR8GFQTO"": {""children"": [""CHART-_sx22yawJO"", ""CHART-XRvRfsMsaQ""], ""id"": ""ROW-NuR8GFQTO"", ""meta"": {""0"": ""ROOT_ID"", ""1"": ""TABS-97PVJa11D_"", ""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm""], ""type"": ""ROW""}, ""ROW-XT1DsNA_V"": {""children"": [""CHART-wt6ZO8jRXZ""], ""id"": ""ROW-XT1DsNA_V"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-lg-5ymUDgm""], ""type"": ""ROW""}, ""ROW-fjg6YQBkH"": {""children"": [""CHART-1L7NIcXvVN"", ""CHART-nYns6xr4Ft""], ""id"": ""ROW-fjg6YQBkH"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-2_QXp8aNq""], ""type"": ""ROW""}, ""ROW-yP9SB89PZ"": {""children"": [""COLUMN-F53B1OSMcz"", ""CHART-XVIYTeubZh"", ""CHART-7mKdnU7OUJ""], ""id"": ""ROW-yP9SB89PZ"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_"", ""TAB-2_QXp8aNq""], ""type"": ""ROW""}, ""TAB-2_QXp8aNq"": {""children"": [""ROW-yP9SB89PZ"", ""ROW-fjg6YQBkH""], ""id"": ""TAB-2_QXp8aNq"", ""meta"": {""text"": ""\ud83e\udd3f Explore Trends""}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_""], ""type"": ""TAB""}, ""TAB-lg-5ymUDgm"": {""children"": [""ROW-0F99WDC-sz"", ""ROW-XT1DsNA_V"", ""ROW-7kAf1blYU"", ""ROW-NuR8GFQTO""], ""id"": ""TAB-lg-5ymUDgm"", ""meta"": {""text"": ""Overview""}, ""parents"": [""ROOT_ID"", ""TABS-97PVJa11D_""], ""type"": ""TAB""}, ""TABS-97PVJa11D_"": {""children"": [""TAB-lg-5ymUDgm"", ""TAB-2_QXp8aNq""], ""id"": ""TABS-97PVJa11D_"", ""meta"": {}, ""parents"": [""ROOT_ID""], ""type"": ""TABS""}}",Video Game Sales,,false
+6,,,9726d8b0-222f-eb2c-034a-02b9f51ef5fd,true,2023-03-28T14:11:34.095370,2023-02-27T08:27:08.301968,,,,1,,"{""timed_refresh_immune_slices"": [], ""expanded_slices"": {}, ""refresh_frequency"": 0, ""default_filters"": ""{}"", ""color_scheme"": ""supersetColors"", ""label_colors"": {""0"": ""#1FA8C9"", ""1"": ""#454E7C"", ""introductions"": ""#5AC189"", ""jobs"": ""#FF7F44"", ""apache-releases"": ""#666666"", ""commits"": ""#E04355"", ""dashboard-filters"": ""#FCC700"", ""announcements"": ""#A868B7"", ""general"": ""#3CCCCB"", ""superset_stage_alerts"": ""#A38F79"", ""contributing"": ""#8FD3E4"", ""graduation"": ""#A1A6BD"", ""embedd-dashboards"": ""#ACE1C4"", ""helm-k8-deployment"": ""#FEC0A1"", ""visualization_plugins"": ""#B2B2B2"", ""community-feedback"": ""#EFA1AA"", ""cypress-tests"": ""#FDE380"", ""product_feedback"": ""#D3B3DA"", ""developers"": ""#9EE5E5"", ""dashboard-level-access"": ""#D1C6BC"", ""design"": ""#1FA8C9"", ""feature-requests"": ""#454E7C"", ""localization"": ""#5AC189"", ""newsletter"": ""#FF7F44"", ""beginners"": ""#666666"", ""github-notifications"": ""#E04355"", ""superset-champions"": ""#FCC700"", ""superset_prod_reports"": ""#A868B7"", ""dashboards"": ""#3CCCCB"", ""pull-requests"": ""#A38F79"", ""support"": ""#8FD3E4"", ""globalnav_search"": ""#A1A6BD""}, ""show_native_filters"": true, ""color_scheme_domain"": [""#1FA8C9"", ""#454E7C"", ""#5AC189"", ""#FF7F44"", ""#666666"", ""#E04355"", ""#FCC700"", ""#A868B7"", ""#3CCCCB"", ""#A38F79"", ""#8FD3E4"", ""#A1A6BD"", ""#ACE1C4"", ""#FEC0A1"", ""#B2B2B2"", ""#EFA1AA"", ""#FDE380"", ""#D3B3DA"", ""#9EE5E5"", ""#D1C6BC""], ""shared_label_colors"": {}, ""cross_filters_enabled"": true}","{""CHART-EYIBwyUiHc"": {""children"": [], ""id"": ""CHART-EYIBwyUiHc"", ""meta"": {""chartId"": 110, ""height"": 70, ""sliceName"": ""Members per Channel"", ""uuid"": ""d44e416d-1647-44e4-b442-6da34b44adc4"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-PgcMF2PpB""], ""type"": ""CHART""}, ""CHART-FwpJA_o1-n"": {""children"": [], ""id"": ""CHART-FwpJA_o1-n"", ""meta"": {""chartId"": 127, ""height"": 44, ""sliceName"": ""New Members per Month"", ""uuid"": ""92e1d712-bcf9-4d7e-9b94-26cffe502908"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-aseZBdP1v""], ""type"": ""CHART""}, ""CHART-JhE-Y0xxgi"": {""children"": [], ""id"": ""CHART-JhE-Y0xxgi"", ""meta"": {""chartId"": 132, ""height"": 44, ""sliceName"": ""Top Timezones"", ""sliceNameOverride"": ""Top Timezones for Members"", ""uuid"": ""62b7242e-decc-2d1b-7f80-c62776939d1e"", ""width"": 4}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-aseZBdP1v""], ""type"": ""CHART""}, ""CHART-RbxP2Dl7Ad"": {""children"": [], ""id"": ""CHART-RbxP2Dl7Ad"", ""meta"": {""chartId"": 102, ""height"": 44, ""sliceName"": ""Weekly Messages"", ""uuid"": ""abe2c022-ceee-a60a-e601-ab93f7ee52b1"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-aseZBdP1v""], ""type"": ""CHART""}, ""CHART-cj9KtCNRq3"": {""children"": [], ""id"": ""CHART-cj9KtCNRq3"", ""meta"": {""chartId"": 123, ""height"": 19, ""sliceName"": ""Number of Members"", ""uuid"": ""7dad983b-e9f6-d2e8-91da-c2262d4e84e8"", ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-aseZBdP1v"", ""COLUMN-4bvhV9jxDI""], ""type"": ""CHART""}, ""CHART-ej0FpkKxzj"": {""children"": [], ""id"": ""CHART-ej0FpkKxzj"", ""meta"": {""chartId"": 92, ""height"": 69, ""sliceName"": ""Cross Channel Relationship"", ""uuid"": ""6cb43397-5c62-4f32-bde2-95344c412b5a"", ""width"": 5}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-PgcMF2PpB""], ""type"": ""CHART""}, ""CHART-f42-kMWQPd"": {""children"": [], ""id"": ""CHART-f42-kMWQPd"", ""meta"": {""chartId"": 83, ""height"": 68, ""sliceName"": ""Cross Channel Relationship"", ""uuid"": ""f2a8731b-3d8c-4d86-9d33-7c0a3e64d21c"", ""width"": 4}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-PgcMF2PpB""], ""type"": ""CHART""}, ""CHART-tMLHDtzb67"": {""children"": [], ""id"": ""CHART-tMLHDtzb67"", ""meta"": {""chartId"": 84, ""height"": 85, ""sliceName"": ""Messages per Channel"", ""uuid"": ""b0f11bdf-793f-473f-b7d5-b9265e657896"", ""width"": 12}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-y62Rf2K3m""], ""type"": ""CHART""}, ""CHART-vIvrauAMxV"": {""children"": [], ""id"": ""CHART-vIvrauAMxV"", ""meta"": {""chartId"": 111, ""height"": 44, ""sliceName"": ""Weekly Threads"", ""uuid"": ""9f742bdd-cac1-468c-3a37-35c9b3cfd5bb"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-aseZBdP1v""], ""type"": ""CHART""}, ""COLUMN-4bvhV9jxDI"": {""children"": [""MARKDOWN--8u3tfVF49"", ""CHART-cj9KtCNRq3""], ""id"": ""COLUMN-4bvhV9jxDI"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT"", ""width"": 2}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-aseZBdP1v""], ""type"": ""COLUMN""}, ""DASHBOARD_VERSION_KEY"": ""v2"", ""GRID_ID"": {""children"": [""ROW-aseZBdP1v"", ""ROW-y62Rf2K3m"", ""ROW-PgcMF2PpB""], ""id"": ""GRID_ID"", ""parents"": [""ROOT_ID""], ""type"": ""GRID""}, ""HEADER_ID"": {""id"": ""HEADER_ID"", ""meta"": {""text"": ""Slack Dashboard""}, ""type"": ""HEADER""}, ""MARKDOWN--8u3tfVF49"": {""children"": [], ""id"": ""MARKDOWN--8u3tfVF49"", ""meta"": {""code"": ""<img src=\""https://cdn.brandfolder.io/5H442O3W/at/pl546j-7le8zk-838dm2/Slack_RGB.svg\"">"", ""height"": 23, ""width"": 3}, ""parents"": [""ROOT_ID"", ""GRID_ID"", ""ROW-aseZBdP1v"", ""COLUMN-4bvhV9jxDI""], ""type"": ""MARKDOWN""}, ""ROOT_ID"": {""children"": [""GRID_ID""], ""id"": ""ROOT_ID"", ""type"": ""ROOT""}, ""ROW-PgcMF2PpB"": {""children"": [""CHART-EYIBwyUiHc"", ""CHART-f42-kMWQPd"", ""CHART-ej0FpkKxzj""], ""id"": ""ROW-PgcMF2PpB"", ""meta"": {""0"": ""ROOT_ID"", ""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID""], ""type"": ""ROW""}, ""ROW-aseZBdP1v"": {""children"": [""COLUMN-4bvhV9jxDI"", ""CHART-vIvrauAMxV"", ""CHART-RbxP2Dl7Ad"", ""CHART-FwpJA_o1-n"", ""CHART-JhE-Y0xxgi""], ""id"": ""ROW-aseZBdP1v"", ""meta"": {""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID""], ""type"": ""ROW""}, ""ROW-y62Rf2K3m"": {""children"": [""CHART-tMLHDtzb67""], ""id"": ""ROW-y62Rf2K3m"", ""meta"": {""0"": ""ROOT_ID"", ""background"": ""BACKGROUND_TRANSPARENT""}, ""parents"": [""ROOT_ID"", ""GRID_ID""], ""type"": ""ROW""}}",Slack Dashboard,,false
+11,,,826e1e59-a43f-423e-856a-5e98132c099b,true,2023-03-28T18:25:46.963594,2023-03-28T18:23:40.564485,,,,1,1,"{""show_native_filters"": true, ""color_scheme"": """", ""refresh_frequency"": 0, ""shared_label_colors"": {}, ""color_scheme_domain"": [], ""expanded_slices"": {}, ""label_colors"": {}, ""timed_refresh_immune_slices"": [], ""cross_filters_enabled"": false, ""default_filters"": ""{}"", ""chart_configuration"": {}}","{""DASHBOARD_VERSION_KEY"":""v2"",""GRID_ID"":{""children"":[],""id"":""GRID_ID"",""parents"":[""ROOT_ID""],""type"":""GRID""},""HEADER_ID"":{""id"":""HEADER_ID"",""meta"":{""text"":""test""},""type"":""HEADER""},""ROOT_ID"":{""children"":[""GRID_ID""],""id"":""ROOT_ID"",""type"":""ROOT""}}",test,,false
+12,,,3a5e2453-98c0-4594-9a4f-3068bed2d3eb,true,2023-04-01T21:35:43.475049,2023-04-01T21:26:59.568742,,,,2,2,"{""show_native_filters"": true, ""color_scheme"": """", ""refresh_frequency"": 0, ""shared_label_colors"": {}, ""color_scheme_domain"": [], ""expanded_slices"": {}, ""label_colors"": {}, ""timed_refresh_immune_slices"": [], ""cross_filters_enabled"": false, ""default_filters"": ""{}"", ""chart_configuration"": {}}","{""CHART-n4L8n_ihxv"":{""children"":[],""id"":""CHART-n4L8n_ihxv"",""meta"":{""chartId"":275,""height"":50,""sliceName"":""test.users"",""uuid"":""3617f177-c7eb-47aa-b699-9b3650ca44f2"",""width"":4},""parents"":[""ROOT_ID"",""GRID_ID"",""ROW-BjgZUhUK4w""],""type"":""CHART""},""DASHBOARD_VERSION_KEY"":""v2"",""GRID_ID"":{""children"":[""ROW-BjgZUhUK4w""],""id"":""GRID_ID"",""parents"":[""ROOT_ID""],""type"":""GRID""},""HEADER_ID"":{""id"":""HEADER_ID"",""meta"":{""text"":""[ untitled dashboard ]""},""type"":""HEADER""},""ROOT_ID"":{""children"":[""GRID_ID""],""id"":""ROOT_ID"",""type"":""ROOT""},""ROW-BjgZUhUK4w"":{""children"":[""CHART-n4L8n_ihxv""],""id"":""ROW-BjgZUhUK4w"",""meta"":{""background"":""BACKGROUND_TRANSPARENT""},""parents"":[""ROOT_ID"",""GRID_ID""],""type"":""ROW""}}",[ untitled dashboard ],,false
+13,,,0d0297cb-54ca-4bda-969b-ea2e1dd18688,false,2023-04-01T21:40:05.999350,2023-04-01T21:36:36.509071,,,,2,2,"{""show_native_filters"": true, ""color_scheme"": """", ""refresh_frequency"": 0, ""shared_label_colors"": {}, ""color_scheme_domain"": [], ""expanded_slices"": {}, ""label_colors"": {}, ""timed_refresh_immune_slices"": [], ""cross_filters_enabled"": false, ""default_filters"": ""{}"", ""chart_configuration"": {}}","{""DASHBOARD_VERSION_KEY"":""v2"",""GRID_ID"":{""children"":[],""id"":""GRID_ID"",""parents"":[""ROOT_ID""],""type"":""GRID""},""HEADER_ID"":{""id"":""HEADER_ID"",""meta"":{""text"":""[ untitled test ]""},""type"":""HEADER""},""ROOT_ID"":{""children"":[""GRID_ID""],""id"":""ROOT_ID"",""type"":""ROOT""}}",[ untitled test ],,false

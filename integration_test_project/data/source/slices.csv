@@ -1,0 +1,1241 @@
+id,perm,uuid,params,viz_type,changed_on,created_on,slice_name,description,schema_perm,certified_by,external_url,cache_timeout,changed_by_fk,created_by_fk,datasource_id,last_saved_at,query_context,datasource_name,datasource_type,last_saved_by_fk,certification_details,is_managed_externally
+132,[examples].[users](id:13),62b7242e-decc-2d1b-7f80-c62776939d1e,"{""adhoc_filters"": [], ""align_pn"": false, ""all_columns"": [], ""color_pn"": true, ""datasource"": ""31__table"", ""granularity_sqla"": ""updated"", ""groupby"": [""tz""], ""include_search"": false, ""metrics"": [""count""], ""order_by_cols"": [], ""order_desc"": true, ""page_length"": 0, ""percent_metrics"": [], ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""query_mode"": ""aggregate"", ""row_limit"": 10, ""show_cell_bars"": true, ""slice_id"": 1908, ""table_timestamp_format"": ""smart_date"", ""time_grain_sqla"": ""P1D"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""table""}",table,2023-03-28T12:08:17.340713,2023-02-27T08:27:08.249100,Top Timezones,,[examples].[public],,,,,,13,,"{""datasource"":{""id"":13,""type"":""table""},""force"":false,""queries"":[{""time_range"":""No filter"",""granularity"":""updated"",""filters"":[],""extras"":{""time_grain_sqla"":""P1D"",""having"":"""",""where"":""""},""applied_time_extras"":{},""columns"":[""tz""],""metrics"":[""count""],""orderby"":[[""count"",false]],""annotation_layers"":[],""row_limit"":10,""series_limit"":0,""order_desc"":true,""url_params"":{},""custom_params"":{},""custom_form_data"":{},""post_processing"":[]}],""form_data"":{""adhoc_filters"":[],""align_pn"":false,""all_columns"":[],""color_pn"":true,""datasource"":""13__table"",""granularity_sqla"":""updated"",""groupby"":[""tz""],""include_search"":false,""metrics"":[""count""],""order_by_cols"":[],""order_desc"":true,""page_length"":0,""percent_metrics"":[],""queryFields"":{""groupby"":""groupby"",""metrics"":""metrics""},""query_mode"":""aggregate"",""row_limit"":10,""show_cell_bars"":true,""slice_id"":132,""table_timestamp_format"":""smart_date"",""time_grain_sqla"":""P1D"",""time_range"":""No filter"",""url_params"":{},""viz_type"":""table"",""force"":false,""result_format"":""json"",""result_type"":""full""},""result_format"":""json"",""result_type"":""full""}",users,table,,,false
+272,[examples].[flights](id:6),7f7374ea-895a-48f9-bb5e-1872519cbb49,"{
+    ""color_picker"": {
+        ""a"": 1,
+        ""b"": 135,
+        ""g"": 122,
+        ""r"": 0
+    },
+    ""datasource"": ""10__table"",
+    ""end_spatial"": {
+        ""latCol"": ""LATITUDE_DEST"",
+        ""lonCol"": ""LONGITUDE_DEST"",
+        ""type"": ""latlong""
+    },
+    ""granularity_sqla"": null,
+    ""mapbox_style"": ""mapbox://styles/mapbox/light-v9"",
+    ""row_limit"": 5000,
+    ""slice_id"": 42,
+    ""start_spatial"": {
+        ""latCol"": ""LATITUDE"",
+        ""lonCol"": ""LONGITUDE"",
+        ""type"": ""latlong""
+    },
+    ""stroke_width"": 1,
+    ""time_grain_sqla"": null,
+    ""time_range"": "" : "",
+    ""viewport"": {
+        ""altitude"": 1.5,
+        ""bearing"": 8.546256357301871,
+        ""height"": 642,
+        ""latitude"": 44.596651438714254,
+        ""longitude"": -91.84340711201104,
+        ""maxLatitude"": 85.05113,
+        ""maxPitch"": 60,
+        ""maxZoom"": 20,
+        ""minLatitude"": -85.05113,
+        ""minPitch"": 0,
+        ""minZoom"": 0,
+        ""pitch"": 60,
+        ""width"": 997,
+        ""zoom"": 2.929837070560775
+    },
+    ""viz_type"": ""deck_arc""
+}",deck_arc,2023-03-28T12:07:52.537720,2023-03-28T12:07:52.537686,Deck.gl Arcs,,[examples].[public],,,,,,6,,,,table,,,false
+270,[examples].[long_lat](id:3),0b12228b-66b9-4996-8b34-02182f99265c,"{
+    ""autozoom"": false,
+    ""color_picker"": {
+        ""a"": 1,
+        ""b"": 0,
+        ""g"": 255,
+        ""r"": 14
+    },
+    ""datasource"": ""5__table"",
+    ""extruded"": true,
+    ""granularity_sqla"": null,
+    ""grid_size"": 120,
+    ""groupby"": [],
+    ""mapbox_style"": ""mapbox://styles/mapbox/satellite-streets-v9"",
+    ""point_radius"": ""Auto"",
+    ""point_radius_fixed"": {
+        ""type"": ""fix"",
+        ""value"": 2000
+    },
+    ""point_radius_unit"": ""Pixels"",
+    ""row_limit"": 5000,
+    ""size"": ""count"",
+    ""spatial"": {
+        ""latCol"": ""LAT"",
+        ""lonCol"": ""LON"",
+        ""type"": ""latlong""
+    },
+    ""time_grain_sqla"": null,
+    ""time_range"": ""No filter"",
+    ""viewport"": {
+        ""bearing"": 155.80099696026355,
+        ""latitude"": 37.7942314882596,
+        ""longitude"": -122.42066918995666,
+        ""pitch"": 53.470800300695146,
+        ""zoom"": 12.699690845482069
+    },
+    ""viz_type"": ""deck_grid""
+}",deck_grid,2023-03-28T12:07:52.441332,2023-03-28T12:07:52.441300,Deck.gl Grid,,[examples].[public],,,,,,3,,,,table,,,false
+268,[examples].[long_lat](id:3),4fc77112-affc-4dc6-a8cd-a9d1abc2b616,"{
+    ""color_picker"": {
+        ""a"": 1,
+        ""b"": 0,
+        ""g"": 255,
+        ""r"": 14
+    },
+    ""datasource"": ""5__table"",
+    ""granularity_sqla"": null,
+    ""grid_size"": 20,
+    ""groupby"": [],
+    ""mapbox_style"": ""mapbox://styles/mapbox/dark-v9"",
+    ""point_radius"": ""Auto"",
+    ""point_radius_fixed"": {
+        ""type"": ""fix"",
+        ""value"": 2000
+    },
+    ""point_unit"": ""square_m"",
+    ""row_limit"": 5000,
+    ""size"": ""count"",
+    ""spatial"": {
+        ""latCol"": ""LAT"",
+        ""lonCol"": ""LON"",
+        ""type"": ""latlong""
+    },
+    ""time_grain_sqla"": null,
+    ""time_range"": ""No filter"",
+    ""viewport"": {
+        ""bearing"": -4.952916738791771,
+        ""latitude"": 37.76024135844065,
+        ""longitude"": -122.41827069521386,
+        ""pitch"": 4.750411100577438,
+        ""zoom"": 14.161641703941438
+    },
+    ""viz_type"": ""deck_screengrid""
+}",deck_screengrid,2023-03-28T12:07:52.343686,2023-03-28T12:07:52.343626,Deck.gl Screen grid,,[examples].[public],,,,,,3,,,,table,,,false
+234,[examples].[long_lat](id:3),b24a6974-ba06-45df-9cb5-c1205c2acddf,"{
+    ""all_columns"": [
+        ""occupancy""
+    ],
+    ""all_columns_x"": ""LON"",
+    ""all_columns_y"": ""LAT"",
+    ""granularity_sqla"": ""day"",
+    ""mapbox_style"": ""mapbox://styles/mapbox/light-v9"",
+    ""row_limit"": 500000,
+    ""since"": ""2014-01-01"",
+    ""until"": ""now"",
+    ""viz_type"": ""mapbox""
+}",mapbox,2023-03-28T12:07:42.972002,2023-03-28T12:07:42.971968,Mapbox Long/Lat,,[examples].[public],,,,,,3,,,,table,,,false
+267,[examples].[long_lat](id:3),d4fb51ca-63cb-4d72-b6fc-ded9e1663089,"{
+    ""color_picker"": {
+        ""a"": 0.82,
+        ""b"": 3,
+        ""g"": 0,
+        ""r"": 205
+    },
+    ""datasource"": ""5__table"",
+    ""granularity_sqla"": null,
+    ""groupby"": [],
+    ""mapbox_style"": ""mapbox://styles/mapbox/light-v9"",
+    ""max_radius"": 250,
+    ""min_radius"": 1,
+    ""multiplier"": 10,
+    ""point_radius_fixed"": {
+        ""type"": ""metric"",
+        ""value"": ""count""
+    },
+    ""point_unit"": ""square_m"",
+    ""row_limit"": 5000,
+    ""size"": ""count"",
+    ""spatial"": {
+        ""latCol"": ""LAT"",
+        ""lonCol"": ""LON"",
+        ""type"": ""latlong""
+    },
+    ""time_grain_sqla"": null,
+    ""time_range"": "" : "",
+    ""viewport"": {
+        ""bearing"": -4.952916738791771,
+        ""latitude"": 37.78926922909199,
+        ""longitude"": -122.42613341901688,
+        ""pitch"": 4.750411100577438,
+        ""zoom"": 12.729132798697304
+    },
+    ""viz_type"": ""deck_scatter""
+}",deck_scatter,2023-03-28T12:07:52.288002,2023-03-28T12:07:52.287966,Deck.gl Scatterplot,,[examples].[public],,,,,,3,,,,table,,,false
+111,[examples].[threads](id:12),9f742bdd-cac1-468c-3a37-35c9b3cfd5bb,"{""adhoc_filters"": [], ""color_picker"": {""a"": 1, ""b"": 135, ""g"": 122, ""r"": 0}, ""compare_lag"": 1, ""compare_suffix"": ""WoW"", ""datasource"": ""35__table"", ""granularity_sqla"": ""ts"", ""header_font_size"": 0.4, ""metric"": ""count"", ""queryFields"": {""metric"": ""metrics""}, ""rolling_type"": ""None"", ""show_trend_line"": true, ""start_y_axis_at_zero"": true, ""subheader_font_size"": 0.15, ""time_grain_sqla"": ""P1W"", ""time_range"": ""2020-08-05T00:00:00 : 2020-09-06T00:00:00"", ""time_range_fixed"": false, ""url_params"": {}, ""viz_type"": ""big_number"", ""y_axis_format"": ""SMART_NUMBER""}",big_number,2023-03-28T12:08:16.190320,2023-02-27T08:27:07.826089,Weekly Threads,,[examples].[public],,,,,,12,,,threads,table,,,false
+102,[examples].[messages](id:11),abe2c022-ceee-a60a-e601-ab93f7ee52b1,"{""adhoc_filters"": [], ""color_picker"": {""a"": 1, ""b"": 135, ""g"": 122, ""r"": 0}, ""compare_lag"": 1, ""compare_suffix"": ""WoW"", ""datasource"": ""34__table"", ""granularity_sqla"": ""ts"", ""header_font_size"": 0.4, ""metric"": ""count"", ""queryFields"": {""metric"": ""metrics""}, ""rolling_type"": ""None"", ""show_trend_line"": true, ""slice_id"": 1905, ""start_y_axis_at_zero"": true, ""subheader_font_size"": 0.15, ""time_grain_sqla"": ""P1W"", ""time_range"": ""No filter"", ""time_range_fixed"": false, ""url_params"": {}, ""viz_type"": ""big_number"", ""y_axis_format"": ""SMART_NUMBER""}",big_number,2023-03-28T12:08:15.875040,2023-02-27T08:27:07.653128,Weekly Messages,,[examples].[public],,,,,,11,,,messages,table,,,false
+273,[examples].[bart_lines](id:7),0bd3e99f-11fc-4977-9e52-80f99ef918a6,"{
+    ""color_picker"": {
+        ""a"": 1,
+        ""b"": 135,
+        ""g"": 122,
+        ""r"": 0
+    },
+    ""datasource"": ""12__table"",
+    ""js_columns"": [
+        ""color""
+    ],
+    ""js_data_mutator"": ""data => data.map(d => ({\n    ...d,\n    color: colors.hexToRGB(d.extraProps.color)\n}));"",
+    ""js_onclick_href"": """",
+    ""js_tooltip"": """",
+    ""line_column"": ""path_json"",
+    ""line_type"": ""json"",
+    ""line_width"": 150,
+    ""mapbox_style"": ""mapbox://styles/mapbox/light-v9"",
+    ""reverse_long_lat"": false,
+    ""row_limit"": 5000,
+    ""slice_id"": 43,
+    ""time_grain_sqla"": null,
+    ""time_range"": "" : "",
+    ""viewport"": {
+        ""altitude"": 1.5,
+        ""bearing"": 0,
+        ""height"": 1094,
+        ""latitude"": 37.73671752604488,
+        ""longitude"": -122.18885402582598,
+        ""maxLatitude"": 85.05113,
+        ""maxPitch"": 60,
+        ""maxZoom"": 20,
+        ""minLatitude"": -85.05113,
+        ""minPitch"": 0,
+        ""minZoom"": 0,
+        ""pitch"": 0,
+        ""width"": 669,
+        ""zoom"": 9.51847667620428
+    },
+    ""viz_type"": ""deck_path""
+}",deck_path,2023-03-28T12:07:52.584136,2023-03-28T12:07:52.584097,Deck.gl Path,,[examples].[public],,,,,,7,,,,table,,,false
+255,[examples].[birth_names](id:2),3de4245e-4adb-4864-841a-dbdf82d1bd44,"{
+    ""adhoc_filters"": [
+        {
+            ""clause"": ""WHERE"",
+            ""comparator"": ""girl"",
+            ""expressionType"": ""SIMPLE"",
+            ""operator"": ""=="",
+            ""subject"": ""gender""
+        }
+    ],
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""comparison_type"": ""values"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""name""
+    ],
+    ""limit"": 10,
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num"",
+                ""type"": ""BIGINT""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""Births"",
+            ""optionName"": ""metric_11""
+        }
+    ],
+    ""row_limit"": 50000,
+    ""stacked_style"": ""expand"",
+    ""time_grain_sqla"": ""P1D"",
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""area"",
+    ""x_axis_forma"": ""smart_date""
+}",area,2023-03-28T12:07:51.426809,2023-03-28T12:07:51.426774,Top 10 Girl Name Share,,[examples].[public],,,,,,2,,,,table,,,false
+263,[examples].[birth_names](id:2),d186f0aa-98d8-4174-b35a-7569390aa087,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""name""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num"",
+                ""type"": ""BIGINT""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""Births"",
+            ""optionName"": ""metric_11""
+        }
+    ],
+    ""row_limit"": 50,
+    ""time_range"": ""100 years ago : now"",
+    ""timeseries_limit_metric"": {
+        ""aggregate"": ""SUM"",
+        ""column"": {
+            ""column_name"": ""num_california"",
+            ""expression"": ""CASE WHEN state = 'CA' THEN num ELSE 0 END""
+        },
+        ""expressionType"": ""SIMPLE"",
+        ""label"": ""SUM(num_california)""
+    },
+    ""viz_type"": ""table""
+}",table,2023-03-28T12:07:51.720893,2023-03-28T12:07:51.720858,Names Sorted by Num in California,,[examples].[public],,,,,,2,,,,table,,,false
+250,[examples].[birth_names](id:2),88d5d88d-84e4-4bec-a42f-cf8a71406d57,"{
+    ""adhoc_filters"": [
+        {
+            ""clause"": ""WHERE"",
+            ""comparator"": [
+                ""other""
+            ],
+            ""expressionType"": ""SIMPLE"",
+            ""filterOptionName"": ""2745eae5"",
+            ""operator"": ""NOT IN"",
+            ""subject"": ""state""
+        }
+    ],
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""state""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num_boys"",
+                ""type"": ""BIGINT(20)""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""Boys"",
+            ""optionName"": ""metric_11""
+        },
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num_girls"",
+                ""type"": ""BIGINT(20)""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""Girls"",
+            ""optionName"": ""metric_12""
+        }
+    ],
+    ""row_limit"": 50000,
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""dist_bar""
+}",dist_bar,2023-03-28T12:07:51.231353,2023-03-28T12:07:51.231320,Genders by State,,[examples].[public],,,,,,2,,,,table,,,false
+256,[examples].[birth_names](id:2),f3cbc15d-24d7-445d-bb7d-b266b4cff16f,"{
+    ""adhoc_filters"": [
+        {
+            ""clause"": ""WHERE"",
+            ""comparator"": ""boy"",
+            ""expressionType"": ""SIMPLE"",
+            ""operator"": ""=="",
+            ""subject"": ""gender""
+        }
+    ],
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""comparison_type"": ""values"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""name""
+    ],
+    ""limit"": 10,
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num"",
+                ""type"": ""BIGINT""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""Births"",
+            ""optionName"": ""metric_11""
+        }
+    ],
+    ""row_limit"": 50000,
+    ""stacked_style"": ""expand"",
+    ""time_grain_sqla"": ""P1D"",
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""area"",
+    ""x_axis_forma"": ""smart_date""
+}",area,2023-03-28T12:07:51.462844,2023-03-28T12:07:51.462808,Top 10 Boy Name Share,,[examples].[public],,,,,,2,,,,table,,,false
+258,[examples].[birth_names](id:2),24d064d4-767d-4bc0-b474-3181ad81c734,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metric"": {
+        ""aggregate"": ""AVG"",
+        ""column"": {
+            ""column_name"": ""num"",
+            ""type"": ""BIGINT(20)""
+        },
+        ""expressionType"": ""SIMPLE"",
+        ""label"": ""AVG(num)"",
+        ""optionName"": ""metric_vgops097wej_g8uff99zhk7""
+    },
+    ""metric_2"": ""sum__num"",
+    ""metrics"": [
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num"",
+                ""type"": ""BIGINT""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""Births"",
+            ""optionName"": ""metric_11""
+        }
+    ],
+    ""row_limit"": 50000,
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""dual_line""
+}",dual_line,2023-03-28T12:07:51.531228,2023-03-28T12:07:51.531195,Average and Sum Trends,,[examples].[public],,,,,,2,,,,table,,,false
+265,[examples].[birth_names](id:2),d2f7691c-a426-4b90-b802-73293551b9f6,"{
+    ""columns"": [
+        ""state""
+    ],
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""name""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num"",
+                ""type"": ""BIGINT""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""Births"",
+            ""optionName"": ""metric_11""
+        }
+    ],
+    ""row_limit"": 50000,
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""pivot_table""
+}",pivot_table,2023-03-28T12:07:51.795180,2023-03-28T12:07:51.795138,Pivot Table,,[examples].[public],,,,,,2,,,,table,,,false
+248,[examples].[birth_names](id:2),291325e3-e8a2-4e08-b219-a2cea739c162,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""gender""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metric"": ""sum__num"",
+    ""row_limit"": 50000,
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""pie""
+}",pie,2023-03-28T12:07:51.147647,2023-03-28T12:07:51.147612,Genders,,[examples].[public],,,,,,2,,,,table,,,false
+247,[examples].[birth_names](id:2),bf8291a2-b142-4351-b391-1fe6fb944af5,"{
+    ""compare_lag"": ""5"",
+    ""compare_suffix"": ""over 5Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metric"": ""sum__num"",
+    ""row_limit"": 50000,
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""big_number""
+}",big_number,2023-03-28T12:07:51.104369,2023-03-28T12:07:51.104328,Participants,,[examples].[public],,,,,,2,,,,table,,,false
+254,[examples].[birth_names](id:2),d35d7245-e688-4023-adf2-9cd8248bff9e,"{
+    ""adhoc_filters"": [
+        {
+            ""clause"": ""WHERE"",
+            ""comparator"": ""boy"",
+            ""expressionType"": ""SIMPLE"",
+            ""operator"": ""=="",
+            ""subject"": ""gender""
+        }
+    ],
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [],
+    ""limit"": ""100"",
+    ""markup_type"": ""markdown"",
+    ""metric"": ""sum__num"",
+    ""rotation"": ""square"",
+    ""row_limit"": 50000,
+    ""series"": ""name"",
+    ""size_from"": ""10"",
+    ""size_to"": ""70"",
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""word_cloud""
+}",word_cloud,2023-03-28T12:07:51.383022,2023-03-28T12:07:51.382989,Boy Name Cloud,,[examples].[public],,,,,,2,,,,table,,,false
+260,[examples].[birth_names](id:2),4dc12195-cf18-47ef-a750-ee9905f6d65b,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""ds""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num"",
+                ""type"": ""BIGINT""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""Births"",
+            ""optionName"": ""metric_11""
+        }
+    ],
+    ""row_limit"": 50000,
+    ""time_range"": ""1983 : 2023"",
+    ""viz_type"": ""table""
+}",table,2023-03-28T12:07:51.607579,2023-03-28T12:07:51.607531,Daily Totals,,[examples].[public],,,,,,2,,,,table,,,false
+251,[examples].[birth_names](id:2),075766cd-6c27-4218-9ebe-8fc722f869f1,"{
+    ""adhoc_filters"": [
+        {
+            ""clause"": ""WHERE"",
+            ""comparator"": ""girl"",
+            ""expressionType"": ""SIMPLE"",
+            ""operator"": ""=="",
+            ""subject"": ""gender""
+        }
+    ],
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""name""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        ""sum__num""
+    ],
+    ""row_limit"": 50,
+    ""time_range"": ""100 years ago : now"",
+    ""timeseries_limit_metric"": ""sum__num"",
+    ""viz_type"": ""table""
+}",table,2023-03-28T12:07:51.269798,2023-03-28T12:07:51.269758,Girls,,[examples].[public],,,,,,2,,,,table,,,false
+253,[examples].[birth_names](id:2),09f75dc5-a6b6-4d4e-9941-7fa4895c6d03,"{
+    ""adhoc_filters"": [
+        {
+            ""clause"": ""WHERE"",
+            ""comparator"": ""boy"",
+            ""expressionType"": ""SIMPLE"",
+            ""operator"": ""=="",
+            ""subject"": ""gender""
+        }
+    ],
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""name""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        ""sum__num""
+    ],
+    ""row_limit"": 50,
+    ""time_range"": ""100 years ago : now"",
+    ""timeseries_limit_metric"": ""sum__num"",
+    ""viz_type"": ""table""
+}",table,2023-03-28T12:07:51.345082,2023-03-28T12:07:51.345037,Boys,,[examples].[public],,,,,,2,,,,table,,,false
+125,[examples].[unicode_test](id:9),609e26d8-8e1e-4097-9751-931708e24ee4,"{""granularity_sqla"": ""dttm"", ""groupby"": [], ""limit"": ""100"", ""metric"": {""aggregate"": ""SUM"", ""column"": {""column_name"": ""value""}, ""expressionType"": ""SIMPLE"", ""label"": ""Value""}, ""rotation"": ""square"", ""row_limit"": 50000, ""series"": ""short_phrase"", ""since"": ""100 years ago"", ""size_from"": ""10"", ""size_to"": ""70"", ""until"": ""now"", ""viz_type"": ""word_cloud""}",word_cloud,2023-03-28T12:08:16.893182,2023-02-27T08:27:08.096272,Unicode Cloud,,[examples].[public],,,,,,9,,,unicode_test,table,,,false
+85,[examples].[covid_vaccines](id:15),e2f5a8a7-feb0-4f79-bc6b-01fe55b98b3c,"{""adhoc_filters"": [], ""color_scheme"": ""presetColors"", ""datasource"": ""69__table"", ""groupby"": [""country_name""], ""label_colors"": {}, ""metrics"": [""count""], ""number_format"": ""SMART_NUMBER"", ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""row_limit"": 10000, ""time_range"": ""No filter"", ""treemap_ratio"": 1.618033988749895, ""url_params"": {}, ""viz_type"": ""treemap""}",treemap,2023-03-28T12:08:15.394224,2023-02-27T08:27:07.328967,Vaccine Candidates per Country,,[examples].[public],,,,,,15,,,covid_vaccines,table,,,false
+71,[examples].[covid_vaccines](id:15),30b73c65-85e7-455f-bb24-801bb0cdc670,"{""adhoc_filters"": [], ""color_scheme"": ""supersetColors"", ""datasource"": ""69__table"", ""donut"": true, ""groupby"": [""clinical_stage""], ""innerRadius"": 44, ""label_line"": true, ""labels_outside"": true, ""metric"": ""count"", ""number_format"": ""SMART_NUMBER"", ""outerRadius"": 61, ""label_type"": ""key"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": 10000, ""show_labels"": true, ""show_legend"": false, ""slice_id"": 3957, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""pie""}",pie,2023-03-28T12:08:14.986358,2023-02-27T08:27:07.066179,Vaccine Candidates per Phase,,[examples].[public],,,,,,15,,,covid_vaccines,table,,,false
+87,[examples].[covid_vaccines](id:15),c29381ce-0e99-4cf3-bf0f-5f55d6b94176,"{""adhoc_filters"": [], ""datasource"": ""69__table"", ""date_filter"": false, ""filter_configs"": [{""asc"": true, ""clearable"": true, ""column"": ""country_name"", ""key"": ""D00hRxPLE"", ""label"": ""Country"", ""multiple"": true, ""searchAllOptions"": false}, {""asc"": true, ""clearable"": true, ""column"": ""product_category"", ""key"": ""jJ7x2cuIc"", ""label"": ""Vaccine Approach"", ""multiple"": true, ""searchAllOptions"": false}, {""asc"": true, ""clearable"": true, ""column"": ""clinical_stage"", ""key"": ""EgGwwAUU6"", ""label"": ""Clinical Stage"", ""multiple"": true, ""searchAllOptions"": false}], ""queryFields"": {}, ""slice_id"": 3965, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""filter_box""}",filter_box,2023-03-28T12:08:15.456646,2023-02-27T08:27:07.365592,Filtering Vaccines,,[examples].[public],,,,,,15,,,covid_vaccines,table,,,false
+76,[examples].[covid_vaccines](id:15),392f293e-0892-4316-bd41-c927b65606a4,"{""adhoc_filters"": [], ""bottom_margin"": ""auto"", ""color_scheme"": ""SUPERSET_DEFAULT"", ""columns"": [], ""datasource"": ""14__table"", ""groupby"": [""clinical_stage""], ""label_colors"": {}, ""metrics"": [""count""], ""row_limit"": 10000, ""show_legend"": false, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""dist_bar"", ""x_ticks_layout"": ""auto"", ""y_axis_format"": ""SMART_NUMBER""}",dist_bar,2023-03-28T12:08:15.125476,2023-02-27T08:27:07.162937,Vaccine Candidates per Phase,,[examples].[public],,,,,,15,,,covid_vaccines,table,,,false
+94,[examples].[covid_vaccines](id:15),ddc91df6-fb40-4826-bdca-16b85af1c024,"{""adhoc_filters"": [], ""color_picker"": {""a"": 1, ""b"": 135, ""g"": 122, ""r"": 0}, ""country_fieldtype"": ""name"", ""datasource"": ""14__table"", ""entity"": ""country_name"", ""linear_color_scheme"": ""schemeYlOrBr"", ""max_bubble_size"": ""25"", ""metric"": ""count"", ""row_limit"": 10000, ""secondary_metric"": {""aggregate"": ""COUNT"", ""column"": {""column_name"": ""country_name"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 583, ""is_dttm"": false, ""python_date_format"": null, ""type"": ""TEXT"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""COUNT(Country_Name)"", ""optionName"": ""metric_i8otphezfu_5urmjjs7c1"", ""sqlExpression"": null}, ""show_bubbles"": true, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""world_map""}",world_map,2023-03-28T12:08:15.651830,2023-02-27T08:27:07.498593,Vaccine Candidates per Country,,[examples].[public],,,,,,15,,,covid_vaccines,table,,,false
+101,[examples].[covid_vaccines](id:15),cd111331-d286-4258-9020-c7949a109ed2,"{""adhoc_filters"": [], ""all_columns_x"": ""clinical_stage"", ""all_columns_y"": ""country_name"", ""bottom_margin"": ""auto"", ""canvas_image_rendering"": ""pixelated"", ""datasource"": ""14__table"", ""left_margin"": ""auto"", ""linear_color_scheme"": ""schemeYlOrBr"", ""metric"": ""count"", ""normalize_across"": ""heatmap"", ""row_limit"": 10000, ""show_legend"": true, ""show_perc"": true, ""sort_x_axis"": ""alpha_asc"", ""sort_y_axis"": ""alpha_asc"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""heatmap"", ""xscale_interval"": null, ""y_axis_bounds"": [null, null], ""y_axis_format"": ""SMART_NUMBER"", ""yscale_interval"": null}",heatmap,2023-03-28T12:08:15.841261,2023-02-27T08:27:07.634807,Vaccine Candidates per Country & Stage,,[examples].[public],,,,,,15,,,covid_vaccines,table,,,false
+109,[examples].[FCC 2018 Survey](id:16),02f546ae-1bf4-bd26-8bc2-14b9279c8a62,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""1"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_s1jzmdwgeg_p3er4w56uy"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""is_software_dev""}, {""clause"": ""WHERE"", ""comparator"": ""200000"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_ojzq4njnuog_zj0dux944z"", ""isExtra"": false, ""isNew"": false, ""operator"": ""<="", ""sqlExpression"": null, ""subject"": ""last_yr_income""}], ""color_scheme"": ""supersetColors"", ""columns"": [], ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": [""school_degree""], ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""last_yr_income"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 1589, ""is_dttm"": false, ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""SUM(last_yr_income)"", ""optionName"": ""metric_bgqj8nnvz8k_07w8bbh1bc6q"", ""sqlExpression"": null}], ""number_format"": ""SMART_NUMBER"", ""queryFields"": {""columns"": ""groupby"", ""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""slice_id"": 1376, ""time_grain_sqla"": null, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""box_plot"", ""whiskerOptions"": ""Tukey"", ""x_ticks_layout"": ""45\u00b0""}",box_plot,2023-03-28T12:08:16.107095,2023-02-27T08:27:07.789298,Degrees vs Income,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+97,[examples].[FCC 2018 Survey](id:16),bfe5a8e6-146f-ef59-5e6c-13d519b236a8,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""Currently A Developer"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_fvi0jg9aii_2lekqrhy7qk"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""developer_type""}], ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""header_font_size"": 0.4, ""metric"": {""aggregate"": ""COUNT"", ""column"": {""column_name"": ""is_software_dev"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 1463, ""is_dttm"": false, ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""COUNT(is_software_dev)"", ""optionName"": ""metric_9i1kctig9yr_sizo6ihd2o"", ""sqlExpression"": null}, ""queryFields"": {""metric"": ""metrics""}, ""slice_id"": 1361, ""subheader_font_size"": 0.15, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""big_number_total"", ""y_axis_format"": ""SMART_NUMBER""}",big_number_total,2023-03-28T12:08:15.732926,2023-02-27T08:27:07.555153,Current Developers: Is this your first development job?,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+113,[examples].[FCC 2018 Survey](id:16),a2ec5256-94b4-43c4-b8c7-b83f70c5d4df,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""Currently A Developer"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_fvi0jg9aii_2lekqrhy7qk"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""developer_type""}, {""clause"": ""WHERE"", ""comparator"": ""100000"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_khdc3iypzjg_3g6h02b4f2p"", ""isExtra"": false, ""isNew"": false, ""operator"": ""<="", ""sqlExpression"": null, ""subject"": ""last_yr_income""}], ""all_columns_x"": [""last_yr_income""], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": [], ""label_colors"": {}, ""link_length"": ""10"", ""queryFields"": {""groupby"": ""groupby""}, ""row_limit"": null, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""histogram""}",histogram,2023-03-28T12:08:16.265207,2023-02-27T08:27:07.865416,Last Year Income Distribution,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+107,[examples].[FCC 2018 Survey](id:16),2ba66056-a756-d6a3-aaec-0c243fb7062e,"{""adhoc_filters"": [], ""color_picker"": {""a"": 1, ""b"": 135, ""g"": 122, ""r"": 0}, ""country_fieldtype"": ""name"", ""datasource"": ""42__table"", ""entity"": ""country_citizen"", ""granularity_sqla"": ""time_start"", ""linear_color_scheme"": ""preset_div_1"", ""max_bubble_size"": ""25"", ""metric"": ""count"", ""queryFields"": {""entity"": ""groupby"", ""metric"": ""metrics"", ""secondary_metric"": ""metrics""}, ""row_limit"": null, ""secondary_metric"": {""aggregate"": ""COUNT"", ""column"": {""column_name"": ""country_live"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 1570, ""is_dttm"": false, ""python_date_format"": null, ""type"": ""TEXT"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""COUNT(country_live)"", ""optionName"": ""metric_azxwoyei39f_d7xgzshjnw6"", ""sqlExpression"": null}, ""show_bubbles"": true, ""slice_id"": 1388, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""world_map""}",world_map,2023-03-28T12:08:16.042945,2023-02-27T08:27:07.750623,Country of Citizenship,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+121,[examples].[FCC 2018 Survey](id:16),cb8998ab-9f93-4f0f-4e4b-3bfe4b0dea9d,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""0"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_v65f0j14bk_35oi0g94srk"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""is_software_dev""}, {""clause"": ""WHERE"", ""comparator"": ""NULL"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_qb5ionb8wcq_ki4aimey4do"", ""isExtra"": false, ""isNew"": false, ""operator"": ""!="", ""sqlExpression"": null, ""subject"": ""school_degree""}, {""clause"": ""WHERE"", ""comparator"": ""NULL"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_3n0z71frg5c_xqnl179to7"", ""isExtra"": false, ""isNew"": false, ""operator"": ""!="", ""sqlExpression"": null, ""subject"": ""job_pref""}], ""all_columns_x"": ""job_pref"", ""all_columns_y"": ""school_degree"", ""bottom_margin"": ""auto"", ""canvas_image_rendering"": ""pixelated"", ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""left_margin"": ""auto"", ""linear_color_scheme"": ""blue_white_yellow"", ""metric"": ""count"", ""normalize_across"": ""heatmap"", ""queryFields"": {""metric"": ""metrics""}, ""row_limit"": null, ""show_legend"": true, ""show_perc"": true, ""slice_id"": 1367, ""sort_x_axis"": ""alpha_asc"", ""sort_y_axis"": ""alpha_asc"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""heatmap"", ""xscale_interval"": null, ""y_axis_bounds"": [null, null], ""y_axis_format"": ""SMART_NUMBER"", ""yscale_interval"": null}",heatmap,2023-03-28T12:08:16.690327,2023-02-27T08:27:08.020108,How do you prefer to work?,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+105,[examples].[FCC 2018 Survey](id:16),5f1ea868-604e-f69d-a241-5daa83ff33be,"{""adhoc_filters"": [], ""all_columns_x"": [""age""], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": null, ""label_colors"": {}, ""link_length"": ""25"", ""queryFields"": {""groupby"": ""groupby""}, ""row_limit"": 10000, ""slice_id"": 1380, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""histogram"", ""x_axis_label"": ""age"", ""y_axis_label"": ""count""}",histogram,2023-03-28T12:08:15.975162,2023-02-27T08:27:07.710416,Age distribution of respondents,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+103,[examples].[FCC 2018 Survey](id:16),097c05c9-2dd2-481d-813d-d6c0c12b4a3d,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""Currently A Developer"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_fvi0jg9aii_2lekqrhy7qk"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""developer_type""}, {""clause"": ""WHERE"", ""comparator"": ""NULL"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_r5execgs1q8_hbav07lele"", ""isExtra"": false, ""isNew"": false, ""operator"": ""!="", ""sqlExpression"": null, ""subject"": ""communite_time""}], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": [""communite_time""], ""label_colors"": {}, ""metrics"": [""count""], ""number_format"": ""SMART_NUMBER"", ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""row_limit"": null, ""time_range"": ""No filter"", ""treemap_ratio"": 1.618033988749895, ""url_params"": {}, ""viz_type"": ""treemap""}",treemap,2023-03-28T12:08:15.908835,2023-02-27T08:27:07.672390,Commute Time,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+75,[examples].[FCC 2018 Survey](id:16),0f6b447c-828c-e71c-87ac-211bc412b214,"{""adhoc_filters"": [], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""donut"": true, ""granularity_sqla"": ""time_start"", ""groupby"": [""gender""], ""innerRadius"": 44, ""label_line"": true, ""labels_outside"": true, ""metric"": ""count"", ""number_format"": ""SMART_NUMBER"", ""outerRadius"": 69, ""label_type"": ""key"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": 10000, ""show_labels"": true, ""show_legend"": false, ""slice_id"": 1385, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""pie""}",pie,2023-03-28T12:08:15.096828,2023-02-27T08:27:07.143663,Gender,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+108,[examples].[FCC 2018 Survey](id:16),6d0ceb30-2008-d19c-d285-cf77dc764433,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""Aspiring Developer"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_dfz5l631lx_lb7f2rlmjdl"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""developer_type""}, {""clause"": ""WHERE"", ""comparator"": ""200000"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_6nmi4fk837u_6lvcpn3zzvf"", ""isExtra"": false, ""isNew"": false, ""operator"": ""<="", ""sqlExpression"": null, ""subject"": ""expected_earn""}], ""all_columns_x"": [""expected_earn""], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": null, ""label_colors"": {""0"": ""#FCC700"", ""1"": ""#A868B7"", ""15"": ""#3CCCCB"", ""30"": ""#A38F79"", ""45"": ""#8FD3E4"", ""<NULL>"": ""#5AC189"", ""Female"": ""#454E7C"", ""From Home"": ""#1FA8C9"", ""I"": ""#FEC0A1"", ""In an Office (with Other Developers)"": ""#9EE5E5"", ""Less"": ""#ACE1C4"", ""Male"": ""#666666"", ""More"": ""#A1A6BD"", ""No"": ""#666666"", ""No Answer"": ""#D3B3DA"", ""No Preference"": ""#D1C6BC"", ""No,"": ""#FF7F44"", ""No, not an ethnic minority"": ""#1FA8C9"", ""No: Not Willing to"": ""#FDE380"", ""Ph.D."": ""#FCC700"", ""Prefer"": ""#5AC189"", ""Prefer not to say"": ""#E04355"", ""Yes"": ""#FF7F44"", ""Yes,"": ""#1FA8C9"", ""Yes, an ethnic minority"": ""#454E7C"", ""Yes: Willing To"": ""#EFA1AA"", ""age"": ""#1FA8C9"", ""associate's degree"": ""#A868B7"", ""bachelor's degree"": ""#3CCCCB"", ""expected_earn"": ""#B2B2B2"", ""high school diploma or equivalent (GED)"": ""#A38F79"", ""last_yr_income"": ""#E04355"", ""master's degree (non-professional)"": ""#8FD3E4"", ""no high school (secondary school)"": ""#A1A6BD"", ""professional degree (MBA, MD, JD, etc.)"": ""#ACE1C4"", ""some college credit, no degree"": ""#FEC0A1"", ""some high school"": ""#B2B2B2"", ""trade, technical, or vocational training"": ""#EFA1AA""}, ""link_length"": ""10"", ""queryFields"": {""groupby"": ""groupby""}, ""row_limit"": null, ""slice_id"": 1366, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""histogram""}",histogram,2023-03-28T12:08:16.075362,2023-02-27T08:27:07.769870,How much do you expect to earn? ($0 - 100k),,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+72,[examples].[FCC 2018 Survey](id:16),03a74c97-52fc-cf87-233c-d4275f8c550c,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""NULL"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_ameaka2efjv_rfv1et5nwng"", ""isExtra"": false, ""isNew"": false, ""operator"": ""!="", ""sqlExpression"": null, ""subject"": ""lang_at_home""}], ""all_columns"": [], ""color_pn"": true, ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": [""lang_at_home""], ""metrics"": [""count""], ""order_by_cols"": [], ""order_desc"": true, ""percent_metrics"": [], ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""query_mode"": ""aggregate"", ""row_limit"": ""15"", ""show_cell_bars"": true, ""slice_id"": 1386, ""table_timestamp_format"": ""smart_date"", ""time_grain_sqla"": ""P1D"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""table""}",table,2023-03-28T12:08:15.013809,2023-02-27T08:27:07.086908,Top 15 Languages Spoken at Home,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+114,[examples].[FCC 2018 Survey](id:16),a6dd2d5a-2cdc-c8ec-f30c-85920f4f8a65,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""0"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_yccan09xctb_wjwt23qhknf"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""is_software_dev""}], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""donut"": true, ""granularity_sqla"": ""time_start"", ""groupby"": [""willing_to_relocate""], ""innerRadius"": 44, ""labels_outside"": true, ""metric"": ""count"", ""number_format"": ""SMART_NUMBER"", ""outerRadius"": 69, ""label_type"": ""key"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": null, ""show_labels"": true, ""show_legend"": false, ""slice_id"": 1365, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""pie""}",pie,2023-04-01T20:55:15.389534,2023-02-27T08:27:07.884587,✈️ Relocation ability,,[examples].[public],,,,1,,16,,"{""datasource"":{""id"":16,""type"":""table""},""force"":false,""queries"":[{""time_range"":""No filter"",""granularity"":""time_start"",""filters"":[{""col"":""is_software_dev"",""op"":""=="",""val"":""0""}],""extras"":{""having"":"""",""where"":""""},""applied_time_extras"":{},""columns"":[""willing_to_relocate""],""metrics"":[""count""],""annotation_layers"":[],""series_limit"":0,""order_desc"":true,""url_params"":{},""custom_params"":{},""custom_form_data"":{}}],""form_data"":{""adhoc_filters"":[{""clause"":""WHERE"",""comparator"":""0"",""expressionType"":""SIMPLE"",""filterOptionName"":""filter_yccan09xctb_wjwt23qhknf"",""isExtra"":false,""isNew"":false,""operator"":""=="",""sqlExpression"":null,""subject"":""is_software_dev""}],""color_scheme"":""supersetColors"",""datasource"":""16__table"",""donut"":true,""granularity_sqla"":""time_start"",""groupby"":[""willing_to_relocate""],""innerRadius"":44,""label_type"":""key"",""labels_outside"":true,""metric"":""count"",""number_format"":""SMART_NUMBER"",""outerRadius"":69,""queryFields"":{""groupby"":""groupby"",""metric"":""metrics""},""row_limit"":null,""show_labels"":true,""show_legend"":false,""slice_id"":114,""time_range"":""No filter"",""url_params"":{},""viz_type"":""pie"",""force"":false,""result_format"":""json"",""result_type"":""full""},""result_format"":""json"",""result_type"":""full""}",FCC 2018 Survey,table,,,false
+82,[examples].[FCC 2018 Survey](id:16),9f7d2b9c-6b3a-69f9-f03e-d3a141514639,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""0"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_qzz67uip1ue_jw3rr6tzo3a"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""is_software_dev""}], ""all_columns"": [], ""color_pn"": true, ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": [""school_degree""], ""metrics"": [""count""], ""order_by_cols"": [], ""order_desc"": true, ""percent_metrics"": [{""aggregate"": ""COUNT"", ""column"": {""column_name"": ""school_degree"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 1574, ""is_dttm"": false, ""python_date_format"": null, ""type"": ""TEXT"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""COUNT(school_degree)"", ""optionName"": ""metric_vsilrouxw3q_iactbbmvdv"", ""sqlExpression"": null}], ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""query_mode"": ""aggregate"", ""row_limit"": null, ""show_cell_bars"": true, ""slice_id"": 1369, ""table_timestamp_format"": ""smart_date"", ""time_grain_sqla"": ""P1D"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""table""}",table,2023-03-28T12:08:15.305199,2023-02-27T08:27:07.273783,Highest degree held,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+124,[examples].[FCC 2018 Survey](id:16),6420629a-ce74-2c6b-ef7d-b2e78baa3cfe,"{""adhoc_filters"": [], ""datasource"": ""42__table"", ""date_filter"": false, ""filter_configs"": [{""asc"": true, ""clearable"": true, ""column"": ""ethnic_minority"", ""key"": ""-xNBqpfQo"", ""label"": ""Ethnic Minority"", ""multiple"": true, ""searchAllOptions"": false}, {""asc"": true, ""clearable"": true, ""column"": ""gender"", ""key"": ""19VeBGTKf"", ""label"": ""Gender"", ""multiple"": true, ""searchAllOptions"": false}, {""asc"": true, ""clearable"": true, ""column"": ""developer_type"", ""key"": ""OWTb4s69T"", ""label"": ""Developer Type"", ""multiple"": true, ""searchAllOptions"": false}, {""asc"": true, ""clearable"": true, ""column"": ""lang_at_home"", ""key"": ""Fn-YClyhb"", ""label"": ""Language at Home"", ""multiple"": true, ""searchAllOptions"": false}, {""asc"": true, ""clearable"": true, ""column"": ""country_live"", ""key"": ""2fNskRCLJ"", ""label"": ""Country live"", ""multiple"": true, ""searchAllOptions"": false}], ""granularity_sqla"": ""time_start"", ""queryFields"": {}, ""slice_id"": 1387, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""filter_box""}",filter_box,2023-03-28T12:08:16.835144,2023-02-27T08:27:08.078372,Filter Segments,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+73,[examples].[FCC 2018 Survey](id:16),edc75073-8f33-4123-a28d-cd6dfb33cade,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""Currently A Developer"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_fvi0jg9aii_2lekqrhy7qk"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""developer_type""}], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""donut"": true, ""granularity_sqla"": ""time_start"", ""groupby"": [""first_time_developer""], ""innerRadius"": 43, ""labels_outside"": true, ""metric"": ""count"", ""number_format"": ""SMART_NUMBER"", ""outerRadius"": 69, ""label_type"": ""key"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": null, ""show_labels"": true, ""show_legend"": false, ""slice_id"": 3632, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""pie""}",pie,2023-03-28T12:08:15.041370,2023-02-27T08:27:07.106596,First Time Developer?,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+90,[examples].[FCC 2018 Survey](id:16),b8386be8-f44e-6535-378c-2aa2ba461286,"{""adhoc_filters"": [], ""all_columns"": [], ""color_pn"": true, ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": [""developer_type""], ""metrics"": [""count""], ""order_by_cols"": [], ""order_desc"": true, ""percent_metrics"": [], ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""query_mode"": ""aggregate"", ""row_limit"": 10000, ""show_cell_bars"": true, ""slice_id"": 1384, ""table_timestamp_format"": ""smart_date"", ""time_grain_sqla"": ""P1D"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""table""}",table,2023-03-28T12:08:15.541455,2023-02-27T08:27:07.424252,Breakdown of Developer Type,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+112,[examples].[FCC 2018 Survey](id:16),e6b09c28-98cf-785f-4caf-320fd4fca802,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""0"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_qzz67uip1ue_jw3rr6tzo3a"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""is_software_dev""}], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""donut"": true, ""granularity_sqla"": ""time_start"", ""groupby"": [""job_location_preference""], ""innerRadius"": 44, ""labels_outside"": true, ""metric"": ""count"", ""number_format"": ""SMART_NUMBER"", ""outerRadius"": 69, ""label_type"": ""key"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": null, ""show_labels"": true, ""show_legend"": false, ""slice_id"": 1370, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""pie""}",pie,2023-03-28T12:08:16.228418,2023-02-27T08:27:07.845709,Work Location Preference,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+115,[examples].[video_game_sales](id:21),0f8976aa-7bb4-40c7-860b-64445a51aaaf,"{""adhoc_filters"": [], ""annotation_layers"": [], ""bottom_margin"": ""auto"", ""color_scheme"": ""supersetColors"", ""comparison_type"": ""values"", ""contribution"": false, ""datasource"": ""21__table"", ""granularity_sqla"": ""year"", ""groupby"": [""genre""], ""label_colors"": {""0"": ""#1FA8C9"", ""1"": ""#454E7C"", ""2600"": ""#666666"", ""3DO"": ""#B2B2B2"", ""3DS"": ""#D1C6BC"", ""Action"": ""#1FA8C9"", ""Adventure"": ""#454E7C"", ""DC"": ""#A38F79"", ""DS"": ""#8FD3E4"", ""Europe"": ""#5AC189"", ""Fighting"": ""#5AC189"", ""GB"": ""#FDE380"", ""GBA"": ""#ACE1C4"", ""GC"": ""#5AC189"", ""GEN"": ""#3CCCCB"", ""GG"": ""#EFA1AA"", ""Japan"": ""#FF7F44"", ""Microsoft Game Studios"": ""#D1C6BC"", ""Misc"": ""#FF7F44"", ""N64"": ""#1FA8C9"", ""NES"": ""#9EE5E5"", ""NG"": ""#A1A6BD"", ""Nintendo"": ""#D3B3DA"", ""North America"": ""#666666"", ""Other"": ""#E04355"", ""PC"": ""#EFA1AA"", ""PCFX"": ""#FDE380"", ""PS"": ""#A1A6BD"", ""PS2"": ""#FCC700"", ""PS3"": ""#3CCCCB"", ""PS4"": ""#B2B2B2"", ""PSP"": ""#FEC0A1"", ""PSV"": ""#FCC700"", ""Platform"": ""#666666"", ""Puzzle"": ""#E04355"", ""Racing"": ""#FCC700"", ""Role-Playing"": ""#A868B7"", ""SAT"": ""#A868B7"", ""SCD"": ""#8FD3E4"", ""SNES"": ""#454E7C"", ""Shooter"": ""#3CCCCB"", ""Simulation"": ""#A38F79"", ""Sports"": ""#8FD3E4"", ""Strategy"": ""#A1A6BD"", ""TG16"": ""#FEC0A1"", ""Take-Two Interactive"": ""#9EE5E5"", ""WS"": ""#ACE1C4"", ""Wii"": ""#A38F79"", ""WiiU"": ""#E04355"", ""X360"": ""#A868B7"", ""XB"": ""#D3B3DA"", ""XOne"": ""#FF7F44""}, ""left_margin"": ""auto"", ""line_interpolation"": ""linear"", ""metrics"": [""count""], ""order_desc"": true, ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""rich_tooltip"": true, ""rolling_type"": ""None"", ""row_limit"": null, ""show_brush"": ""auto"", ""show_legend"": true, ""show_markers"": false, ""slice_id"": 3544, ""time_grain_sqla"": null, ""time_range"": ""No filter"", ""url_params"": {""preselect_filters"": ""{\""1389\"": {\""platform\"": [\""PS\"", \""PS2\"", \""PS3\"", \""PS4\""], \""genre\"": null, \""__time_range\"": \""No filter\""}}""}, ""viz_type"": ""line"", ""x_axis_format"": ""smart_date"", ""x_axis_label"": ""Year Published"", ""x_axis_showminmax"": true, ""x_ticks_layout"": ""auto"", ""y_axis_bounds"": [null, null], ""y_axis_format"": ""SMART_NUMBER"", ""y_axis_label"": ""# of Games Published"", ""y_axis_showminmax"": true}",line,2023-03-28T12:08:16.389768,2023-02-27T08:27:07.905218,Games per Genre over time,,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+128,[examples].[video_game_sales](id:21),83b0e2d0-d38b-d980-ed8e-e1c9846361b6,"{""adhoc_filters"": [], ""annotation_layers"": [], ""bottom_margin"": ""auto"", ""color_scheme"": ""supersetColors"", ""comparison_type"": ""values"", ""contribution"": false, ""datasource"": ""21__table"", ""granularity_sqla"": ""year"", ""groupby"": [""platform""], ""label_colors"": {""0"": ""#1FA8C9"", ""1"": ""#454E7C"", ""2600"": ""#666666"", ""3DO"": ""#B2B2B2"", ""3DS"": ""#D1C6BC"", ""Action"": ""#1FA8C9"", ""Adventure"": ""#454E7C"", ""DC"": ""#A38F79"", ""DS"": ""#8FD3E4"", ""Europe"": ""#5AC189"", ""Fighting"": ""#5AC189"", ""GB"": ""#FDE380"", ""GBA"": ""#ACE1C4"", ""GC"": ""#5AC189"", ""GEN"": ""#3CCCCB"", ""GG"": ""#EFA1AA"", ""Japan"": ""#FF7F44"", ""Microsoft Game Studios"": ""#D1C6BC"", ""Misc"": ""#FF7F44"", ""N64"": ""#1FA8C9"", ""NES"": ""#9EE5E5"", ""NG"": ""#A1A6BD"", ""Nintendo"": ""#D3B3DA"", ""North America"": ""#666666"", ""Other"": ""#E04355"", ""PC"": ""#EFA1AA"", ""PCFX"": ""#FDE380"", ""PS"": ""#A1A6BD"", ""PS2"": ""#FCC700"", ""PS3"": ""#3CCCCB"", ""PS4"": ""#B2B2B2"", ""PSP"": ""#FEC0A1"", ""PSV"": ""#FCC700"", ""Platform"": ""#666666"", ""Puzzle"": ""#E04355"", ""Racing"": ""#FCC700"", ""Role-Playing"": ""#A868B7"", ""SAT"": ""#A868B7"", ""SCD"": ""#8FD3E4"", ""SNES"": ""#454E7C"", ""Shooter"": ""#3CCCCB"", ""Simulation"": ""#A38F79"", ""Sports"": ""#8FD3E4"", ""Strategy"": ""#A1A6BD"", ""TG16"": ""#FEC0A1"", ""Take-Two Interactive"": ""#9EE5E5"", ""WS"": ""#ACE1C4"", ""Wii"": ""#A38F79"", ""WiiU"": ""#E04355"", ""X360"": ""#A868B7"", ""XB"": ""#D3B3DA"", ""XOne"": ""#FF7F44""}, ""line_interpolation"": ""linear"", ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""global_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 887, ""is_dttm"": false, ""optionName"": ""_col_Global_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""SUM(Global_Sales)"", ""optionName"": ""metric_ufl75addr8c_oqqhdumirpn"", ""sqlExpression"": null}], ""order_desc"": true, ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""rich_tooltip"": true, ""rolling_type"": ""None"", ""row_limit"": null, ""show_brush"": ""auto"", ""show_legend"": false, ""slice_id"": 659, ""stacked_style"": ""stream"", ""time_grain_sqla"": null, ""time_range"": ""No filter"", ""url_params"": {""preselect_filters"": ""{\""1389\"": {\""platform\"": [\""PS\"", \""PS2\"", \""PS3\"", \""PS4\""], \""genre\"": null, \""__time_range\"": \""No filter\""}}""}, ""viz_type"": ""area"", ""x_axis_format"": ""smart_date"", ""x_axis_label"": ""Year Published"", ""x_axis_showminmax"": true, ""x_ticks_layout"": ""auto"", ""y_axis_bounds"": [null, null], ""y_axis_format"": ""SMART_NUMBER""}",area,2023-03-28T12:08:17.072990,2023-02-27T08:27:08.156466,Rise & Fall of Video Game Consoles,,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+79,[examples].[video_game_sales](id:21),a40879d5-653a-42fe-9314-bbe88ad26e92,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""10"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_juemdnqji5_d6fm8tuf4rc"", ""isExtra"": false, ""isNew"": false, ""operator"": ""<="", ""sqlExpression"": null, ""subject"": ""rank""}], ""bar_stacked"": true, ""bottom_margin"": ""auto"", ""color_scheme"": ""supersetColors"", ""columns"": [], ""contribution"": true, ""datasource"": ""21__table"", ""granularity_sqla"": ""year"", ""groupby"": [""name""], ""label_colors"": {}, ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""na_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 883, ""is_dttm"": false, ""optionName"": ""_col_NA_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": true, ""isNew"": false, ""label"": ""North America"", ""optionName"": ""metric_a943v7wg5g_0mm03hrsmpf"", ""sqlExpression"": null}, {""aggregate"": ""SUM"", ""column"": {""column_name"": ""eu_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 884, ""is_dttm"": false, ""optionName"": ""_col_EU_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": true, ""isNew"": false, ""label"": ""Europe"", ""optionName"": ""metric_bibau54x0rb_dwrjtqkbyso"", ""sqlExpression"": null}, {""aggregate"": ""SUM"", ""column"": {""column_name"": ""jp_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 885, ""is_dttm"": false, ""optionName"": ""_col_JP_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": true, ""isNew"": false, ""label"": ""Japan"", ""optionName"": ""metric_06whpr2oyhw_4l88xxu6zvd"", ""sqlExpression"": null}, {""aggregate"": ""SUM"", ""column"": {""column_name"": ""other_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 886, ""is_dttm"": false, ""optionName"": ""_col_Other_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": true, ""isNew"": false, ""label"": ""Other"", ""optionName"": ""metric_pcx05ioxums_ibr16zvi74"", ""sqlExpression"": null}], ""queryFields"": {""columns"": ""groupby"", ""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""row_limit"": null, ""show_legend"": true, ""slice_id"": 3546, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""dist_bar"", ""x_ticks_layout"": ""staggered"", ""y_axis_format"": ""SMART_NUMBER""}",dist_bar,2023-03-28T12:08:15.213578,2023-02-27T08:27:07.217944,Top 10 Games: Proportion of Sales in Markets,,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+91,[examples].[video_game_sales](id:21),fd9ce7ec-ae08-4f71-93e0-7c26b132b2e6,"{""adhoc_filters"": [], ""datasource"": ""21__table"", ""date_filter"": true, ""filter_configs"": [{""asc"": true, ""clearable"": true, ""column"": ""platform"", ""key"": ""s3ItH9vhG"", ""label"": ""Platform"", ""multiple"": true, ""searchAllOptions"": false}, {""asc"": true, ""clearable"": true, ""column"": ""genre"", ""key"": ""202hDeMsG"", ""label"": ""Genre"", ""multiple"": true, ""searchAllOptions"": false}, {""asc"": true, ""clearable"": true, ""column"": ""publisher"", ""key"": ""5Os6jsJFK"", ""label"": ""Publisher"", ""multiple"": true, ""searchAllOptions"": false}], ""granularity_sqla"": ""Year"", ""queryFields"": {}, ""time_range"": ""No filter"", ""url_params"": {""preselect_filters"": ""{\""1389\"": {\""platform\"": [\""PS\"", \""PS2\"", \""PS3\"", \""PS4\""], \""genre\"": null, \""__time_range\"": \""No filter\""}}""}, ""viz_type"": ""filter_box""}",filter_box,2023-03-28T12:08:15.568197,2023-02-27T08:27:07.443333,Video Game Sales filter,,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+89,[examples].[video_game_sales](id:21),1810975a-f6d4-07c3-495c-c3b535d01f21,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""25"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_znxs4o61aod_n5blgxo29r"", ""isExtra"": false, ""isNew"": false, ""operator"": ""<="", ""sqlExpression"": null, ""subject"": ""rank""}], ""color_scheme"": ""supersetColors"", ""datasource"": ""21__table"", ""donut"": true, ""granularity_sqla"": ""year"", ""groupby"": [""publisher""], ""innerRadius"": 45, ""label_line"": true, ""labels_outside"": true, ""metric"": {""aggregate"": ""SUM"", ""column"": {""column_name"": ""global_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 887, ""is_dttm"": false, ""optionName"": ""_col_Global_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""SUM(Global_Sales)"", ""optionName"": ""metric_k2rqz0zqhkf_49hu4kq9h3u"", ""sqlExpression"": null}, ""number_format"": ""SMART_NUMBER"", ""outerRadius"": 67, ""label_type"": ""key"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": null, ""show_labels"": true, ""show_legend"": false, ""slice_id"": 658, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""pie""}",pie,2023-03-28T12:08:15.513343,2023-02-27T08:27:07.405003,Most Dominant Platforms,,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+95,[examples].[video_game_sales](id:21),2a5e562b-ab37-1b9b-1de3-1be4335c8e83,"{""adhoc_filters"": [], ""all_columns"": [""name"", ""global_sales"", ""platform"", ""genre"", ""publisher"", ""year""], ""color_pn"": false, ""datasource"": ""21__table"", ""granularity_sqla"": ""year"", ""groupby"": [""name""], ""include_search"": true, ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""global_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 887, ""is_dttm"": false, ""optionName"": ""_col_Global_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""SUM(Global_Sales)"", ""optionName"": ""metric_pkpvgdsf70d_pnqv77v0x2p"", ""sqlExpression"": null}], ""order_by_cols"": [""[\""global_sales\"", false]""], ""order_desc"": true, ""page_length"": ""15"", ""percent_metrics"": [], ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""query_mode"": ""raw"", ""row_limit"": null, ""show_cell_bars"": false, ""slice_id"": 1394, ""table_filter"": false, ""table_timestamp_format"": ""smart_date"", ""time_grain_sqla"": ""P1D"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""table""}",table,2023-03-28T12:08:15.678574,2023-02-27T08:27:07.516735,Games,,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+104,[examples].[video_game_sales](id:21),d8bf948e-46fd-4380-9f9c-a950c34bcc92,"{""adhoc_filters"": [], ""bar_stacked"": true, ""bottom_margin"": ""auto"", ""color_scheme"": ""supersetColors"", ""columns"": [], ""contribution"": false, ""datasource"": ""21__table"", ""granularity_sqla"": ""year"", ""groupby"": [""genre""], ""label_colors"": {""0"": ""#1FA8C9"", ""1"": ""#454E7C"", ""2600"": ""#666666"", ""3DO"": ""#B2B2B2"", ""3DS"": ""#D1C6BC"", ""Action"": ""#1FA8C9"", ""Adventure"": ""#454E7C"", ""DC"": ""#A38F79"", ""DS"": ""#8FD3E4"", ""Europe"": ""#5AC189"", ""Fighting"": ""#5AC189"", ""GB"": ""#FDE380"", ""GBA"": ""#ACE1C4"", ""GC"": ""#5AC189"", ""GEN"": ""#3CCCCB"", ""GG"": ""#EFA1AA"", ""Japan"": ""#FF7F44"", ""Microsoft Game Studios"": ""#D1C6BC"", ""Misc"": ""#FF7F44"", ""N64"": ""#1FA8C9"", ""NES"": ""#9EE5E5"", ""NG"": ""#A1A6BD"", ""Nintendo"": ""#D3B3DA"", ""North America"": ""#666666"", ""Other"": ""#E04355"", ""PC"": ""#EFA1AA"", ""PCFX"": ""#FDE380"", ""PS"": ""#A1A6BD"", ""PS2"": ""#FCC700"", ""PS3"": ""#3CCCCB"", ""PS4"": ""#B2B2B2"", ""PSP"": ""#FEC0A1"", ""PSV"": ""#FCC700"", ""Platform"": ""#666666"", ""Puzzle"": ""#E04355"", ""Racing"": ""#FCC700"", ""Role-Playing"": ""#A868B7"", ""SAT"": ""#A868B7"", ""SCD"": ""#8FD3E4"", ""SNES"": ""#454E7C"", ""Shooter"": ""#3CCCCB"", ""Simulation"": ""#A38F79"", ""Sports"": ""#8FD3E4"", ""Strategy"": ""#A1A6BD"", ""TG16"": ""#FEC0A1"", ""Take-Two Interactive"": ""#9EE5E5"", ""WS"": ""#ACE1C4"", ""Wii"": ""#A38F79"", ""WiiU"": ""#E04355"", ""X360"": ""#A868B7"", ""XB"": ""#D3B3DA"", ""XOne"": ""#FF7F44""}, ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""na_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 883, ""is_dttm"": false, ""optionName"": ""_col_NA_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": true, ""isNew"": false, ""label"": ""North America"", ""optionName"": ""metric_3pl6jwmyd72_p9o4j2xxgyp"", ""sqlExpression"": null}, {""aggregate"": ""SUM"", ""column"": {""column_name"": ""eu_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 884, ""is_dttm"": false, ""optionName"": ""_col_EU_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": true, ""isNew"": false, ""label"": ""Europe"", ""optionName"": ""metric_e8rdyfxxjdu_6dgyhf7xcne"", ""sqlExpression"": null}, {""aggregate"": ""SUM"", ""column"": {""column_name"": ""jp_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 885, ""is_dttm"": false, ""optionName"": ""_col_JP_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": true, ""isNew"": false, ""label"": ""Japan"", ""optionName"": ""metric_6gesefugzy6_517l3wowdwu"", ""sqlExpression"": null}, {""aggregate"": ""SUM"", ""column"": {""column_name"": ""other_sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 886, ""is_dttm"": false, ""optionName"": ""_col_Other_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": true, ""isNew"": false, ""label"": ""Other"", ""optionName"": ""metric_cf6kbre28f_2sg5b5pfq5a"", ""sqlExpression"": null}], ""order_bars"": false, ""queryFields"": {""columns"": ""groupby"", ""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""row_limit"": null, ""show_bar_value"": false, ""show_controls"": true, ""show_legend"": true, ""slice_id"": 3548, ""time_range"": ""No filter"", ""url_params"": {""preselect_filters"": ""{\""1389\"": {\""platform\"": [\""PS\"", \""PS2\"", \""PS3\"", \""PS4\""], \""genre\"": null, \""__time_range\"": \""No filter\""}}""}, ""viz_type"": ""dist_bar"", ""x_axis_label"": ""Genre"", ""x_ticks_layout"": ""flat"", ""y_axis_format"": ""SMART_NUMBER""}",dist_bar,2023-03-28T12:08:15.942438,2023-02-27T08:27:07.691877,Total Sales per Market (Grouped by Genre),,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+98,[examples].[video_game_sales](id:21),2b69887b-23e3-b46d-d38c-8ea11856c555,"{""adhoc_filters"": [], ""color_scheme"": ""supersetColors"", ""datasource"": ""21__table"", ""granularity_sqla"": ""year"", ""groupby"": [""platform""], ""label_colors"": {""2600"": ""#D1C6BC"", ""3DO"": ""#A38F79"", ""3DS"": ""#B2B2B2"", ""Action"": ""#ACE1C4"", ""Adventure"": ""#5AC189"", ""COUNT(*)"": ""#1FA8C9"", ""DC"": ""#666666"", ""DS"": ""#E04355"", ""Fighting"": ""#D1C6BC"", ""GB"": ""#A1A6BD"", ""GBA"": ""#A868B7"", ""GC"": ""#D3B3DA"", ""GEN"": ""#FF7F44"", ""GG"": ""#8FD3E4"", ""Microsoft Game Studios"": ""#FCC700"", ""Misc"": ""#D3B3DA"", ""N64"": ""#EFA1AA"", ""NES"": ""#FEC0A1"", ""NG"": ""#FCC700"", ""Nintendo"": ""#666666"", ""PC"": ""#8FD3E4"", ""PCFX"": ""#A1A6BD"", ""PS"": ""#FCC700"", ""PS2"": ""#454E7C"", ""PS3"": ""#FF7F44"", ""PS4"": ""#A38F79"", ""PSP"": ""#3CCCCB"", ""PSV"": ""#454E7C"", ""Platform"": ""#FDE380"", ""Puzzle"": ""#454E7C"", ""Racing"": ""#9EE5E5"", ""Role-Playing"": ""#EFA1AA"", ""SAT"": ""#5AC189"", ""SCD"": ""#E04355"", ""SNES"": ""#FDE380"", ""Shooter"": ""#B2B2B2"", ""Simulation"": ""#1FA8C9"", ""Sports"": ""#FEC0A1"", ""Strategy"": ""#FF7F44"", ""TG16"": ""#3CCCCB"", ""Take-Two Interactive"": ""#E04355"", ""WS"": ""#A868B7"", ""Wii"": ""#666666"", ""WiiU"": ""#1FA8C9"", ""X360"": ""#5AC189"", ""XB"": ""#ACE1C4"", ""XOne"": ""#9EE5E5""}, ""metrics"": [""count""], ""number_format"": ""SMART_NUMBER"", ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""row_limit"": 10, ""slice_id"": 661, ""time_range"": ""No filter"", ""treemap_ratio"": 1.618033988749895, ""url_params"": {}, ""viz_type"": ""treemap""}",treemap,2023-03-28T12:08:15.759608,2023-02-27T08:27:07.573519,# of Games That Hit 100k in Sales By Release Year,,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+106,[examples].[video_game_sales](id:21),0499bdec-0837-44f3-ae8a-8c670de81afd,"{""adhoc_filters"": [], ""color_scheme"": ""supersetColors"", ""datasource"": ""1559__table"", ""granularity_sqla"": ""year"", ""groupby"": [""genre""], ""label_colors"": {""0"": ""#1FA8C9"", ""1"": ""#454E7C"", ""2600"": ""#666666"", ""3DO"": ""#B2B2B2"", ""3DS"": ""#D1C6BC"", ""Action"": ""#1FA8C9"", ""Adventure"": ""#454E7C"", ""DC"": ""#A38F79"", ""DS"": ""#8FD3E4"", ""Europe"": ""#5AC189"", ""Fighting"": ""#5AC189"", ""GB"": ""#FDE380"", ""GBA"": ""#ACE1C4"", ""GC"": ""#5AC189"", ""GEN"": ""#3CCCCB"", ""GG"": ""#EFA1AA"", ""Japan"": ""#FF7F44"", ""Microsoft Game Studios"": ""#D1C6BC"", ""Misc"": ""#FF7F44"", ""N64"": ""#1FA8C9"", ""NES"": ""#9EE5E5"", ""NG"": ""#A1A6BD"", ""Nintendo"": ""#D3B3DA"", ""North America"": ""#666666"", ""Other"": ""#E04355"", ""PC"": ""#EFA1AA"", ""PCFX"": ""#FDE380"", ""PS"": ""#A1A6BD"", ""PS2"": ""#FCC700"", ""PS3"": ""#3CCCCB"", ""PS4"": ""#B2B2B2"", ""PSP"": ""#FEC0A1"", ""PSV"": ""#FCC700"", ""Platform"": ""#666666"", ""Puzzle"": ""#E04355"", ""Racing"": ""#FCC700"", ""Role-Playing"": ""#A868B7"", ""SAT"": ""#A868B7"", ""SCD"": ""#8FD3E4"", ""SNES"": ""#454E7C"", ""Shooter"": ""#3CCCCB"", ""Simulation"": ""#A38F79"", ""Sports"": ""#8FD3E4"", ""Strategy"": ""#A1A6BD"", ""TG16"": ""#FEC0A1"", ""Take-Two Interactive"": ""#9EE5E5"", ""WS"": ""#ACE1C4"", ""Wii"": ""#A38F79"", ""WiiU"": ""#E04355"", ""X360"": ""#A868B7"", ""XB"": ""#D3B3DA"", ""XOne"": ""#FF7F44""}, ""metrics"": [""count""], ""number_format"": ""SMART_NUMBER"", ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""row_limit"": null, ""time_range"": ""No filter"", ""treemap_ratio"": 1.618033988749895, ""url_params"": {""preselect_filters"": ""{\""1389\"": {\""platform\"": [\""PS\"", \""PS2\"", \""PS3\"", \""PS4\""], \""genre\"": null, \""__time_range\"": \""No filter\""}}""}, ""viz_type"": ""treemap""}",treemap,2023-03-28T12:08:16.008364,2023-02-27T08:27:07.730687,Games per Genre,,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+84,[examples].[messages_channels](id:17),b0f11bdf-793f-473f-b7d5-b9265e657896,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""github-notifications"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_7ud3u2eujnw_1pmeehxvw0b"", ""isExtra"": false, ""isNew"": false, ""operator"": ""!="", ""sqlExpression"": null, ""subject"": ""name""}], ""annotation_layers"": [], ""bottom_margin"": ""auto"", ""color_scheme"": ""supersetColors"", ""comparison_type"": ""values"", ""datasource"": ""56__table"", ""granularity_sqla"": ""ts"", ""groupby"": [""name""], ""label_colors"": {""0"": ""#1FA8C9"", ""1"": ""#454E7C"", ""announcements"": ""#A868B7"", ""apache-releases"": ""#666666"", ""beginners"": ""#666666"", ""commits"": ""#E04355"", ""community-feedback"": ""#EFA1AA"", ""contributing"": ""#8FD3E4"", ""cypress-tests"": ""#FDE380"", ""dashboard-filters"": ""#FCC700"", ""dashboard-level-access"": ""#D1C6BC"", ""dashboards"": ""#3CCCCB"", ""design"": ""#1FA8C9"", ""developers"": ""#9EE5E5"", ""embedd-dashboards"": ""#ACE1C4"", ""feature-requests"": ""#454E7C"", ""general"": ""#3CCCCB"", ""github-notifications"": ""#E04355"", ""globalnav_search"": ""#A1A6BD"", ""graduation"": ""#A1A6BD"", ""helm-k8-deployment"": ""#FEC0A1"", ""introductions"": ""#5AC189"", ""jobs"": ""#FF7F44"", ""localization"": ""#5AC189"", ""newsletter"": ""#FF7F44"", ""product_feedback"": ""#D3B3DA"", ""pull-requests"": ""#A38F79"", ""superset-champions"": ""#FCC700"", ""superset_prod_reports"": ""#A868B7"", ""superset_stage_alerts"": ""#A38F79"", ""support"": ""#8FD3E4"", ""visualization_plugins"": ""#B2B2B2""}, ""limit"": 10, ""line_interpolation"": ""linear"", ""metrics"": [""count""], ""min_periods"": 0, ""order_desc"": true, ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""rich_tooltip"": true, ""rolling_periods"": 14, ""rolling_type"": ""mean"", ""row_limit"": 1000, ""show_brush"": ""auto"", ""show_controls"": false, ""show_legend"": true, ""slice_id"": 2395, ""stacked_style"": ""stream"", ""time_grain_sqla"": ""P1D"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""area"", ""x_axis_format"": ""smart_date"", ""x_axis_showminmax"": true, ""x_ticks_layout"": ""auto"", ""y_axis_bounds"": [0, null], ""y_axis_format"": ""SMART_NUMBER"", ""y_log_scale"": false}",area,2023-03-28T12:08:15.362025,2023-02-27T08:27:07.310014,Messages per Channel,,[examples].[public],,,,,,17,,,messages_channels,table,,,false
+77,[examples].[cleaned_sales_data](id:22),bd20fc69-dd51-46c1-99b5-09e37a434bf1,"{""adhoc_filters"": [], ""all_columns_x"": ""deal_size"", ""all_columns_y"": ""product_line"", ""bottom_margin"": 100, ""canvas_image_rendering"": ""pixelated"", ""datasource"": ""23__table"", ""granularity_sqla"": ""order_date"", ""left_margin"": 75, ""linear_color_scheme"": ""schemePuBuGn"", ""metric"": ""count"", ""normalize_across"": ""heatmap"", ""normalized"": true, ""queryFields"": {""metric"": ""metrics""}, ""row_limit"": null, ""show_legend"": true, ""show_perc"": true, ""show_values"": true, ""slice_id"": 2810, ""sort_x_axis"": ""alpha_asc"", ""sort_y_axis"": ""alpha_asc"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""heatmap"", ""xscale_interval"": null, ""y_axis_bounds"": [null, null], ""y_axis_format"": ""SMART_NUMBER"", ""yscale_interval"": null}",heatmap,2023-03-28T12:08:15.153554,2023-02-27T08:27:07.180935,Number of Deals (for each Combination),,[examples].[public],,,,,,22,,,cleaned_sales_data,table,,,false
+78,[examples].[cleaned_sales_data](id:22),7b12a243-88e0-4dc5-ac33-9a840bb0ac5a,"{""adhoc_filters"": [], ""datasource"": ""23__table"", ""granularity_sqla"": ""order_date"", ""header_font_size"": 0.4, ""metric"": {""aggregate"": ""SUM"", ""column"": {""column_name"": ""sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 917, ""is_dttm"": false, ""optionName"": ""_col_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""(Sales)"", ""optionName"": ""metric_twq59hf4ej_g70qjfmehsq"", ""sqlExpression"": null}, ""queryFields"": {""metric"": ""metrics""}, ""subheader"": """", ""subheader_font_size"": 0.15, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""big_number_total"", ""y_axis_format"": ""$,.2f""}",big_number_total,2023-03-28T12:08:15.183988,2023-02-27T08:27:07.199017,Total Revenue,,[examples].[public],,,,,,22,,,cleaned_sales_data,table,,,false
+86,[examples].[cleaned_sales_data](id:22),08aff161-f60c-4cb3-a225-dc9b1140d2e3,"{""adhoc_filters"": [], ""annotation_layers"": [], ""bottom_margin"": ""auto"", ""color_scheme"": ""supersetColors"", ""comparison_type"": ""values"", ""contribution"": true, ""datasource"": ""23__table"", ""granularity_sqla"": ""order_date"", ""groupby"": [""product_line""], ""label_colors"": {}, ""line_interpolation"": ""linear"", ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 917, ""is_dttm"": false, ""optionName"": ""_col_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""(Sales)"", ""optionName"": ""metric_3is69ofceho_6d0ezok7ry6"", ""sqlExpression"": null}], ""order_desc"": true, ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""rich_tooltip"": true, ""rolling_type"": ""None"", ""row_limit"": null, ""show_brush"": ""auto"", ""show_legend"": true, ""stacked_style"": ""stack"", ""time_grain_sqla"": ""P1M"", ""time_range"": ""2003-01-01T00:00:00 : 2005-06-01T00:00:00"", ""url_params"": {}, ""viz_type"": ""area"", ""x_axis_format"": ""smart_date"", ""x_ticks_layout"": ""auto"", ""y_axis_bounds"": [null, null], ""y_axis_format"": ""SMART_NUMBER""}",area,2023-03-28T12:08:15.425407,2023-02-27T08:27:07.347143,Proportion of Revenue by Product Line,,[examples].[public],,,,,,22,,,cleaned_sales_data,table,,,false
+120,[examples].[cleaned_sales_data](id:22),f065a533-2e13-42b9-bd19-801a21700dff,"{""adhoc_filters"": [], ""annotation_layers"": [], ""bar_stacked"": true, ""bottom_margin"": ""auto"", ""color_scheme"": ""supersetColors"", ""comparison_type"": ""values"", ""contribution"": false, ""datasource"": ""23__table"", ""granularity_sqla"": ""order_date"", ""groupby"": [""deal_size""], ""label_colors"": {}, ""left_margin"": ""auto"", ""line_interpolation"": ""linear"", ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 917, ""is_dttm"": false, ""optionName"": ""_col_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""(Sales)"", ""optionName"": ""metric_3is69ofceho_6d0ezok7ry6"", ""sqlExpression"": null}], ""order_desc"": true, ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""rich_tooltip"": true, ""rolling_type"": ""None"", ""row_limit"": null, ""show_brush"": ""auto"", ""show_legend"": true, ""time_grain_sqla"": ""P1M"", ""time_range"": ""2003-01-01T00:00:00 : 2005-06-01T00:00:00"", ""url_params"": {}, ""viz_type"": ""bar"", ""x_axis_format"": ""smart_date"", ""x_ticks_layout"": ""auto"", ""y_axis_bounds"": [null, null], ""y_axis_format"": ""SMART_NUMBER""}",bar,2023-03-28T12:08:16.646157,2023-02-27T08:27:08.000724,Revenue by Deal Size,,[examples].[public],,,,,,22,,,cleaned_sales_data,table,,,false
+80,[examples].[cleaned_sales_data](id:22),a5689df7-98fc-7c51-602c-ebd92dc3ec70,"{""adhoc_filters"": [], ""datasource"": ""23__table"", ""date_filter"": true, ""filter_configs"": [{""asc"": true, ""clearable"": true, ""column"": ""product_line"", ""key"": ""7oUjq15eQ"", ""label"": ""Product Line"", ""multiple"": true, ""searchAllOptions"": false}, {""asc"": true, ""clearable"": true, ""column"": ""deal_size"", ""key"": ""c3hO6Eub8"", ""label"": ""Deal Size"", ""multiple"": true, ""searchAllOptions"": false}], ""granularity_sqla"": ""order_date"", ""queryFields"": {}, ""slice_id"": 671, ""time_range"": ""2003-01-01T00:00:00 : 2005-06-01T00:00:00"", ""url_params"": {}, ""viz_type"": ""filter_box""}",filter_box,2023-03-28T12:08:15.243666,2023-02-27T08:27:07.236839,Vehicle Sales Filter,,[examples].[public],,,,,,22,,,cleaned_sales_data,table,,,false
+88,[examples].[cleaned_sales_data](id:22),692aca26-a526-85db-c94c-411c91cc1077,"{""adhoc_filters"": [], ""annotation_layers"": [], ""bottom_margin"": ""auto"", ""color_scheme"": ""supersetColors"", ""comparison_type"": null, ""datasource"": ""23__table"", ""granularity_sqla"": ""order_date"", ""groupby"": [], ""label_colors"": {""Classic Cars"": ""#5AC189"", ""Motorcycles"": ""#666666"", ""Planes"": ""#FCC700"", ""QuantityOrdered"": ""#454E7C"", ""SUM(Sales)"": ""#1FA8C9"", ""Ships"": ""#A868B7"", ""Trains"": ""#3CCCCB"", ""Trucks and Buses"": ""#E04355"", ""Vintage Cars"": ""#FF7F44""}, ""left_margin"": ""auto"", ""line_interpolation"": ""linear"", ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 917, ""is_dttm"": false, ""optionName"": ""_col_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""SUM(Sales)"", ""optionName"": ""metric_tjn8bh6y44_7o4etwsqhal"", ""sqlExpression"": null}], ""order_desc"": true, ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""rich_tooltip"": true, ""rolling_type"": null, ""row_limit"": 10000, ""show_brush"": ""auto"", ""show_legend"": false, ""slice_id"": 668, ""time_compare"": null, ""time_grain_sqla"": ""P3M"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""bar"", ""x_axis_format"": ""%m/%d/%Y"", ""x_axis_label"": ""Quarter starting"", ""x_ticks_layout"": ""auto"", ""y_axis_bounds"": [null, null], ""y_axis_format"": null, ""y_axis_label"": ""Total Sales""}",bar,2023-03-28T18:28:56.727009,2023-02-27T08:27:07.384520,Quarterly Sales,,[examples].[public],,,,1,,22,,"{""datasource"":{""id"":22,""type"":""table""},""force"":false,""queries"":[{""time_range"":""No filter"",""granularity"":""order_date"",""filters"":[],""extras"":{""time_grain_sqla"":""P3M"",""having"":"""",""where"":""""},""applied_time_extras"":{},""columns"":[],""metrics"":[{""aggregate"":""SUM"",""column"":{""column_name"":""sales"",""description"":null,""expression"":null,""filterable"":true,""groupby"":true,""id"":917,""is_dttm"":false,""optionName"":""_col_Sales"",""python_date_format"":null,""type"":""DOUBLE PRECISION"",""verbose_name"":null},""expressionType"":""SIMPLE"",""hasCustomLabel"":false,""isNew"":false,""label"":""SUM(Sales)"",""optionName"":""metric_tjn8bh6y44_7o4etwsqhal"",""sqlExpression"":null}],""annotation_layers"":[],""row_limit"":10000,""series_limit"":0,""order_desc"":true,""url_params"":{},""custom_params"":{},""custom_form_data"":{}}],""form_data"":{""adhoc_filters"":[],""annotation_layers"":[],""bottom_margin"":""auto"",""color_scheme"":""supersetColors"",""comparison_type"":null,""datasource"":""22__table"",""granularity_sqla"":""order_date"",""groupby"":[],""label_colors"":{""Classic Cars"":""#5AC189"",""Motorcycles"":""#666666"",""Planes"":""#FCC700"",""QuantityOrdered"":""#454E7C"",""SUM(Sales)"":""#1FA8C9"",""Ships"":""#A868B7"",""Trains"":""#3CCCCB"",""Trucks and Buses"":""#E04355"",""Vintage Cars"":""#FF7F44""},""left_margin"":""auto"",""line_interpolation"":""linear"",""metrics"":[{""aggregate"":""SUM"",""column"":{""column_name"":""sales"",""description"":null,""expression"":null,""filterable"":true,""groupby"":true,""id"":917,""is_dttm"":false,""optionName"":""_col_Sales"",""python_date_format"":null,""type"":""DOUBLE PRECISION"",""verbose_name"":null},""expressionType"":""SIMPLE"",""hasCustomLabel"":false,""isNew"":false,""label"":""SUM(Sales)"",""optionName"":""metric_tjn8bh6y44_7o4etwsqhal"",""sqlExpression"":null}],""order_desc"":true,""queryFields"":{""groupby"":""groupby"",""metrics"":""metrics""},""rich_tooltip"":true,""rolling_type"":null,""row_limit"":10000,""show_brush"":""auto"",""show_legend"":false,""slice_id"":88,""time_compare"":null,""time_grain_sqla"":""P3M"",""time_range"":""No filter"",""url_params"":{},""viz_type"":""bar"",""x_axis_format"":""%m/%d/%Y"",""x_axis_label"":""Quarter starting"",""x_ticks_layout"":""auto"",""y_axis_bounds"":[null,null],""y_axis_format"":null,""y_axis_label"":""Total Sales"",""force"":false,""result_format"":""json"",""result_type"":""full""},""result_format"":""json"",""result_type"":""full""}",cleaned_sales_data,table,,,false
+93,[examples].[cleaned_sales_data](id:22),b8b7ca30-6291-44b0-bc64-ba42e2892b86,"{""adhoc_filters"": [], ""all_columns"": [], ""color_pn"": true, ""datasource"": ""23__table"", ""granularity_sqla"": ""order_date"", ""groupby"": [""product_line""], ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""quantity_ordered"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 914, ""is_dttm"": false, ""optionName"": ""_col_QuantityOrdered"", ""python_date_format"": null, ""type"": ""BIGINT"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": true, ""isNew"": false, ""label"": ""# of Products Sold"", ""optionName"": ""metric_skdbciwba6g_z1r5w1pxlqj"", ""sqlExpression"": null}], ""order_by_cols"": [], ""order_desc"": true, ""percent_metrics"": null, ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""query_mode"": ""aggregate"", ""row_limit"": null, ""show_cell_bars"": true, ""slice_id"": 2807, ""table_timestamp_format"": ""smart_date"", ""time_grain_sqla"": ""P1D"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""table""}",table,2023-03-28T12:08:15.622317,2023-02-27T08:27:07.479829,Total Items Sold (By Product Line),,[examples].[public],,,,,,22,,,cleaned_sales_data,table,,,false
+239,[examples].[wb_health_population](id:1),c785aec6-fed6-4ef4-82df-2973a758bf2d,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""entity"": ""country_code"",
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [
+        ""country_name""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        ""sum__SP_POP_TOTL""
+    ],
+    ""num_period_compare"": ""10"",
+    ""row_limit"": 50000,
+    ""show_bubbles"": true,
+    ""since"": ""1960-01-01"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""2014-01-02"",
+    ""viz_type"": ""line""
+}",line,2023-03-28T12:07:49.879182,2023-03-28T12:07:49.879150,Growth Rate,,[examples].[public],,,,,,1,,,,table,,,false
+240,[examples].[wb_health_population](id:1),3cab91d9-8bde-4afc-bd23-ce585ce13fe3,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""entity"": ""country_code"",
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metric"": ""sum__SP_RUR_TOTL_ZS"",
+    ""num_period_compare"": ""10"",
+    ""row_limit"": 50000,
+    ""secondary_metric"": {
+        ""aggregate"": ""SUM"",
+        ""column"": {
+            ""column_name"": ""SP_RUR_TOTL"",
+            ""optionName"": ""_col_SP_RUR_TOTL"",
+            ""type"": ""DOUBLE""
+        },
+        ""expressionType"": ""SIMPLE"",
+        ""hasCustomLabel"": true,
+        ""label"": ""Rural Population""
+    },
+    ""show_bubbles"": true,
+    ""since"": ""2014-01-01"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""2014-01-02"",
+    ""viz_type"": ""world_map""
+}",world_map,2023-03-28T12:07:49.916161,2023-03-28T12:07:49.916122,% Rural,,[examples].[public],,,,,,1,,,,table,,,false
+241,[examples].[wb_health_population](id:1),209fe694-428f-4625-be0b-45e562ca5ab8,"{
+    ""adhoc_filters"": [
+        {
+            ""clause"": ""WHERE"",
+            ""comparator"": [
+                ""TCA"",
+                ""MNP"",
+                ""DMA"",
+                ""MHL"",
+                ""MCO"",
+                ""SXM"",
+                ""CYM"",
+                ""TUV"",
+                ""IMY"",
+                ""KNA"",
+                ""ASM"",
+                ""ADO"",
+                ""AMA"",
+                ""PLW""
+            ],
+            ""expressionType"": ""SIMPLE"",
+            ""filterOptionName"": ""2745eae5"",
+            ""operator"": ""NOT IN"",
+            ""subject"": ""country_code""
+        }
+    ],
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""entity"": ""country_name"",
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [],
+    ""limit"": 0,
+    ""markup_type"": ""markdown"",
+    ""max_bubble_size"": ""50"",
+    ""row_limit"": 50000,
+    ""series"": ""region"",
+    ""show_bubbles"": true,
+    ""since"": ""2011-01-01"",
+    ""size"": ""sum__SP_POP_TOTL"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""2011-01-02"",
+    ""viz_type"": ""bubble"",
+    ""x"": ""sum__SP_RUR_TOTL_ZS"",
+    ""y"": ""sum__SP_DYN_LE00_IN""
+}",bubble,2023-03-28T12:07:49.957410,2023-03-28T12:07:49.957370,Life Expectancy VS Rural %,,[examples].[public],,,,,,1,,,,table,,,false
+245,[examples].[wb_health_population](id:1),3e9f04ba-052d-419b-967a-6ff2abdc7f9f,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""entity"": ""country_code"",
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [
+        ""region"",
+        ""country_code""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        ""sum__SP_POP_TOTL""
+    ],
+    ""row_limit"": 50000,
+    ""show_bubbles"": true,
+    ""since"": ""1960-01-01"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""now"",
+    ""viz_type"": ""treemap""
+}",treemap,2023-03-28T12:07:50.125840,2023-03-28T12:07:50.125807,Treemap,,[examples].[public],,,,,,1,,,,table,,,false
+266,[examples].[wb_health_population](id:1),c600f125-6057-440a-bfe1-df4db110b794,"{""slice_name"": ""Multi Line"", ""viz_type"": ""line_multi"", ""line_charts"": [239], ""line_charts_2"": [249], ""since"": ""1970"", ""until"": ""1995"", ""prefix_metric_with_slice_name"": true, ""show_legend"": false, ""x_axis_format"": ""%Y""}",line_multi,2023-03-28T12:07:52.117182,2023-03-28T12:07:52.117145,Multi Line,,[examples].[public],,,,,,1,,,,table,,,false
+242,[examples].[wb_health_population](id:1),96acc18c-e0c1-4081-86bc-bace51fd5814,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""entity"": ""country_code"",
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [
+        ""region"",
+        ""country_name""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metric"": ""sum__SP_POP_TOTL"",
+    ""row_limit"": 50000,
+    ""secondary_metric"": {
+        ""aggregate"": ""SUM"",
+        ""column"": {
+            ""column_name"": ""SP_RUR_TOTL"",
+            ""optionName"": ""_col_SP_RUR_TOTL"",
+            ""type"": ""DOUBLE""
+        },
+        ""expressionType"": ""SIMPLE"",
+        ""hasCustomLabel"": true,
+        ""label"": ""Rural Population""
+    },
+    ""show_bubbles"": true,
+    ""since"": ""2011-01-01"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""2011-01-02"",
+    ""viz_type"": ""sunburst""
+}",sunburst,2023-03-28T12:07:49.997427,2023-03-28T12:07:49.997393,Rural Breakdown,,[examples].[public],,,,,,1,,,,table,,,false
+243,[examples].[wb_health_population](id:1),d4539e15-4c28-417f-a201-f6b4dcb691e0,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""entity"": ""country_code"",
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [
+        ""region""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        ""sum__SP_POP_TOTL""
+    ],
+    ""row_limit"": 50000,
+    ""show_bubbles"": true,
+    ""since"": ""1960-01-01"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""now"",
+    ""viz_type"": ""area""
+}",area,2023-03-28T12:07:50.040713,2023-03-28T12:07:50.040673,World's Pop Growth,,[examples].[public],,,,,,1,,,,table,,,false
+244,[examples].[wb_health_population](id:1),f18d4263-5da0-43be-9d07-1b6f2c9c6035,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""entity"": ""country_code"",
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [
+        ""region""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        ""sum__SP_POP_TOTL""
+    ],
+    ""row_limit"": 50000,
+    ""show_bubbles"": true,
+    ""since"": ""1960-01-01"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""now"",
+    ""viz_type"": ""box_plot"",
+    ""whisker_options"": ""Min/max (no outliers)"",
+    ""x_ticks_layout"": ""staggered""
+}",box_plot,2023-03-28T12:07:50.083075,2023-03-28T12:07:50.083039,Box plot,,[examples].[public],,,,,,1,,,,table,,,false
+237,[examples].[wb_health_population](id:1),f53218f8-361f-4657-8f6f-6c00f7ca2e39,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""over 10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""entity"": ""country_code"",
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metric"": ""sum__SP_POP_TOTL"",
+    ""row_limit"": 50000,
+    ""show_bubbles"": true,
+    ""since"": ""2000"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""2014-01-02"",
+    ""viz_type"": ""big_number""
+}",big_number,2023-03-28T12:07:49.799413,2023-03-28T12:07:49.799370,World's Population,,[examples].[public],,,,,,1,,,,table,,,false
+235,[examples].[birth_france_by_region](id:4),a719930f-21e7-4a1e-80f6-31671d287669,"{
+    ""entity"": ""DEPT_ID"",
+    ""granularity_sqla"": """",
+    ""metric"": {
+        ""aggregate"": ""AVG"",
+        ""column"": {
+            ""column_name"": ""2004"",
+            ""type"": ""INT""
+        },
+        ""expressionType"": ""SIMPLE"",
+        ""label"": ""Boys"",
+        ""optionName"": ""metric_112342""
+    },
+    ""row_limit"": 500000,
+    ""select_country"": ""france"",
+    ""since"": """",
+    ""until"": """",
+    ""viz_type"": ""country_map""
+}",country_map,2023-03-28T12:07:43.677331,2023-03-28T12:07:43.677289,Birth in France by department in 2016,,[examples].[public],,,,,,4,,,,table,,,false
+271,[examples].[sf_population_polygons](id:5),ef9586dd-7ad3-4ab4-ae06-ed97d91067fc,"{
+    ""datasource"": ""11__table"",
+    ""extruded"": true,
+    ""fill_color_picker"": {
+        ""a"": 1,
+        ""b"": 73,
+        ""g"": 65,
+        ""r"": 3
+    },
+    ""filled"": true,
+    ""granularity_sqla"": null,
+    ""js_columns"": [],
+    ""js_data_mutator"": """",
+    ""js_onclick_href"": """",
+    ""js_tooltip"": """",
+    ""legend_format"": "".1s"",
+    ""legend_position"": ""tr"",
+    ""line_column"": ""contour"",
+    ""line_type"": ""json"",
+    ""linear_color_scheme"": ""oranges"",
+    ""mapbox_style"": ""mapbox://styles/mapbox/light-v9"",
+    ""metric"": {
+        ""aggregate"": ""SUM"",
+        ""column"": {
+            ""column_name"": ""population"",
+            ""description"": null,
+            ""expression"": null,
+            ""filterable"": true,
+            ""groupby"": true,
+            ""id"": 1332,
+            ""is_dttm"": false,
+            ""optionName"": ""_col_population"",
+            ""python_date_format"": null,
+            ""type"": ""BIGINT"",
+            ""verbose_name"": null
+        },
+        ""expressionType"": ""SIMPLE"",
+        ""hasCustomLabel"": true,
+        ""label"": ""Population"",
+        ""optionName"": ""metric_t2v4qbfiz1_w6qgpx4h2p"",
+        ""sqlExpression"": null
+    },
+    ""multiplier"": 0.1,
+    ""point_radius_fixed"": {
+        ""type"": ""metric"",
+        ""value"": {
+            ""aggregate"": null,
+            ""column"": null,
+            ""expressionType"": ""SQL"",
+            ""hasCustomLabel"": null,
+            ""label"": ""Density"",
+            ""optionName"": ""metric_c5rvwrzoo86_293h6yrv2ic"",
+            ""sqlExpression"": ""SUM(population)/SUM(area)""
+        }
+    },
+    ""reverse_long_lat"": false,
+    ""slice_id"": 41,
+    ""stroke_color_picker"": {
+        ""a"": 1,
+        ""b"": 135,
+        ""g"": 122,
+        ""r"": 0
+    },
+    ""stroked"": false,
+    ""time_grain_sqla"": null,
+    ""time_range"": "" : "",
+    ""viewport"": {
+        ""altitude"": 1.5,
+        ""bearing"": 37.89506450385642,
+        ""height"": 906,
+        ""latitude"": 37.752020331384834,
+        ""longitude"": -122.43388541747726,
+        ""maxLatitude"": 85.05113,
+        ""maxPitch"": 60,
+        ""maxZoom"": 20,
+        ""minLatitude"": -85.05113,
+        ""minPitch"": 0,
+        ""minZoom"": 0,
+        ""pitch"": 60,
+        ""width"": 667,
+        ""zoom"": 11.133995608594631
+    },
+    ""viz_type"": ""deck_polygon""
+}",deck_polygon,2023-03-28T12:07:52.490398,2023-03-28T12:07:52.490343,Deck.gl Polygons,,[examples].[public],,,,,,5,,,,table,,,false
+83,[examples].[users_channels-uzooNNtSRO](id:19),f2a8731b-3d8c-4d86-9d33-7c0a3e64d21c,"{""adhoc_filters"": [], ""color_scheme"": ""supersetColors"", ""columns"": ""channel_2"", ""datasource"": ""59__table"", ""groupby"": ""channel_1"", ""label_colors"": {}, ""metric"": {""aggregate"": ""SUM"", ""column"": {""column_name"": ""cnt"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 1777, ""is_dttm"": false, ""optionName"": ""_col_cnt"", ""python_date_format"": null, ""type"": ""INT"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""SUM(cnt)"", ""optionName"": ""metric_i1djbl8i2y_2vdl690dkyu"", ""sqlExpression"": null}, ""queryFields"": {""columns"": ""groupby"", ""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": 1000, ""time_range"": ""No filter"", ""viz_type"": ""chord"", ""y_axis_format"": ""SMART_NUMBER""}",chord,2023-03-28T12:08:15.332005,2023-02-27T08:27:07.291737,Cross Channel Relationship,,[examples].[public],,,,,,19,,,users_channels-uzooNNtSRO,table,,,false
+92,[examples].[users_channels-uzooNNtSRO](id:19),6cb43397-5c62-4f32-bde2-95344c412b5a,"{""adhoc_filters"": [], ""all_columns_x"": ""channel_1"", ""all_columns_y"": ""channel_2"", ""bottom_margin"": ""auto"", ""canvas_image_rendering"": ""pixelated"", ""datasource"": ""35__table"", ""left_margin"": ""auto"", ""linear_color_scheme"": ""schemeBlues"", ""metric"": {""aggregate"": ""SUM"", ""column"": {""column_name"": ""cnt"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 1777, ""is_dttm"": false, ""optionName"": ""_col_cnt"", ""python_date_format"": null, ""type"": ""INT"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""SUM(cnt)"", ""optionName"": ""metric_i1djbl8i2y_2vdl690dkyu"", ""sqlExpression"": null}, ""normalize_across"": ""heatmap"", ""row_limit"": 1000, ""show_legend"": true, ""show_perc"": false, ""show_values"": true, ""sort_x_axis"": ""alpha_asc"", ""sort_y_axis"": ""alpha_asc"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""heatmap"", ""xscale_interval"": null, ""y_axis_bounds"": [null, null], ""y_axis_format"": ""SMART_NUMBER"", ""yscale_interval"": null}",heatmap,2023-03-28T12:08:15.595884,2023-02-27T08:27:07.461726,Cross Channel Relationship heatmap,,[examples].[public],,,,,,19,,,users_channels-uzooNNtSRO,table,,,false
+276,[examples].[users](id:13),77c7492a-cfca-445b-838f-28417f013a32,"{""datasource"":""13__table"",""viz_type"":""big_number"",""granularity_sqla"":""updated"",""time_grain_sqla"":""P1D"",""time_range"":""No filter"",""metric"":""count"",""adhoc_filters"":[],""show_trend_line"":true,""start_y_axis_at_zero"":true,""color_picker"":{""r"":0,""g"":122,""b"":135,""a"":1},""header_font_size"":0.4,""subheader_font_size"":0.15,""y_axis_format"":""SMART_NUMBER"",""time_format"":""smart_date"",""rolling_type"":""None"",""extra_form_data"":{},""dashboards"":[12]}",big_number,2023-04-01T21:34:36.721159,2023-04-01T21:34:36.721121,test 2,,[examples].[public],,,,2,2,13,2023-04-01T21:34:36.705577,"{""datasource"":{""id"":13,""type"":""table""},""force"":false,""queries"":[{""time_range"":""No filter"",""granularity"":""updated"",""filters"":[],""extras"":{""time_grain_sqla"":""P1D"",""having"":"""",""where"":""""},""applied_time_extras"":{},""columns"":[],""metrics"":[""count""],""annotation_layers"":[],""series_limit"":0,""order_desc"":true,""url_params"":{},""custom_params"":{},""custom_form_data"":{},""is_timeseries"":true,""post_processing"":[{""operation"":""pivot"",""options"":{""index"":[""__timestamp""],""columns"":[],""aggregates"":{""count"":{""operator"":""mean""}},""drop_missing_columns"":true}},{""operation"":""flatten""}]}],""form_data"":{""datasource"":""13__table"",""viz_type"":""big_number"",""granularity_sqla"":""updated"",""time_grain_sqla"":""P1D"",""time_range"":""No filter"",""metric"":""count"",""adhoc_filters"":[],""show_trend_line"":true,""start_y_axis_at_zero"":true,""color_picker"":{""r"":0,""g"":122,""b"":135,""a"":1},""header_font_size"":0.4,""subheader_font_size"":0.15,""y_axis_format"":""SMART_NUMBER"",""time_format"":""smart_date"",""rolling_type"":""None"",""extra_form_data"":{},""dashboards"":[12],""force"":false,""result_format"":""json"",""result_type"":""full""},""result_format"":""json"",""result_type"":""full""}",public.users,table,2,,false
+275,[examples].[users](id:13),3617f177-c7eb-47aa-b699-9b3650ca44f2,"{""datasource"":""13__table"",""viz_type"":""big_number_total"",""granularity_sqla"":""updated"",""time_range"":""No filter"",""metric"":""count"",""adhoc_filters"":[],""header_font_size"":0.4,""subheader_font_size"":0.15,""y_axis_format"":""SMART_NUMBER"",""time_format"":""smart_date"",""extra_form_data"":{},""dashboards"":[]}",big_number_total,2023-04-01T21:19:10.108174,2023-04-01T21:19:10.108115,test.users,,[examples].[public],,,,2,2,13,2023-04-01T21:19:10.093509,"{""datasource"":{""id"":13,""type"":""table""},""force"":false,""queries"":[{""time_range"":""No filter"",""granularity"":""updated"",""filters"":[],""extras"":{""having"":"""",""where"":""""},""applied_time_extras"":{},""columns"":[],""metrics"":[""count""],""annotation_layers"":[],""series_limit"":0,""order_desc"":true,""url_params"":{},""custom_params"":{},""custom_form_data"":{}}],""form_data"":{""datasource"":""13__table"",""viz_type"":""big_number_total"",""granularity_sqla"":""updated"",""time_range"":""No filter"",""metric"":""count"",""adhoc_filters"":[],""header_font_size"":0.4,""subheader_font_size"":0.15,""y_axis_format"":""SMART_NUMBER"",""time_format"":""smart_date"",""extra_form_data"":{},""dashboards"":[],""force"":false,""result_format"":""json"",""result_type"":""full""},""result_format"":""json"",""result_type"":""full""}",public.users,table,2,,false
+274,[examples].[logs](id:24),a7d97b4d-3b17-4c1d-b151-c37c104f548e,"{""datasource"":""24__table"",""viz_type"":""echarts_timeseries_bar"",""granularity_sqla"":""dttm"",""time_grain_sqla"":""P1D"",""time_range"":""Last month"",""metrics"":[{""expressionType"":""SIMPLE"",""column"":{""advanced_data_type"":null,""certification_details"":null,""certified_by"":null,""column_name"":""action"",""description"":null,""expression"":null,""filterable"":true,""groupby"":true,""id"":764,""is_certified"":false,""is_dttm"":false,""python_date_format"":null,""type"":""VARCHAR(512)"",""type_generic"":1,""verbose_name"":null,""warning_markdown"":null},""aggregate"":""COUNT_DISTINCT"",""sqlExpression"":null,""datasourceWarning"":false,""hasCustomLabel"":false,""label"":""COUNT_DISTINCT(action)"",""optionName"":""metric_xg5dvn9c7ee_ahqoce7x5zr""}],""groupby"":[],""adhoc_filters"":[],""order_desc"":true,""row_limit"":10000,""truncate_metric"":true,""show_empty_columns"":true,""comparison_type"":""values"",""annotation_layers"":[],""forecastPeriods"":10,""forecastInterval"":0.8,""orientation"":""vertical"",""x_axis_title_margin"":15,""y_axis_title_margin"":15,""y_axis_title_position"":""Left"",""color_scheme"":""supersetColors"",""only_total"":true,""show_legend"":true,""legendType"":""scroll"",""legendOrientation"":""top"",""x_axis_time_format"":""smart_date"",""y_axis_format"":""SMART_NUMBER"",""y_axis_bounds"":[null,null],""rich_tooltip"":true,""tooltipTimeFormat"":""smart_date"",""extra_form_data"":{},""dashboards"":[]}",echarts_timeseries_bar,2023-04-01T20:53:38.676517,2023-04-01T20:53:38.676474,test,,[examples].[public],,,,1,1,24,2023-04-01T20:53:38.659329,"{""datasource"":{""id"":24,""type"":""table""},""force"":false,""queries"":[{""time_range"":""Last month"",""granularity"":""dttm"",""filters"":[],""extras"":{""time_grain_sqla"":""P1D"",""having"":"""",""where"":""""},""applied_time_extras"":{},""columns"":[],""metrics"":[{""expressionType"":""SIMPLE"",""column"":{""advanced_data_type"":null,""certification_details"":null,""certified_by"":null,""column_name"":""action"",""description"":null,""expression"":null,""filterable"":true,""groupby"":true,""id"":764,""is_certified"":false,""is_dttm"":false,""python_date_format"":null,""type"":""VARCHAR(512)"",""type_generic"":1,""verbose_name"":null,""warning_markdown"":null},""aggregate"":""COUNT_DISTINCT"",""sqlExpression"":null,""datasourceWarning"":false,""hasCustomLabel"":false,""label"":""COUNT_DISTINCT(action)"",""optionName"":""metric_xg5dvn9c7ee_ahqoce7x5zr""}],""orderby"":[[{""expressionType"":""SIMPLE"",""column"":{""advanced_data_type"":null,""certification_details"":null,""certified_by"":null,""column_name"":""action"",""description"":null,""expression"":null,""filterable"":true,""groupby"":true,""id"":764,""is_certified"":false,""is_dttm"":false,""python_date_format"":null,""type"":""VARCHAR(512)"",""type_generic"":1,""verbose_name"":null,""warning_markdown"":null},""aggregate"":""COUNT_DISTINCT"",""sqlExpression"":null,""datasourceWarning"":false,""hasCustomLabel"":false,""label"":""COUNT_DISTINCT(action)"",""optionName"":""metric_xg5dvn9c7ee_ahqoce7x5zr""},false]],""annotation_layers"":[],""row_limit"":10000,""series_columns"":[],""series_limit"":0,""order_desc"":true,""url_params"":{},""custom_params"":{},""custom_form_data"":{},""is_timeseries"":true,""time_offsets"":[],""post_processing"":[{""operation"":""pivot"",""options"":{""index"":[""__timestamp""],""columns"":[],""aggregates"":{""COUNT_DISTINCT(action)"":{""operator"":""mean""}},""drop_missing_columns"":false}},{""operation"":""flatten""}]}],""form_data"":{""datasource"":""24__table"",""viz_type"":""echarts_timeseries_bar"",""granularity_sqla"":""dttm"",""time_grain_sqla"":""P1D"",""time_range"":""Last month"",""metrics"":[{""expressionType"":""SIMPLE"",""column"":{""advanced_data_type"":null,""certification_details"":null,""certified_by"":null,""column_name"":""action"",""description"":null,""expression"":null,""filterable"":true,""groupby"":true,""id"":764,""is_certified"":false,""is_dttm"":false,""python_date_format"":null,""type"":""VARCHAR(512)"",""type_generic"":1,""verbose_name"":null,""warning_markdown"":null},""aggregate"":""COUNT_DISTINCT"",""sqlExpression"":null,""datasourceWarning"":false,""hasCustomLabel"":false,""label"":""COUNT_DISTINCT(action)"",""optionName"":""metric_xg5dvn9c7ee_ahqoce7x5zr""}],""groupby"":[],""adhoc_filters"":[],""order_desc"":true,""row_limit"":10000,""truncate_metric"":true,""show_empty_columns"":true,""comparison_type"":""values"",""annotation_layers"":[],""forecastPeriods"":10,""forecastInterval"":0.8,""orientation"":""vertical"",""x_axis_title_margin"":15,""y_axis_title_margin"":15,""y_axis_title_position"":""Left"",""color_scheme"":""supersetColors"",""only_total"":true,""show_legend"":true,""legendType"":""scroll"",""legendOrientation"":""top"",""x_axis_time_format"":""smart_date"",""y_axis_format"":""SMART_NUMBER"",""y_axis_bounds"":[null,null],""rich_tooltip"":true,""tooltipTimeFormat"":""smart_date"",""extra_form_data"":{},""dashboards"":[],""force"":false,""result_format"":""json"",""result_type"":""full""},""result_format"":""json"",""result_type"":""full""}",public.logs,table,1,,false
+203,[examples].[logs](id:24),83498a47-640e-414d-ab72-999305aaa43c,"{""datasource"":""24__table"",""viz_type"":""echarts_timeseries_line"",""granularity_sqla"":""dttm"",""time_grain_sqla"":""P1D"",""time_range"":""No filter"",""metrics"":[""count""],""groupby"":[],""adhoc_filters"":[],""order_desc"":true,""row_limit"":10000,""truncate_metric"":true,""show_empty_columns"":true,""comparison_type"":""values"",""annotation_layers"":[],""forecastPeriods"":10,""forecastInterval"":0.8,""x_axis_title_margin"":15,""y_axis_title_margin"":15,""y_axis_title_position"":""Left"",""color_scheme"":""supersetColors"",""seriesType"":""line"",""only_total"":true,""opacity"":0.2,""markerSize"":6,""show_legend"":true,""legendType"":""scroll"",""legendOrientation"":""top"",""x_axis_time_format"":""smart_date"",""rich_tooltip"":true,""tooltipTimeFormat"":""smart_date"",""y_axis_format"":""SMART_NUMBER"",""y_axis_bounds"":[null,null],""extra_form_data"":{},""dashboards"":[]}",echarts_timeseries_line,2023-02-27T13:28:06.676550,2023-02-27T13:28:06.676509,logs_count,,[examples].[public],,,,1,1,24,2023-02-27T13:28:06.663501,"{""datasource"":{""id"":24,""type"":""table""},""force"":false,""queries"":[{""time_range"":""No filter"",""granularity"":""dttm"",""filters"":[],""extras"":{""time_grain_sqla"":""P1D"",""having"":"""",""where"":""""},""applied_time_extras"":{},""columns"":[],""metrics"":[""count""],""orderby"":[[""count"",false]],""annotation_layers"":[],""row_limit"":10000,""series_columns"":[],""series_limit"":0,""order_desc"":true,""url_params"":{},""custom_params"":{},""custom_form_data"":{},""is_timeseries"":true,""time_offsets"":[],""post_processing"":[{""operation"":""pivot"",""options"":{""index"":[""__timestamp""],""columns"":[],""aggregates"":{""count"":{""operator"":""mean""}},""drop_missing_columns"":false}},{""operation"":""flatten""}]}],""form_data"":{""datasource"":""24__table"",""viz_type"":""echarts_timeseries_line"",""granularity_sqla"":""dttm"",""time_grain_sqla"":""P1D"",""time_range"":""No filter"",""metrics"":[""count""],""groupby"":[],""adhoc_filters"":[],""order_desc"":true,""row_limit"":10000,""truncate_metric"":true,""show_empty_columns"":true,""comparison_type"":""values"",""annotation_layers"":[],""forecastPeriods"":10,""forecastInterval"":0.8,""x_axis_title_margin"":15,""y_axis_title_margin"":15,""y_axis_title_position"":""Left"",""color_scheme"":""supersetColors"",""seriesType"":""line"",""only_total"":true,""opacity"":0.2,""markerSize"":6,""show_legend"":true,""legendType"":""scroll"",""legendOrientation"":""top"",""x_axis_time_format"":""smart_date"",""rich_tooltip"":true,""tooltipTimeFormat"":""smart_date"",""y_axis_format"":""SMART_NUMBER"",""y_axis_bounds"":[null,null],""extra_form_data"":{},""dashboards"":[],""force"":false,""result_format"":""json"",""result_type"":""full""},""result_format"":""json"",""result_type"":""full""}",public.logs,table,1,,false
+246,[examples].[wb_health_population](id:1),de705755-f944-459b-9417-1969336686a0,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""entity"": ""country_code"",
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [],
+    ""limit"": 100,
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        ""sum__SP_POP_TOTL"",
+        ""sum__SP_RUR_TOTL_ZS"",
+        ""sum__SH_DYN_AIDS""
+    ],
+    ""row_limit"": 50000,
+    ""secondary_metric"": ""sum__SP_POP_TOTL"",
+    ""series"": ""country_name"",
+    ""show_bubbles"": true,
+    ""since"": ""2011-01-01"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""2012-01-01"",
+    ""viz_type"": ""para""
+}",para,2023-03-28T12:07:50.170257,2023-03-28T12:07:50.170220,Parallel Coordinates,,[examples].[public],,,,,,1,,,,table,,,false
+236,[examples].[wb_health_population](id:1),45f20591-17ff-4916-af16-4c4d79c78208,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""date_filter"": false,
+    ""entity"": ""country_code"",
+    ""filter_configs"": [
+        {
+            ""asc"": false,
+            ""clearable"": true,
+            ""column"": ""region"",
+            ""key"": ""2s98dfu"",
+            ""metric"": ""sum__SP_POP_TOTL"",
+            ""multiple"": false
+        },
+        {
+            ""asc"": false,
+            ""clearable"": true,
+            ""column"": ""country_name"",
+            ""key"": ""li3j2lk"",
+            ""metric"": ""sum__SP_POP_TOTL"",
+            ""multiple"": true
+        }
+    ],
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""row_limit"": 50000,
+    ""show_bubbles"": true,
+    ""since"": ""2014-01-01"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""2014-01-02"",
+    ""viz_type"": ""filter_box""
+}",filter_box,2023-03-28T12:07:49.754894,2023-03-28T12:07:49.754860,Region Filter,,[examples].[public],,,,,,1,,,,table,,,false
+238,[examples].[wb_health_population](id:1),03845389-f209-4b39-938e-ffffe24cc9bb,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""country_fieldtype"": ""cca3"",
+    ""entity"": ""country_code"",
+    ""granularity_sqla"": ""year"",
+    ""groupby"": [
+        ""country_name""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        ""sum__SP_POP_TOTL""
+    ],
+    ""row_limit"": 50000,
+    ""show_bubbles"": true,
+    ""since"": ""2014-01-01"",
+    ""time_range"": ""2014-01-01 : 2014-01-02"",
+    ""until"": ""2014-01-02"",
+    ""viz_type"": ""table""
+}",table,2023-03-28T12:07:49.841580,2023-03-28T12:07:49.841531,Most Populated Countries,,[examples].[public],,,,,,1,,,,table,,,false
+264,[examples].[birth_names](id:2),f18843a8-44cc-4cb3-aea6-ef7e5cd502f9,"{
+    ""adhoc_filters"": [
+        {
+            ""clause"": ""WHERE"",
+            ""comparator"": ""girl"",
+            ""expressionType"": ""SIMPLE"",
+            ""operator"": ""=="",
+            ""subject"": ""gender""
+        }
+    ],
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metric"": ""sum__num"",
+    ""row_limit"": 50000,
+    ""subheader"": ""total female participants"",
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""big_number_total""
+}",big_number_total,2023-03-28T12:07:51.758541,2023-03-28T12:07:51.758508,Number of Girls,,[examples].[public],,,,,,2,,,,table,,,false
+262,[examples].[birth_names](id:2),d537a669-5d2b-413c-ad6d-bc03420aab36,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""name""
+    ],
+    ""limit"": ""10"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num_california"",
+                ""expression"": ""CASE WHEN state = 'CA' THEN num ELSE 0 END""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""SUM(num_california)""
+        }
+    ],
+    ""row_limit"": 50000,
+    ""time_range"": ""100 years ago : now"",
+    ""timeseries_limit_metric"": {
+        ""aggregate"": ""SUM"",
+        ""column"": {
+            ""column_name"": ""num_california"",
+            ""expression"": ""CASE WHEN state = 'CA' THEN num ELSE 0 END""
+        },
+        ""expressionType"": ""SIMPLE"",
+        ""label"": ""SUM(num_california)""
+    },
+    ""viz_type"": ""line""
+}",line,2023-03-28T12:07:51.682207,2023-03-28T12:07:51.682173,Top 10 California Names Timeseries,,[examples].[public],,,,,,2,,,,table,,,false
+261,[examples].[birth_names](id:2),05c4d063-803c-473c-b7c6-e74c27069bd4,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metric"": {
+        ""aggregate"": ""SUM"",
+        ""column"": {
+            ""column_name"": ""num_california"",
+            ""expression"": ""CASE WHEN state = 'CA' THEN num ELSE 0 END""
+        },
+        ""expressionType"": ""SIMPLE"",
+        ""label"": ""SUM(num_california)""
+    },
+    ""row_limit"": 50000,
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""big_number_total""
+}",big_number_total,2023-03-28T12:07:51.645782,2023-03-28T12:07:51.645746,Number of California Births,,[examples].[public],,,,,,2,,,,table,,,false
+252,[examples].[birth_names](id:2),4325b76f-346a-4ffb-bc6a-023587c22096,"{
+    ""adhoc_filters"": [
+        {
+            ""clause"": ""WHERE"",
+            ""comparator"": ""girl"",
+            ""expressionType"": ""SIMPLE"",
+            ""operator"": ""=="",
+            ""subject"": ""gender""
+        }
+    ],
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [],
+    ""limit"": ""100"",
+    ""markup_type"": ""markdown"",
+    ""metric"": ""sum__num"",
+    ""rotation"": ""square"",
+    ""row_limit"": 50000,
+    ""series"": ""name"",
+    ""size_from"": ""10"",
+    ""size_to"": ""70"",
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""word_cloud""
+}",word_cloud,2023-03-28T12:07:51.307226,2023-03-28T12:07:51.307191,Girl Name Cloud,,[examples].[public],,,,,,2,,,,table,,,false
+249,[examples].[birth_names](id:2),1adcfe50-8eed-4822-9c33-36ace1036f74,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [
+        ""name""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num"",
+                ""type"": ""BIGINT""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""Births"",
+            ""optionName"": ""metric_11""
+        }
+    ],
+    ""rich_tooltip"": true,
+    ""row_limit"": 50000,
+    ""show_legend"": true,
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""line""
+}",line,2023-03-28T12:07:51.190606,2023-03-28T12:07:51.190551,Trends,,[examples].[public],,,,,,2,,,,table,,,false
+259,[examples].[birth_names](id:2),a5cec423-0dbd-4267-a662-34fd3e2ec6a9,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        {
+            ""aggregate"": ""SUM"",
+            ""column"": {
+                ""column_name"": ""num"",
+                ""type"": ""BIGINT""
+            },
+            ""expressionType"": ""SIMPLE"",
+            ""label"": ""Births"",
+            ""optionName"": ""metric_11""
+        }
+    ],
+    ""row_limit"": 50000,
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""line""
+}",line,2023-03-28T12:07:51.570275,2023-03-28T12:07:51.570243,Num Births Trend,,[examples].[public],,,,,,2,,,,table,,,false
+257,[examples].[birth_names](id:2),90f8cf72-c9d2-4f4f-a115-8662fab11c99,"{
+    ""compare_lag"": ""10"",
+    ""compare_suffix"": ""o10Y"",
+    ""granularity_sqla"": ""ds"",
+    ""groupby"": [],
+    ""groupbyColumns"": [
+        ""state""
+    ],
+    ""groupbyRows"": [
+        ""name""
+    ],
+    ""limit"": ""25"",
+    ""markup_type"": ""markdown"",
+    ""metrics"": [
+        ""sum__num""
+    ],
+    ""row_limit"": 50000,
+    ""time_range"": ""100 years ago : now"",
+    ""viz_type"": ""pivot_table_v2""
+}",pivot_table_v2,2023-03-28T12:07:51.498553,2023-03-28T12:07:51.498520,Pivot Table v2,,[examples].[public],,,,,,2,,"{
+    ""datasource"": {
+        ""id"": 2,
+        ""type"": ""table""
+    },
+    ""queries"": [
+        {
+            ""columns"": [
+                ""name"",
+                ""state""
+            ],
+            ""metrics"": [
+                ""sum__num""
+            ]
+        }
+    ],
+    ""result_format"": ""json"",
+    ""result_type"": ""full""
+}",,table,,,false
+269,[examples].[long_lat](id:3),a42069e6-24cf-4f43-af52-79a2e3d772eb,"{
+    ""color_picker"": {
+        ""a"": 1,
+        ""b"": 0,
+        ""g"": 255,
+        ""r"": 14
+    },
+    ""datasource"": ""5__table"",
+    ""extruded"": true,
+    ""granularity_sqla"": null,
+    ""grid_size"": 40,
+    ""groupby"": [],
+    ""mapbox_style"": ""mapbox://styles/mapbox/streets-v9"",
+    ""point_radius"": ""Auto"",
+    ""point_radius_fixed"": {
+        ""type"": ""fix"",
+        ""value"": 2000
+    },
+    ""point_radius_unit"": ""Pixels"",
+    ""row_limit"": 5000,
+    ""size"": ""count"",
+    ""spatial"": {
+        ""latCol"": ""LAT"",
+        ""lonCol"": ""LON"",
+        ""type"": ""latlong""
+    },
+    ""time_grain_sqla"": null,
+    ""time_range"": ""No filter"",
+    ""viewport"": {
+        ""bearing"": -2.3984797349335167,
+        ""latitude"": 37.789795085160335,
+        ""longitude"": -122.40632230075536,
+        ""pitch"": 54.08961642447763,
+        ""zoom"": 13.835465702403654
+    },
+    ""viz_type"": ""deck_hex""
+}",deck_hex,2023-03-28T12:07:52.394682,2023-03-28T12:07:52.394643,Deck.gl Hexagons,,[examples].[public],,,,,,3,,,,table,,,false
+123,[examples].[users](id:13),7dad983b-e9f6-d2e8-91da-c2262d4e84e8,"{""adhoc_filters"": [], ""datasource"": ""31__table"", ""granularity_sqla"": ""updated"", ""header_font_size"": 0.4, ""metric"": ""count"", ""queryFields"": {""metric"": ""metrics""}, ""subheader"": ""Slack Members"", ""subheader_font_size"": 0.125, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""big_number_total"", ""y_axis_format"": ""SMART_NUMBER""}",big_number_total,2023-03-28T12:08:16.784658,2023-02-27T08:27:08.059247,Number of Members,,[examples].[public],,,,,,13,,,users,table,,,false
+127,[examples].[new_members_daily](id:14),92e1d712-bcf9-4d7e-9b94-26cffe502908,"{""adhoc_filters"": [], ""color_picker"": {""a"": 1, ""b"": 135, ""g"": 122, ""r"": 0}, ""compare_lag"": 1, ""compare_suffix"": ""MoM"", ""datasource"": ""66__table"", ""granularity_sqla"": ""date"", ""header_font_size"": 0.4, ""metric"": {""aggregate"": ""SUM"", ""column"": {""column_name"": ""new_members"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 1849, ""is_dttm"": false, ""optionName"": ""_col_New Members"", ""python_date_format"": null, ""type"": ""BIGINT"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""SUM(New Members)"", ""optionName"": ""metric_7pksdivmphp_bicn1fji7en"", ""sqlExpression"": null}, ""queryFields"": {""metric"": ""metrics""}, ""rolling_type"": ""None"", ""show_trend_line"": true, ""slice_id"": 3055, ""start_y_axis_at_zero"": true, ""subheader_font_size"": 0.15, ""time_grain_sqla"": ""P1M"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""big_number"", ""y_axis_format"": ""SMART_NUMBER""}",big_number,2023-03-28T12:08:17.013832,2023-02-27T08:27:08.133314,New Members per Month,,[examples].[public],,,,,,14,,,new_members_daily,table,,,false
+81,[examples].[covid_vaccines](id:15),0c953c84-0c9a-418d-be9f-2894d2a2cee0,"{""adhoc_filters"": [], ""all_columns_x"": ""clinical_stage"", ""all_columns_y"": ""product_category"", ""bottom_margin"": ""auto"", ""canvas_image_rendering"": ""pixelated"", ""datasource"": ""69__table"", ""left_margin"": ""auto"", ""linear_color_scheme"": ""schemeYlOrBr"", ""metric"": ""count"", ""normalize_across"": ""heatmap"", ""queryFields"": {""metric"": ""metrics""}, ""row_limit"": 10000, ""show_legend"": false, ""show_perc"": true, ""show_values"": true, ""slice_id"": 3962, ""sort_x_axis"": ""alpha_asc"", ""sort_y_axis"": ""alpha_asc"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""heatmap"", ""xscale_interval"": null, ""y_axis_bounds"": [null, null], ""y_axis_format"": ""SMART_NUMBER"", ""yscale_interval"": null}",heatmap,2023-03-28T12:08:15.275948,2023-02-27T08:27:07.254835,Vaccine Candidates per Approach & Stage,,[examples].[public],,,,,,15,,,covid_vaccines,table,,,false
+100,[examples].[covid_vaccines](id:15),f69c556f-15fe-4a82-a8bb-69d5b6954123,"{""adhoc_filters"": [], ""color_scheme"": ""supersetColors"", ""datasource"": ""69__table"", ""groupby"": [""product_category"", ""clinical_stage""], ""linear_color_scheme"": ""schemeYlOrBr"", ""metric"": ""count"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics"", ""secondary_metric"": ""metrics""}, ""row_limit"": 10000, ""slice_id"": 3964, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""sunburst""}",sunburst,2023-03-28T12:08:15.813543,2023-02-27T08:27:07.616011,Vaccine Candidates per Country & Stage,,[examples].[public],,,,,,15,,,covid_vaccines,table,,,false
+117,[examples].[FCC 2018 Survey](id:16),5596e0f6-78a9-465d-8325-7139c794a06a,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""1"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_s1jzmdwgeg_p3er4w56uy"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""is_software_dev""}], ""color_picker"": {""a"": 1, ""b"": 135, ""g"": 122, ""r"": 0}, ""country_fieldtype"": ""name"", ""datasource"": ""42__table"", ""entity"": ""country_live"", ""granularity_sqla"": ""time_start"", ""linear_color_scheme"": ""superset_seq_1"", ""max_bubble_size"": ""25"", ""metric"": ""count"", ""queryFields"": {""entity"": ""groupby"", ""metric"": ""metrics"", ""secondary_metric"": ""metrics""}, ""row_limit"": 10000, ""secondary_metric"": {""aggregate"": ""COUNT"", ""column"": {""column_name"": ""country_live"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 1570, ""is_dttm"": false, ""python_date_format"": null, ""type"": ""TEXT"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""COUNT(country_live)"", ""optionName"": ""metric_980jcnefhlk_ar87s15pwro"", ""sqlExpression"": null}, ""show_bubbles"": true, ""slice_id"": 3635, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""world_map""}",world_map,2023-03-28T12:08:16.488203,2023-02-27T08:27:07.943370,Location of Current Developers,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+96,[examples].[FCC 2018 Survey](id:16),a0e5329f-224e-6fc8-efd2-d37d0f546ee8,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""0"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_3f8ug0vnqk1_oy0mvl0izdc"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""is_software_dev""}], ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""header_font_size"": 0.4, ""metric"": ""count"", ""queryFields"": {""metric"": ""metrics""}, ""slice_id"": 1363, ""subheader_font_size"": 0.15, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""big_number_total"", ""y_axis_format"": ""SMART_NUMBER""}",big_number_total,2023-03-28T12:08:15.705247,2023-02-27T08:27:07.534800,Number of Aspiring Developers,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+116,[examples].[FCC 2018 Survey](id:16),067c4a1e-ae03-4c0c-8e2a-d2c0f4bf43c3,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""1"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_9hkcdqhiqor_84pk01t2k9"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""is_software_dev""}, {""clause"": ""WHERE"", ""comparator"": ""NULL"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_d5l1qwsthl_okyuouvmors"", ""isExtra"": false, ""isNew"": false, ""operator"": ""!="", ""sqlExpression"": null, ""subject"": ""first_time_developer""}, {""clause"": ""WHERE"", ""comparator"": ""NULL"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_95548uvadi_f990s8nzl4"", ""isExtra"": false, ""isNew"": false, ""operator"": ""!="", ""sqlExpression"": null, ""subject"": ""communite_time""}], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": [""first_time_developer"", ""communite_time""], ""label_colors"": {}, ""metric"": ""count"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": 10000, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""sankey""}",sankey,2023-03-28T12:08:16.447387,2023-02-27T08:27:07.924876,First Time Developer & Commute Time,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+131,[examples].[FCC 2018 Survey](id:16),def07750-b5c0-0b69-6228-cb2330916166,"{""adhoc_filters"": [], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""donut"": true, ""granularity_sqla"": ""time_start"", ""groupby"": [""ethnic_minority""], ""innerRadius"": 44, ""label_line"": true, ""labels_outside"": true, ""metric"": ""count"", ""number_format"": ""SMART_NUMBER"", ""outerRadius"": 69, ""label_type"": ""key"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": 10000, ""show_labels"": true, ""show_legend"": false, ""slice_id"": 1383, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""pie""}",pie,2023-03-28T12:08:17.269946,2023-02-27T08:27:08.226068,Are you an ethnic minority in your city?,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+130,[examples].[FCC 2018 Survey](id:16),bff88053-ccc4-92f2-d6f5-de83e950e8cd,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""0"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_s1jzmdwgeg_p3er4w56uy"", ""isExtra"": false, ""isNew"": false, ""operator"": ""=="", ""sqlExpression"": null, ""subject"": ""is_software_dev""}, {""clause"": ""WHERE"", ""comparator"": ""NULL"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_rdlajraxs0f_lgyfv4rvdh"", ""isExtra"": false, ""isNew"": false, ""operator"": ""!="", ""sqlExpression"": null, ""subject"": ""job_pref""}], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": [""job_pref""], ""label_colors"": {}, ""metrics"": [""count""], ""number_format"": ""SMART_NUMBER"", ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""row_limit"": 10, ""slice_id"": 1377, ""time_range"": ""No filter"", ""treemap_ratio"": 1.618033988749895, ""url_params"": {}, ""viz_type"": ""treemap""}",treemap,2023-03-28T12:08:17.196759,2023-02-27T08:27:08.202287,Preferred Employment Style,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+122,[examples].[FCC 2018 Survey](id:16),4880e4f4-b701-4be0-86f3-e7e89432e83b,"{""adhoc_filters"": [{""clause"": ""WHERE"", ""comparator"": ""NULL"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_of9xf5uks2_5pisp1se9r5"", ""isExtra"": false, ""isNew"": false, ""operator"": ""!="", ""sqlExpression"": null, ""subject"": ""ethnic_minority""}, {""clause"": ""WHERE"", ""comparator"": ""NULL"", ""expressionType"": ""SIMPLE"", ""filterOptionName"": ""filter_9ikn7htywfm_2579he7pk5x"", ""isExtra"": false, ""isNew"": false, ""operator"": ""!="", ""sqlExpression"": null, ""subject"": ""gender""}], ""color_scheme"": ""supersetColors"", ""datasource"": ""42__table"", ""granularity_sqla"": ""time_start"", ""groupby"": [""ethnic_minority"", ""gender""], ""label_colors"": {}, ""metric"": ""count"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": null, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""sankey""}",sankey,2023-03-28T12:08:16.739062,2023-02-27T08:27:08.038575,Ethnic Minority & Gender,,[examples].[public],,,,,,16,,,FCC 2018 Survey,table,,,false
+119,[examples].[video_game_sales](id:21),326fc7e5-b7f1-448e-8a6f-80d0e7ce0b64,"{""adhoc_filters"": [], ""all_columns_x"": ""platform"", ""all_columns_y"": ""genre"", ""bottom_margin"": ""auto"", ""canvas_image_rendering"": ""pixelated"", ""datasource"": ""64__table"", ""granularity_sqla"": ""year"", ""left_margin"": ""auto"", ""linear_color_scheme"": ""blue_white_yellow"", ""metric"": ""count"", ""normalize_across"": ""heatmap"", ""queryFields"": {""metric"": ""metrics""}, ""row_limit"": 10000, ""show_legend"": true, ""show_perc"": true, ""show_values"": true, ""sort_x_axis"": ""alpha_asc"", ""sort_y_axis"": ""alpha_asc"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""heatmap"", ""xscale_interval"": null, ""y_axis_bounds"": [null, null], ""y_axis_format"": ""SMART_NUMBER"", ""yscale_interval"": null}",heatmap,2023-03-28T12:08:16.594333,2023-02-27T08:27:07.981174,Popular Genres Across Platforms,,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+118,[examples].[video_game_sales](id:21),d20b7324-3b80-24d4-37e2-3bd583b66713,"{""adhoc_filters"": [], ""all_columns"": [""rank"", ""name"", ""global_sales"", ""platform"", ""genre"", ""publisher"", ""year""], ""color_pn"": false, ""datasource"": ""21__table"", ""granularity_sqla"": ""year"", ""groupby"": [], ""metrics"": [""count""], ""order_by_cols"": [], ""order_desc"": true, ""page_length"": null, ""percent_metrics"": [], ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""query_mode"": ""raw"", ""row_limit"": 10, ""show_cell_bars"": false, ""slice_id"": 657, ""table_timestamp_format"": ""smart_date"", ""time_grain_sqla"": ""P1D"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""table""}",table,2023-03-28T12:08:16.534820,2023-02-27T08:27:07.962476,Publishers With Most Titles,,[examples].[public],,,,,,21,,,video_game_sales,table,,,false
+74,[examples].[cleaned_sales_data](id:22),db9609e4-9b78-4a32-87a7-4d9e19d51cd8,"{""adhoc_filters"": [], ""annotation_layers"": [], ""bar_stacked"": true, ""bottom_margin"": ""auto"", ""color_scheme"": ""supersetColors"", ""comparison_type"": null, ""datasource"": ""23__table"", ""granularity_sqla"": ""order_date"", ""groupby"": [""product_line""], ""label_colors"": {""Classic Cars"": ""#5AC189"", ""Motorcycles"": ""#666666"", ""Planes"": ""#FCC700"", ""QuantityOrdered"": ""#454E7C"", ""SUM(Sales)"": ""#1FA8C9"", ""Ships"": ""#A868B7"", ""Trains"": ""#3CCCCB"", ""Trucks and Buses"": ""#E04355"", ""Vintage Cars"": ""#FF7F44""}, ""left_margin"": ""auto"", ""line_interpolation"": ""linear"", ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 917, ""is_dttm"": false, ""optionName"": ""_col_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""SUM(Sales)"", ""optionName"": ""metric_tjn8bh6y44_7o4etwsqhal"", ""sqlExpression"": null}], ""order_desc"": true, ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""rich_tooltip"": true, ""rolling_type"": null, ""row_limit"": 10000, ""show_brush"": ""auto"", ""show_controls"": false, ""show_legend"": true, ""slice_id"": 2806, ""time_compare"": null, ""time_grain_sqla"": ""P3M"", ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""bar"", ""x_axis_format"": ""%m/%d/%Y"", ""x_axis_label"": ""Quarter starting"", ""x_ticks_layout"": ""45\u00b0"", ""y_axis_bounds"": [null, null], ""y_axis_format"": null, ""y_axis_label"": ""Revenue ($)""}",bar,2023-04-01T21:11:43.576211,2023-02-27T08:27:07.125436,Quarterly Sales (By Product Line),,[examples].[public],,,,2,,22,,"{""datasource"":{""id"":22,""type"":""table""},""force"":false,""queries"":[{""time_range"":""No filter"",""granularity"":""order_date"",""filters"":[],""extras"":{""time_grain_sqla"":""P3M"",""having"":"""",""where"":""""},""applied_time_extras"":{},""columns"":[""product_line""],""metrics"":[{""aggregate"":""SUM"",""column"":{""column_name"":""sales"",""description"":null,""expression"":null,""filterable"":true,""groupby"":true,""id"":917,""is_dttm"":false,""optionName"":""_col_Sales"",""python_date_format"":null,""type"":""DOUBLE PRECISION"",""verbose_name"":null},""expressionType"":""SIMPLE"",""hasCustomLabel"":false,""isNew"":false,""label"":""SUM(Sales)"",""optionName"":""metric_tjn8bh6y44_7o4etwsqhal"",""sqlExpression"":null}],""annotation_layers"":[],""row_limit"":10000,""series_limit"":0,""order_desc"":true,""url_params"":{},""custom_params"":{},""custom_form_data"":{}}],""form_data"":{""adhoc_filters"":[],""annotation_layers"":[],""bar_stacked"":true,""bottom_margin"":""auto"",""color_scheme"":""supersetColors"",""comparison_type"":null,""datasource"":""22__table"",""granularity_sqla"":""order_date"",""groupby"":[""product_line""],""label_colors"":{""Classic Cars"":""#5AC189"",""Motorcycles"":""#666666"",""Planes"":""#FCC700"",""QuantityOrdered"":""#454E7C"",""SUM(Sales)"":""#1FA8C9"",""Ships"":""#A868B7"",""Trains"":""#3CCCCB"",""Trucks and Buses"":""#E04355"",""Vintage Cars"":""#FF7F44""},""left_margin"":""auto"",""line_interpolation"":""linear"",""metrics"":[{""aggregate"":""SUM"",""column"":{""column_name"":""sales"",""description"":null,""expression"":null,""filterable"":true,""groupby"":true,""id"":917,""is_dttm"":false,""optionName"":""_col_Sales"",""python_date_format"":null,""type"":""DOUBLE PRECISION"",""verbose_name"":null},""expressionType"":""SIMPLE"",""hasCustomLabel"":false,""isNew"":false,""label"":""SUM(Sales)"",""optionName"":""metric_tjn8bh6y44_7o4etwsqhal"",""sqlExpression"":null}],""order_desc"":true,""queryFields"":{""groupby"":""groupby"",""metrics"":""metrics""},""rich_tooltip"":true,""rolling_type"":null,""row_limit"":10000,""show_brush"":""auto"",""show_controls"":false,""show_legend"":true,""slice_id"":74,""time_compare"":null,""time_grain_sqla"":""P3M"",""time_range"":""No filter"",""url_params"":{},""viz_type"":""bar"",""x_axis_format"":""%m/%d/%Y"",""x_axis_label"":""Quarter starting"",""x_ticks_layout"":""45°"",""y_axis_bounds"":[null,null],""y_axis_format"":null,""y_axis_label"":""Revenue ($)"",""force"":false,""result_format"":""json"",""result_type"":""full""},""result_format"":""json"",""result_type"":""full""}",cleaned_sales_data,table,,,false
+99,[examples].[cleaned_sales_data](id:22),c3d643cd-fd6f-4659-a5b7-59402487a8d0,"{""adhoc_filters"": [], ""datasource"": ""23__table"", ""granularity_sqla"": ""order_date"", ""header_font_size"": 0.4, ""metric"": {""aggregate"": ""SUM"", ""column"": {""column_name"": ""quantity_ordered"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 914, ""is_dttm"": false, ""python_date_format"": null, ""type"": ""BIGINT"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""SUM(Sales)"", ""optionName"": ""metric_twq59hf4ej_g70qjfmehsq"", ""sqlExpression"": null}, ""queryFields"": {""metric"": ""metrics""}, ""subheader"": """", ""subheader_font_size"": 0.15, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""big_number_total"", ""y_axis_format"": ""SMART_NUMBER""}",big_number_total,2023-03-28T12:08:15.786315,2023-02-27T08:27:07.592660,Total Items Sold,,[examples].[public],,,,,,22,,,cleaned_sales_data,table,,,false
+129,[examples].[cleaned_sales_data](id:22),cf0da099-b3ab-4d94-ab62-cf353ac3c611,"{""adhoc_filters"": [], ""datasource"": ""23__table"", ""granularity_sqla"": ""order_date"", ""groupby"": [""product_line""], ""horizon_color_scale"": ""series"", ""metrics"": [{""aggregate"": ""SUM"", ""column"": {""column_name"": ""sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 917, ""is_dttm"": false, ""optionName"": ""_col_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""(Sales)"", ""optionName"": ""metric_e3kxby3hnjs_nfd4adbcnsn"", ""sqlExpression"": null}], ""order_desc"": true, ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""row_limit"": null, ""series_height"": ""25"", ""slice_id"": 2811, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""horizon""}",horizon,2023-03-28T12:08:17.129152,2023-02-27T08:27:08.180602,Seasonality of Revenue (per Product Line),,[examples].[public],,,,,,22,,,cleaned_sales_data,table,,,false
+126,[examples].[cleaned_sales_data](id:22),09c497e0-f442-1121-c9e7-671e37750424,"{""adhoc_filters"": [], ""color_scheme"": ""supersetColors"", ""datasource"": ""23__table"", ""donut"": true, ""granularity_sqla"": ""order_date"", ""groupby"": [""product_line""], ""innerRadius"": 41, ""label_line"": true, ""labels_outside"": true, ""metric"": {""aggregate"": ""SUM"", ""column"": {""column_name"": ""sales"", ""description"": null, ""expression"": null, ""filterable"": true, ""groupby"": true, ""id"": 917, ""is_dttm"": false, ""optionName"": ""_col_Sales"", ""python_date_format"": null, ""type"": ""DOUBLE PRECISION"", ""verbose_name"": null}, ""expressionType"": ""SIMPLE"", ""hasCustomLabel"": false, ""isNew"": false, ""label"": ""(Sales)"", ""optionName"": ""metric_3sk6pfj3m7i_64h77bs4sly"", ""sqlExpression"": null}, ""number_format"": ""SMART_NUMBER"", ""outerRadius"": 65, ""label_type"": ""key"", ""queryFields"": {""groupby"": ""groupby"", ""metric"": ""metrics""}, ""row_limit"": null, ""show_labels"": true, ""show_labels_threshold"": 2, ""show_legend"": false, ""slice_id"": 670, ""time_range"": ""No filter"", ""url_params"": {}, ""viz_type"": ""pie""}",pie,2023-03-28T12:08:16.968761,2023-02-27T08:27:08.114271,Overall Sales (By Product Line),,[examples].[public],,,,,,22,,,cleaned_sales_data,table,,,false
+110,[examples].[members_channels_2](id:23),d44e416d-1647-44e4-b442-6da34b44adc4,"{""adhoc_filters"": [], ""color_scheme"": ""supersetColors"", ""datasource"": ""57__table"", ""groupby"": [""channel_name""], ""label_colors"": {}, ""metrics"": [""count""], ""number_format"": ""SMART_NUMBER"", ""queryFields"": {""groupby"": ""groupby"", ""metrics"": ""metrics""}, ""row_limit"": null, ""slice_id"": 2396, ""time_range"": ""No filter"", ""treemap_ratio"": 1.618033988749895, ""url_params"": {}, ""viz_type"": ""treemap""}",treemap,2023-03-28T12:08:16.155046,2023-02-27T08:27:07.807923,Members per Channel,,[examples].[public],,,,,,23,,,members_channels_2,table,,,false
