@@ -7,41 +7,27 @@ integration_tests:
   outputs:
     bigquery:
       type: bigquery
-      dataset: superset
-      keyfile: /Users/ravilguzairov/Desktop/iloc/dbt-iloc-584c04708f67.json
-      location: US
-      method: service-account
-      priority: interactive
-      project: dbt-iloc
-      threads: 1
-      # method: service-account-json
-      # project: "{{ env_var('BIGQUERY_PROJECT') }}"
-      # dataset: "{{ env_var('BIGQUERY_DATASET') }}"
-      # location: "{{ env_var('BIGQUERY_LOCATION') }}"
-      # threads: 2
-      # keyfile_json:
-      #   type: "{{ env_var('BIGQUERY_SERVICE_TYPE') }}"
-      #   project_id: "{{ env_var('BIGQUERY_SERVICE_PROJECT_ID') }}"
-      #   private_key_id: "{{ env_var('BIGQUERY_SERVICE_PRIVATE_KEY_ID') }}"
-      #   private_key: "{{ env_var('BIGQUERY_SERVICE_PRIVATE_KEY') }}"
-      #   client_email: "{{ env_var('BIGQUERY_SERVICE_CLIENT_EMAIL') }}"
-      #   client_id: "{{ env_var('BIGQUERY_SERVICE_CLIENT_ID') }}"
-      #   auth_uri: "{{ env_var('BIGQUERY_SERVICE_AUTH_URI') }}"
-      #   token_uri: "{{ env_var('BIGQUERY_SERVICE_TOKEN_URI') }}"
-      #   auth_provider_x509_cert_url: "{{ env_var('BIGQUERY_SERVICE_AUTH_PROVIDER_X509_CERT_URL') }}"
-      #   client_x509_cert_url: "{{ env_var('BIGQUERY_SERVICE_CLIENT_X509_CERT_URL') }}"
+      method: service-account-json
+      project: "{{ env_var('BIGQUERY_PROJECT') }}"
+      dataset: "{{ env_var('BIGQUERY_DATASET') }}"
+      location: "{{ env_var('BIGQUERY_LOCATION') }}"
+      threads: 2
+      keyfile_json:
+        type: "{{ env_var('BIGQUERY_SERVICE_TYPE') }}"
+        project_id: "{{ env_var('BIGQUERY_SERVICE_PROJECT_ID') }}"
+        private_key_id: "{{ env_var('BIGQUERY_SERVICE_PRIVATE_KEY_ID') }}"
+        private_key: "{{ env_var('BIGQUERY_SERVICE_PRIVATE_KEY') }}"
+        client_email: "{{ env_var('BIGQUERY_SERVICE_CLIENT_EMAIL') }}"
+        client_id: "{{ env_var('BIGQUERY_SERVICE_CLIENT_ID') }}"
+        auth_uri: "{{ env_var('BIGQUERY_SERVICE_AUTH_URI') }}"
+        token_uri: "{{ env_var('BIGQUERY_SERVICE_TOKEN_URI') }}"
+        auth_provider_x509_cert_url: "{{ env_var('BIGQUERY_SERVICE_AUTH_PROVIDER_X509_CERT_URL') }}"
+        client_x509_cert_url: "{{ env_var('BIGQUERY_SERVICE_CLIENT_X509_CERT_URL') }}"
     postgres:
-      type: postgres
-      host: localhost
-      user: pguser
-      pass: pass
-      port: 5432
-      dbname: superset
-      schema: superset
-      # host: "{{ env_var('POSTGRES_TEST_HOST') }}"
-      # user: "{{ env_var('POSTGRES_TEST_USER') }}"
-      # pass: "{{ env_var('POSTGRES_TEST_PASS') }}"
-      # port: "{{ env_var('POSTGRES_TEST_PORT') | as_number }}"
-      # dbname: "{{ env_var('POSTGRES_TEST_DBNAME') }}"
-      # schema: "{{ env_var('POSTGRES_TEST_SCHEMA') }}"
-      # threads: 4
+      host: "{{ env_var('POSTGRES_TEST_HOST') }}"
+      user: "{{ env_var('POSTGRES_TEST_USER') }}"
+      pass: "{{ env_var('POSTGRES_TEST_PASS') }}"
+      port: "{{ env_var('POSTGRES_TEST_PORT') | as_number }}"
+      dbname: "{{ env_var('POSTGRES_TEST_DBNAME') }}"
+      schema: "{{ env_var('POSTGRES_TEST_SCHEMA') }}"
+      threads: 4
