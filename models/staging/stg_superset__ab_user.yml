@@ -17,5 +17,5 @@ models:
       - name: changed_by_fk
       - name: created_on
       - name: changed_on
-      - name: user_last_login
+      - name: last_login
       - name: full_name

@@ -21,7 +21,7 @@ select
     active,
     created_on,
     changed_on,
-    user_last_login,
+    last_login,
     coalesce(dashboards.dashboards_count, 0) as dashboards_count,
     coalesce(charts.charts_count, 0) as charts_count
 from {{ ref('stg_superset__ab_user') }} user
