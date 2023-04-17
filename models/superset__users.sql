@@ -24,6 +24,6 @@ select
     last_login,
     coalesce(dashboards.dashboards_count, 0) as dashboards_count,
     coalesce(charts.charts_count, 0) as charts_count
-from {{ ref('stg_superset__ab_user') }} user
-left join dashboards on user.user_id = dashboards.created_by_fk
-left join charts on user.user_id = charts.created_by_fk
+from {{ ref('stg_superset__ab_user') }} ab_user
+left join dashboards on ab_user.user_id = dashboards.created_by_fk
+left join charts on ab_user.user_id = charts.created_by_fk

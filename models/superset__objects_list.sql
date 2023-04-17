@@ -9,7 +9,7 @@ with objects as (
         created_on,
         changed_on
     from {{ ref('stg_superset__tables') }}
-    where is_sqllab_view = true
+    where cast(is_sqllab_view as {{ dbt.type_boolean() }}) = true
     
     union all
     

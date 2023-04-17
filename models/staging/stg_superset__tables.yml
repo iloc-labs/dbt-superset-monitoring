@@ -14,6 +14,7 @@ models:
       - name: created_by_fk
       - name: changed_by_fk
       - name: offset
+        quote: "{{ true if target.type == 'postgres' else false }}"
       - name: description
       - name: is_featured
       - name: cache_timeout
