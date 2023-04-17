@@ -23,3 +23,12 @@ integration_tests:
         token_uri: "{{ env_var('BIGQUERY_SERVICE_TOKEN_URI') }}"
         auth_provider_x509_cert_url: "{{ env_var('BIGQUERY_SERVICE_AUTH_PROVIDER_X509_CERT_URL') }}"
         client_x509_cert_url: "{{ env_var('BIGQUERY_SERVICE_CLIENT_X509_CERT_URL') }}"
+    postgres:
+      type: postgres
+      host: "{{ env_var('POSTGRES_TEST_HOST') }}"
+      user: "{{ env_var('POSTGRES_TEST_USER') }}"
+      pass: "{{ env_var('POSTGRES_TEST_PASS') }}"
+      port: "{{ env_var('POSTGRES_TEST_PORT') | as_number }}"
+      dbname: "{{ env_var('POSTGRES_TEST_DBNAME') }}"
+      schema: "{{ env_var('POSTGRES_TEST_SCHEMA') }}"
+      threads: 4

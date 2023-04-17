@@ -27,6 +27,126 @@ clean-targets:
   - dbt_packages
 
 vars:
-  superset_source_schema: "superset_raw"
+  superset_source_schema: "superset_test_raw"
   superset_target_tz: "UTC"
   superset_source_tz: "UTC"
+
+seeds:
+  dbt_superset_monitoring_tests:
+    +quote_columns: "{{ true if target.type =='postgres' else false }}"
+    +schema: "{ var('superset_source_schema') }}"
+    source:
+      ab_user:
+        +column_types:
+          id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          first_name: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          last_name: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          username: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          password: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          active: boolean
+          email: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          last_login: timestamp
+          login_count: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          fail_login_count: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          created_on: timestamp
+          changed_on: timestamp
+          created_by_fk: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          changed_by_fk: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+      dashboards:
+        +column_types:
+          id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          css: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          slug: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          uuid: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          published: boolean
+          changed_on: timestamp
+          created_on: timestamp
+          description: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          certified_by: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          external_url: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          changed_by_fk: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          created_by_fk: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          json_metadata: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          position_json: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          dashboard_title: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          certification_details: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          is_managed_externally: boolean
+      dashboard_slices:
+        +column_types:
+          id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          slice_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          dashboard_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+      dashboard_user:
+        +column_types:
+          id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          user_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          dashboard_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+      logs:
+        +column_types:
+          id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          dttm: timestamp
+          json: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          action: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          user_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          referrer: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          slice_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          duration_ms: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          dashboard_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+      slice_user:
+        +column_types:
+          id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          user_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          slice_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+      slices:
+        +column_types:
+          id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          perm: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          uuid: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          params: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          viz_type: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          changed_on: timestamp
+          created_on: timestamp
+          slice_name: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          description: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          schema_perm: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          certified_by: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          external_url: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          cache_timeout: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          changed_by_fk: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          created_by_fk: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          datasource_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          last_saved_at: timestamp
+          query_context: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          datasource_name: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          datasource_type: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          last_saved_by_fk: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          certification_details: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          is_managed_externally: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+      tables:
+        +column_types:
+          id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          sql: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          perm: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          uuid: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          extra: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          offset: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          params: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          schema: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          changed_on: timestamp
+          created_on: timestamp
+          table_name: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          database_id: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          description: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          is_featured: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          schema_perm: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          external_url: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          cache_timeout: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          changed_by_fk: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          created_by_fk: "{{ 'INT64' if target.type == 'bigquery' else 'bigint' }}"
+          main_dttm_col: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          is_sqllab_view: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          template_params: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          default_endpoint: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          filter_select_enabled: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          is_managed_externally: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
+          fetch_values_predicate: "{{ 'string' if target.type == 'bigquery' else 'varchar' }}"
