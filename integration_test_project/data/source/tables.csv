@@ -1,27 +1,13 @@
 id,sql,perm,uuid,extra,offset,params,schema,changed_on,created_on,table_name,database_id,description,is_featured,schema_perm,external_url,cache_timeout,changed_by_fk,created_by_fk,main_dttm_col,is_sqllab_view,template_params,default_endpoint,filter_select_enabled,is_managed_externally,fetch_values_predicate
-25,"select
-    dashboards.id,
-    dashboards.dashboard_title,
-    case when published then 'published' else 'draft' end as dashboard_status,
-    user_cr.username as created_by,
-    dashboards.created_on,
-    user_ch.username as changed_by,
-    dashboards.changed_on
-from dashboards
-left join ab_user as user_cr
-    on dashboards.created_by_fk = user_cr.id
-left join ab_user as user_ch
-    on dashboards.changed_by_fk = user_ch.id
-order by created_on",[examples].[dashboard_list](id:25),2ccf44ce-8a37-495d-88be-87e7bb2ad95b,,0,,public,2023-03-29T09:19:40.052293,2023-03-29T09:19:39.998166,dashboard_list,1,,false,[examples].[public],,,1,1,,true,,,false,false,
-19,"SELECT uc1.name as channel_1, uc2.name as channel_2, count(*) AS cnt FROM users_channels uc1 JOIN users_channels uc2 ON uc1.user_id = uc2.user_id GROUP BY uc1.name, uc2.name HAVING uc1.name <> uc2.name
-",[examples].[users_channels-uzooNNtSRO](id:19),473d6113-b44a-48d8-a6ae-e0ef7e2aebb0,,0,,public,2023-03-28T12:08:12.297396,2023-02-27T08:26:27.954106,users_channels-uzooNNtSRO,1,,false,[examples].[public],,,,,,false,,,true,false,
-14,"SELECT date, total_membership - lag(total_membership) OVER (ORDER BY date) AS new_members FROM exported_stats",[examples].[new_members_daily](id:14),9dd99cda-ff6b-4575-9a74-684d06e871ab,,0,,public,2023-03-28T12:08:06.717870,2023-02-27T08:18:44.353081,new_members_daily,1,,false,[examples].[public],,,,,,false,,,true,false,
+25,,[examples].[dashboard_list](id:25),2ccf44ce-8a37-495d-88be-87e7bb2ad95b,,0,,public,2023-03-29T09:19:40.052293,2023-03-29T09:19:39.998166,dashboard_list,1,,false,[examples].[public],,,1,1,,true,,,false,false,
+19,,[examples].[users_channels-uzooNNtSRO](id:19),473d6113-b44a-48d8-a6ae-e0ef7e2aebb0,,0,,public,2023-03-28T12:08:12.297396,2023-02-27T08:26:27.954106,users_channels-uzooNNtSRO,1,,false,[examples].[public],,,,,,false,,,true,false,
+14,,[examples].[new_members_daily](id:14),9dd99cda-ff6b-4575-9a74-684d06e871ab,,0,,public,2023-03-28T12:08:06.717870,2023-02-27T08:18:44.353081,new_members_daily,1,,false,[examples].[public],,,,,,false,,,true,false,
 10,,[examples].[channel_members](id:10),3e8130eb-0831-d568-b531-c3ce6d68d3d8,,0,,public,2023-03-28T12:08:03.510224,2023-02-27T08:18:06.106385,channel_members,1,,false,[examples].[public],,,,,,false,,,true,false,
-23,"SELECT c.name AS channel_name, u.name AS member_name FROM channel_members cm JOIN channels c ON cm.channel_id = c.id JOIN users u ON cm.user_id = u.id",[examples].[members_channels_2](id:23),3d9c0054-b31b-4102-92de-b1ef9f9e5e77,,0,,public,2023-03-28T12:08:14.832059,2023-02-27T08:27:06.731376,members_channels_2,1,,false,[examples].[public],,,,,,false,,,true,false,
+23,,[examples].[members_channels_2](id:23),3d9c0054-b31b-4102-92de-b1ef9f9e5e77,,0,,public,2023-03-28T12:08:14.832059,2023-02-27T08:27:06.731376,members_channels_2,1,,false,[examples].[public],,,,,,false,,,true,false,
 16,,[examples].[FCC 2018 Survey](id:16),d95a2865-53ce-1f82-a53d-8e3c89331469,,0,,public,2023-03-28T12:08:11.164486,2023-02-27T08:18:46.611829,FCC 2018 Survey,1,,false,[examples].[public],,,,,,false,,,true,false,
-21,,[examples].[video_game_sales](id:21),53d47c0c-c03d-47f0-b9ac-81225f808283,,0,"{""remote_id"": 64, ""database_name"": ""examples"", ""import_time"": 1606677834}",public,2023-03-28T12:08:13.658221,2023-02-27T08:26:33.163198,video_game_sales,1,,false,[examples].[public],,,,,,false,,,true,false,
+21,,[examples].[video_game_sales](id:21),53d47c0c-c03d-47f0-b9ac-81225f808283,,0,,public,2023-03-28T12:08:13.658221,2023-02-27T08:26:33.163198,video_game_sales,1,,false,[examples].[public],,,,,,false,,,true,false,
 15,,[examples].[covid_vaccines](id:15),974b7a1c-22ea-49cb-9214-97b7dbd511e0,,0,,public,2023-03-28T12:08:07.453775,2023-02-27T08:18:44.752684,covid_vaccines,1,,false,[examples].[public],,,,,,false,,,true,false,
-17,"SELECT m.ts, c.name, m.text FROM messages m JOIN channels c ON m.channel_id = c.id",[examples].[messages_channels](id:17),6e533506-fce6-4f6a-b116-d139df6dbdea,,0,,public,2023-03-28T12:08:11.563051,2023-02-27T08:26:24.328227,messages_channels,1,,false,[examples].[public],,,,,,false,,,true,false,
+17,,[examples].[messages_channels](id:17),6e533506-fce6-4f6a-b116-d139df6dbdea,,0,,public,2023-03-28T12:08:11.563051,2023-02-27T08:26:24.328227,messages_channels,1,,false,[examples].[public],,,,,,false,,,true,false,
 2,,[examples].[birth_names](id:2),e4939aeb-fa10-476e-9563-6dc380491287,,0,,public,2023-03-28T12:07:51.035271,2023-02-27T08:15:11.593286,birth_names,1,,false,[examples].[public],,,,,ds,false,,,true,false,
 12,,[examples].[threads](id:12),d7438be6-6078-17dd-cf9a-56f0ef546c80,,0,,public,2023-03-28T12:08:05.598868,2023-02-27T08:18:35.736607,threads,1,,false,[examples].[public],,,,,ts,false,,,true,false,
 20,,[examples].[exported_stats](id:20),0bd5d01c-b7d8-471b-b3a5-366ce6c920d4,,0,,public,2023-03-28T12:08:13.086457,2023-02-27T08:26:28.374097,exported_stats,1,,false,[examples].[public],,,,,Date,false,,,true,false,
