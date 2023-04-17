@@ -1,7 +1,7 @@
 
 name: 'dbt_superset_monitoring'
 version: '0.1.0'
-require-dbt-version: ['>=1.3.0']
+require-dbt-version: [">=1.3.0", "<2.0.0"]
 config-version: 2
 profile: 'dbt_superset_monitoring'
 model-paths: ["models"]
