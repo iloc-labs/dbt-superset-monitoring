@@ -11,7 +11,6 @@ env:
   DBT_PROFILES_DIR: /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/integration_test_project
   # BigQuery Connection
   BIGQUERY_PROJECT: ${{ secrets.BIGQUERY_PROJECT }}
-  BIGQUERY_DATASET: ${{ secrets.BIGQUERY_DATASET }}
   BIGQUERY_LOCATION: ${{ secrets.BIGQUERY_LOCATION }}
   BIGQUERY_SERVICE_TYPE: ${{ secrets.BIGQUERY_SERVICE_TYPE }}
   BIGQUERY_SERVICE_PROJECT_ID: ${{ secrets.BIGQUERY_SERVICE_PROJECT_ID }}
@@ -30,7 +29,6 @@ env:
   POSTGRES_TEST_PASS: ${{ secrets.POSTGRES_TEST_PASS }}
   POSTGRES_TEST_PORT: ${{ secrets.POSTGRES_TEST_PORT }}
   POSTGRES_TEST_DBNAME: ${{ secrets.POSTGRES_TEST_DBNAME }}
-  POSTGRES_TEST_SCHEMA: ${{ secrets.POSTGRES_TEST_SCHEMA}}
 
 jobs:
   integration_bigquery:

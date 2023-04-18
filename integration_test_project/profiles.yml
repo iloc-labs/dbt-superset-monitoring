@@ -9,7 +9,7 @@ integration_tests:
       type: bigquery
       method: service-account-json
       project: "{{ env_var('BIGQUERY_PROJECT') }}"
-      dataset: "{{ env_var('BIGQUERY_DATASET') }}"
+      dataset: superset_integration_tests
       location: "{{ env_var('BIGQUERY_LOCATION') }}"
       threads: 2
       keyfile_json:
@@ -30,5 +30,5 @@ integration_tests:
       pass: "{{ env_var('POSTGRES_TEST_PASS') }}"
       port: "{{ env_var('POSTGRES_TEST_PORT') | as_number }}"
       dbname: "{{ env_var('POSTGRES_TEST_DBNAME') }}"
-      schema: "{{ env_var('POSTGRES_TEST_SCHEMA') }}"
+      schema: superset_integration_tests
       threads: 4

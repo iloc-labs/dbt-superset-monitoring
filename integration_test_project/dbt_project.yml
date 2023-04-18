@@ -27,14 +27,13 @@ clean-targets:
   - dbt_packages
 
 vars:
-  superset_source_schema: "superset_test_raw"
+  superset_source_schema: "superset_integration_tests"
   superset_target_tz: "UTC"
   superset_source_tz: "UTC"
 
 seeds:
   dbt_superset_monitoring_tests:
     +quote_columns: "{{ true if target.type == 'postgres' else false }}"
-    schema: test_raw
     source:
       ab_user:
         +column_types:
