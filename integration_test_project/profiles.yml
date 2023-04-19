@@ -3,7 +3,7 @@ config:
     use_colors: True
 
 integration_tests:
-  target: bigquery
+  target: postgres
   outputs:
     bigquery:
       type: bigquery
