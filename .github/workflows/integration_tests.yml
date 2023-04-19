@@ -52,6 +52,10 @@ jobs:
   integration_postgres:
     name: integration-postgres
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        # Run tests from integration_tests sub dir
+        working-directory: ./integration_test_project
 
     services:
       postgres:
