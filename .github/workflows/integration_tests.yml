@@ -86,7 +86,7 @@ jobs:
         run: |
           pip install --upgrade pip wheel setuptools
           pip install -Iv dbt-postgres==1.4.5 --upgrade
-          pip install -Iv dbt-bigquery==1.4.5 --upgrade
+          pip install dbt-bigquery~=1.4.0
           dbt deps
 
       - name: "Connect to database"
