@@ -90,7 +90,7 @@ jobs:
 
       - name: "Connect to database"
         run: |
-          dbt debug --terget postgres
+          dbt debug --target postgres
           
 #       - name: Install tox
 #         run: python3 -m pip install tox
