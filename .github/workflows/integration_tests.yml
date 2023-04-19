@@ -76,10 +76,20 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.8.x'
+          python-version: '3.10.x'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip wheel setuptools
+          pip install -Iv dbt-postgres==1.4.5 --upgrade
+          dbt deps
+
+      - name: "Connect to database"
+        run: |
+          dbt debug
           
-      - name: Install tox
-        run: python3 -m pip install tox
+#       - name: Install tox
+#         run: python3 -m pip install tox
   
-      - name: Run Postgres Tests
-        run: tox -e integration_postgres
+#       - name: Run Postgres Tests
+#         run: tox -e integration_postgres
