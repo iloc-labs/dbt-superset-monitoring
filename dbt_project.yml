@@ -17,8 +17,3 @@ clean-targets:
   - "target"
   - "dbt_packages"
 
-vars:
-  superset_source_schema: "superset_raw"
-  superset_target_tz: "UTC"
-  superset_source_tz: "UTC"
-

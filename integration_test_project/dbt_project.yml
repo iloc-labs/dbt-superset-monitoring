@@ -27,7 +27,6 @@ clean-targets:
   - dbt_packages
 
 vars:
-  superset_source_schema: "superset_integration_tests"
   superset_target_tz: "UTC"
   superset_source_tz: "UTC"
 

@@ -3,8 +3,8 @@ version: 2
 sources:
   - name: superset
     description: Superset metadata
-    database: "{{ var('superset_database', target.database) }}"
-    schema: "{{ var('superset_source_schema', 'superset') }}"
+    database: "{{ var('superset_source_database', target.database) }}"
+    schema: "{{ var('superset_source_schema', target.schema) }}"
     tables:
       - name: ab_user
       - name: dashboards
