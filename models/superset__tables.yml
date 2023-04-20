@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: superset__tables
+    description: Tables
+    columns:
+      - name: table_id
+        description: Table ID
+      - name: table_name
+        description: Table name
+      - name: created_on
+        description: Created datetime
+      - name: changed_on
+        description: Changed datetime
+      - name: database_id
+        description: Database ID
+      - name: description
+        description: Table description
+      - name: filter_select_enabled
+        description: Enable filter select
+      - name: is_sqllab_view
+        description: Created via sqllab
+      - name: created_by
+        description: Creator name
+      - name: changed_by
+        description: Last editor name
+      - name: charts_count
+        description: Chart count base on current table

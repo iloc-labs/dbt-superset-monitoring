@@ -17,7 +17,7 @@ select
     dashboards.dashboard_status,
     user_cr.user_name as created_by,
     user_ch.user_name as changed_by,
-    sl_dashboards.charts_count
+    coalesce(sl_dashboards.charts_count, 0) as charts_count
 from {{ ref('stg_superset__dashboards') }} dashboards
 left join {{ ref('stg_superset__ab_user')}} user_cr
     on dashboards.created_by_fk = user_cr.user_id

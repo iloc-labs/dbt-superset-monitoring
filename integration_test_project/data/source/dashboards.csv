@@ -1,0 +1,11 @@
+id,css,slug,uuid,published,changed_on,created_on,description,certified_by,external_url,changed_by_fk,created_by_fk,json_metadata,position_json,dashboard_title,certification_details,is_managed_externally
+4,,deck,68b1cc88-10b1-4caf-a492-ca9df33fcfa7,true,2023-03-28T12:07:52.694508,2023-02-27T08:17:53.932202,,,,,,,,deck.gl Demo,,false
+3,,misc_charts,096ca7eb-1163-47db-864a-04c2469265fb,false,2023-03-28T12:07:52.208682,2023-02-27T08:17:53.657009,,,,,,,,Misc Charts,,false
+1,,world_health,6928ac72-6c9e-4946-8a34-e3c103df2178,true,2023-03-28T12:07:50.337755,2023-02-27T08:14:02.219272,,,,,,,,World Bank's Data,,false
+8,,,5b12b583-8204-08e9-392c-422209c29787,true,2023-03-28T12:08:17.516425,2023-02-27T08:27:08.341535,,,,,,,,FCC New Coder Survey 2018,,false
+5,,,04f79081-fb49-7bac-7f14-cc76cd2ad93b,true,2023-03-28T14:12:21.206030,2023-02-27T08:27:08.280416,,,,1,,,,Sales Dashboard,,false
+9,,,c7bc10f4-6a2d-7569-caae-bbc91864ee11,true,2023-03-28T14:10:14.528451,2023-02-27T08:27:08.364478,,,,1,,,,Video Game Sales,,false
+6,,,9726d8b0-222f-eb2c-034a-02b9f51ef5fd,true,2023-03-28T14:11:34.095370,2023-02-27T08:27:08.301968,,,,1,,,,Slack Dashboard,,false
+11,,,826e1e59-a43f-423e-856a-5e98132c099b,true,2023-03-28T18:25:46.963594,2023-03-28T18:23:40.564485,,,,1,1,,,test,,false
+12,,,3a5e2453-98c0-4594-9a4f-3068bed2d3eb,true,2023-04-01T21:35:43.475049,2023-04-01T21:26:59.568742,,,,2,2,,,[ untitled dashboard ],,false
+13,,,0d0297cb-54ca-4bda-969b-ea2e1dd18688,false,2023-04-01T21:40:05.999350,2023-04-01T21:36:36.509071,,,,2,2,,,[ untitled test ],,false

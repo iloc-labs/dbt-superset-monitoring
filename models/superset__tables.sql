@@ -14,8 +14,6 @@ select
     tables.created_on,
     tables.changed_on,
     tables.database_id,
-    tables.created_by_fk,
-    tables.changed_by_fk,
     tables.description,
     tables.filter_select_enabled,
     tables.is_sqllab_view,

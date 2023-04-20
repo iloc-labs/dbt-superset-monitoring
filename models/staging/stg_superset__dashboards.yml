@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_superset__dashboards
+    description: Dashboards
+    columns:
+      - name: dashboard_id
+      - name: created_on
+      - name: changed_on
+      - name: dashboard_title
+      - name: position_json
+      - name: created_by_fk
+      - name: changed_by_fk
+      - name: css
+      - name: description
+      - name: slug
+      - name: json_metadata
+      - name: published
+      - name: uuid
+      - name: dashboard_status

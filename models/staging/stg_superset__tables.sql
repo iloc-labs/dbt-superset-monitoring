@@ -8,7 +8,7 @@ select
     database_id,
     created_by_fk,
     changed_by_fk,
-    offset,
+    "offset" as offset_,
     description,
     is_featured,
     cache_timeout,

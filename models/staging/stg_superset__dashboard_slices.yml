@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_superset__dashboard_slices
+    description: Link table
+    columns:
+      - name: dashboard_slice_id
+      - name: dashboard_id
+      - name: slice_id

@@ -11,7 +11,6 @@ env:
   DBT_PROFILES_DIR: /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/integration_test_project
   # BigQuery Connection
   BIGQUERY_PROJECT: ${{ secrets.BIGQUERY_PROJECT }}
-  BIGQUERY_DATASET: ${{ secrets.BIGQUERY_DATASET }}
   BIGQUERY_LOCATION: ${{ secrets.BIGQUERY_LOCATION }}
   BIGQUERY_SERVICE_TYPE: ${{ secrets.BIGQUERY_SERVICE_TYPE }}
   BIGQUERY_SERVICE_PROJECT_ID: ${{ secrets.BIGQUERY_SERVICE_PROJECT_ID }}
@@ -24,23 +23,63 @@ env:
   BIGQUERY_SERVICE_AUTH_PROVIDER_X509_CERT_URL: ${{ secrets.BIGQUERY_SERVICE_AUTH_PROVIDER_X509_CERT_URL }}
   BIGQUERY_SERVICE_CLIENT_X509_CERT_URL: ${{ secrets.BIGQUERY_SERVICE_CLIENT_X509_CERT_URL }}
 
+  # Postgres Connection
+  POSTGRES_TEST_HOST: ${{ secrets.POSTGRES_TEST_HOST }}
+  POSTGRES_TEST_USER: ${{ secrets.POSTGRES_TEST_USER }}
+  POSTGRES_TEST_PASS: ${{ secrets.POSTGRES_TEST_PASS }}
+  POSTGRES_TEST_PORT: ${{ secrets.POSTGRES_TEST_PORT }}
+  POSTGRES_TEST_DBNAME: ${{ secrets.POSTGRES_TEST_DBNAME }}
+
 jobs:
   integration_bigquery:
     name: integration-bigquery
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       
       - name: Setup python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10.x'
-          architecture: 'x64'
           
       - name: Install tox
         run: python3 -m pip install tox
   
       - name: Run BigQuery Tests
         run: tox -e integration_bigquery
+
+  integration_postgres:
+    name: integration-postgres
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:latest
+        env:
+          POSTGRES_DB: ${{ secrets.POSTGRES_TEST_DBNAME }}
+          POSTGRES_USER: ${{ secrets.POSTGRES_TEST_USER }}
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_TEST_PASS }}
+        # Set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          # Maps tcp port 5432 on service container to the host
+          - 5432:5432
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10.x'
+          
+      - name: Install tox
+        run: python3 -m pip install tox
+  
+      - name: Run Postgres Tests
+        run: tox -e integration_postgres

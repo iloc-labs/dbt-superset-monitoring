@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: superset__users
+    description: Users
+    columns:
+      - name: user_id
+        description: User ID
+      - name: user_name
+        description: User name
+      - name: active
+        description: Boolean value, user status
+      - name: created_on
+        description: Created datetime
+      - name: changed_on
+        description: Changed datetime
+      - name: last_login
+        description: User last login datetime
+      - name: dashboards_count
+        description: Dashboard count created by current user
+      - name: charts_count 
+        description: Chart count created by current user
