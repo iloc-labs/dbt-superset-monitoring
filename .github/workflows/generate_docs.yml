@@ -25,9 +25,6 @@ jobs:
   generate-docs:
     name: Generate docs
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./integration_test_project
     
     environment:
       name: github-pages
