@@ -25,4 +25,4 @@ models:
       - name: changed_by
         description: Last editor name
       - name: charts_count
-        description: Chart count base on current table
+        description: Chart's count based on current table
