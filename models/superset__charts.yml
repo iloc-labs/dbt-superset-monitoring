@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: superset__charts
-    description: Charts
+    description: Charts. Each record represents a Superset chart, enriched with data about its creators, datasource types, and the number of dashboards where the chart used.
     columns:
       - name: slice_id
         description: Chart ID

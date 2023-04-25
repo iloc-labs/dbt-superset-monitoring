@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: superset__dashboards
-    description: Dashboards
+    description: Dashboards. Each record represents a Superset dashboard, enriched with data about its creators and chart count.
     columns:
       - name: dashboard_id
         description: Dashboard ID

@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: superset__tables
-    description: Tables
+    description: Tables. Each record represents a Superset table, enriched with data about its creators and chart count based on the current table.
     columns:
       - name: table_id
         description: Table ID
