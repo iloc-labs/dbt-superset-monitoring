@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: superset__dashboard_views
-    description: Dashboard views
+    description: Dashboard views. Each record represents a Superset dashboard view enriched with data about its viewer and dashboard creator.
     columns:
       - name: dashboard_id
         description: Dashboard ID

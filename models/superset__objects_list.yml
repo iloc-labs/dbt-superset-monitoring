@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: superset__objects_list
-    description: List of dashboards, charts and datasets
+    description: Objects. Each record represents a Superset chart, dashboard, or table.
     columns:
       - name: name
         description: Object name

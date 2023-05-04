@@ -8,8 +8,8 @@ The package transforms Apache Superset application database's core object tables
 | Model | Description |
 | --- | --- |
 | superset__charts | Each record represents a Superset chart, enriched with data about its creators, datasource types, and the number of dashboards where the chart used. |
-| superset__dashboards | Each record represents a Superset dashboard, enriched with data about its creators and chart's count. |
-| superset__tables |  Each record represents a Superset table, enriched with data about its creators and chart's count based on the current table. |
+| superset__dashboards | Each record represents a Superset dashboard, enriched with data about its creators and chart count. |
+| superset__tables |  Each record represents a Superset table, enriched with data about its creators and chart count based on the current table. |
 | superset__users | Each record represents a Superset user, enriched with data about the number of charts and dashboards created by user. |
 | superset__dashboard_views | Each record represents a Superset dashboard view enriched with data about its viewer and dashboard creator. |
 | superset__objects_list | Each record represents a Superset chart, dashboard, or table. |
@@ -71,6 +71,3 @@ packages:
 
 # Package Maintenance
 I highly encourage and welcome contributions to this package.
-
-# Example Usage
-Simple example there.

@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: superset__users
-    description: Users
+    description: Users. Each record represents a Superset user, enriched with data about the number of charts and dashboards created by user.
     columns:
       - name: user_id
         description: User ID
