@@ -71,6 +71,3 @@ packages:
 
 # Package Maintenance
 I highly encourage and welcome contributions to this package.
-
-# Example Usage
-Simple example there.
