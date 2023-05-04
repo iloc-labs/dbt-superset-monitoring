@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 env:
-  DBT_PROFILES_DIR: ./integration_tests
+  DBT_PROFILES_DIR: /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/integration_test_project
   # Postgres Connection
   POSTGRES_TEST_HOST: ${{ secrets.POSTGRES_TEST_HOST }}
   POSTGRES_TEST_USER: ${{ secrets.POSTGRES_TEST_USER }}
