@@ -3,7 +3,9 @@
 The package transforms Apache Superset application database's core object tables into analytics-ready models.
  
 
-> Tip: More details in the package's [dbt docs site](https://iloc-labs.github.io/dbt-superset-monitoring). 
+> More details in the package's [dbt docs site](https://iloc-labs.github.io/dbt-superset-monitoring).
+
+>Check the Apache Superset database schema on [Miro](https://miro.com/app/board/uXjVPk0kAHg=/?share_link_id=740545995077).
 
 | Model | Description |
 | --- | --- |
@@ -24,7 +26,7 @@ To use this dbt package, you must have the following:
 - Airbyte/Fivetran/Custom connector syncing data into your destination.
 - BigQuery/PostgreSQL destination.
 
-> Tip: Avoid exposing the production metastore database directly.
+> Avoid exposing the production metastore database directly.
 
 ## Step 2: Install the package
 
